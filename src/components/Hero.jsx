@@ -1,3 +1,5 @@
+import logoFall from '../assets/images/logo_fall.webp';
+
 function Hero() {
   return (
     <section className='relative min-h-screen overflow-hidden bg-black'>
@@ -16,40 +18,41 @@ function Hero() {
 
       <div className='relative z-10 flex min-h-screen items-center px-6 py-16 sm:px-10 lg:px-16'>
         <div className='mx-auto w-full max-w-6xl'>
-          <div className='max-w-4xl border-l-4 border-red-600 pl-5 sm:pl-8'>
-            <p className='inline-block bg-red-600 px-3 py-1 text-xs font-bold uppercase tracking-[0.3em] text-white sm:text-sm'>
-              Live loud
-            </p>
+          <div className='flex flex-col gap-8 lg:flex-row lg:items-end lg:gap-10'>
+            <div className='max-w-4xl border-l-2 rounded-2xl border-red-600 pl-5 sm:pl-8'>
+              <div className='mt-6 space-y-1 uppercase leading-none text-white'>
+                <p className='text-[clamp(3rem,10vw,6rem)] font-black tracking-[-0.08em]'>
+                  Actitud
+                </p>
+                <p className='text-[clamp(3rem,10.5vw,6rem)] font-black tracking-[-0.08em] text-white/90'>
+                  Fest
+                </p>
+              </div>
 
-            <div className='mt-6 space-y-1 uppercase leading-none text-white'>
-              <p className='text-[clamp(3.8rem,13vw,8rem)] font-black tracking-[-0.08em]'>
-                Actitud
+              <p className='mt-6 max-w-xl text-sm font-medium uppercase tracking-[0.22em] text-white/75 sm:text-base'>
+                Vidreres Â· 26 / 27 Juliol 2026
               </p>
-              <p className='text-[clamp(3.4rem,12vw,7.2rem)] font-black tracking-[-0.08em] text-white/90'>
-                Fest
-              </p>
+
+              <div className='mt-8 flex flex-wrap items-center gap-4'>
+                <a
+                  href='#'
+                  className='inline-flex items-center justify-center rounded border-2 border-red-600 bg-red-600 px-6 py-3 text-sm font-extrabold uppercase tracking-[0.2em] text-white transition hover:bg-transparent mb-4'
+                >
+                  Tickets
+                </a>
+              </div>
             </div>
 
-            <p className='mt-6 max-w-xl text-sm font-medium uppercase tracking-[0.22em] text-white/75 sm:text-base'>
-              Vidreres · 26 / 27 Juliol 2026 
-            </p>
-
-            <div className='mt-8 flex flex-wrap items-center gap-4'>
-              <a
-                href='#'
-                className='inline-flex items-center justify-center border-2 border-red-600 bg-red-600 px-6 py-3 text-sm font-extrabold uppercase tracking-[0.2em] text-white transition hover:bg-transparent'
-              >
-                Tickets
-              </a>
-              <span className='text-xs font-semibold uppercase tracking-[0.28em] text-white/55 sm:text-sm'>
-                Noise. Crowd. Summer.
-              </span>
-            </div>
+            <img
+              src={logoFall}
+              alt='Actitud Fest logo'
+              className='w-full max-w-[180px] self-start mb-2 lg:max-w-[240px] lg:self-end'
+            />
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Hero
+export default Hero;
