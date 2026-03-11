@@ -102,7 +102,7 @@ function Navbar() {
                 key={link.to}
                 to={link.to}
                 className={({ isActive }) =>
-                  `flex w-20 flex-col items-center justify-center gap-2 px-3 py-3 text-center text-[11px] font-semibold uppercase tracking-[0.2em] ${
+                  `flex lg:w-16 2xl:w-20 flex-col items-center justify-center gap-2 px-3 py-3 text-center lg:text-[9px] 2xl:text-[11px] font-semibold uppercase tracking-[0.2em] ${
                     isActive
                       ? 'text-white'
                       : 'text-white/70 transition hover:text-white'
@@ -119,8 +119,8 @@ function Navbar() {
 
       <header className='lg:hidden'>
         <div
-          className={`fixed bottom-0 left-0 z-50 flex w-full items-center justify-between bg-black px-6 py-4 transition-all duration-500 ease-in-out ${
-            isOpen ? 'opacity-0 pointer-events-none' : 'opacity-100'
+          className={`fixed bottom-0 left-0 z-50 flex w-full items-center justify-between bg-surface px-6 py-4 ${
+            isOpen ? 'hidden' : 'flex'
           }`}
         >
           <NavLink
@@ -151,7 +151,9 @@ function Navbar() {
         </div>
 
         <div
-          className={`fixed bottom-0 left-0 z-40 w-full bg-black px-6 pb-6 pt-6 transition transition-all duration-500 ease-in-out ${isOpen ? 'translate-y-0 opacity-100' : 'translate-y-full opacity-0'}`}
+          className={`fixed bottom-0 left-0 z-40 w-full bg-surface px-6 pb-6 pt-6 transition-transform duration-400 ease-out ${
+            isOpen ? 'translate-y-0' : 'translate-y-full'
+          }`}
         >
           <div className='mx-auto flex w-full max-w-sm items-center justify-between pb-2'>
             <NavLink
@@ -170,12 +172,9 @@ function Navbar() {
               <span className='text-2xl leading-none'>&times;</span>
             </button>
           </div>
-
           <nav
-            className={`mx-auto grid w-full max-w-sm grid-cols-3 gap-x-6 gap-y-8 px-2 py-4 transition-all duration-500 ${
-              isOpen
-                ? 'opacity-100 translate-y-0 delay-100'
-                : 'opacity-0 translate-y-4'
+            className={`mx-auto grid w-full max-w-sm grid-cols-3 gap-x-6 gap-y-8 px-2 py-4 transition-transform duration-300 ${
+              isOpen ? 'translate-y-0' : 'translate-y-2'
             }`}
           >
             {links.map((link) => {
@@ -187,7 +186,7 @@ function Navbar() {
                   to={link.to}
                   onClick={() => setIsOpen(false)}
                   className={({ isActive }) =>
-                    `flex min-h-24 flex-col bg-secondary rounded-md items-center justify-center gap-2 text-center text-[11px] font-semibold uppercase tracking-[0.2em] transition duration-500 ${
+                    `flex min-h-24 flex-col bg-primary rounded-md items-center justify-center gap-2 text-center text-[11px] font-semibold uppercase tracking-[0.2em] transition duration-500 ${
                       isActive ? 'text-white' : 'text-white/70 hover:text-white'
                     }`
                   }
