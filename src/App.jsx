@@ -8,16 +8,18 @@ import Lineup from './pages/Lineup';
 
 function App() {
   return (
-    <div className='min-h-screen bg-neutral-950 text-white'>
+    <div className='min-h-screen  text-white'>
       <Navbar />
-      <main className='lg:pl-24'>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/lineup' element={<Lineup />} />
-          <Route path='/info' element={<Info />} />
-          <Route path='/about' element={<About />} />
-          <Route path='/history' element={<History />} />
-        </Routes>
+      <main className='lg:pl-24 px-6'>
+        <div className='mx-auto max-w-300'>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/lineup' element={<Lineup />} />
+            <Route path='/info' element={<Info />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/history' element={<History />} />
+          </Routes>
+        </div>
       </main>
     </div>
   );

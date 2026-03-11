@@ -1,4 +1,10 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #050505;
+  --color-secondary: #e7000a;
+  --color-surface: #161616;
+}
 
 :root {
   font-family: sans-serif;
