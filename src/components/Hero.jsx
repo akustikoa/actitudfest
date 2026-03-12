@@ -9,11 +9,12 @@ function Hero() {
         loop
         muted
         playsInline
+        preload='metadata'
       >
         <source src='/video/hero.mp4' type='video/mp4' />
       </video>
 
-      <div className='absolute inset-0 bg-gradient-to-b from-black/90 via-black/75 to-black' />
+      <div className='absolute inset-0 bg-gradient-to-b from-black/70 via-black/40 to-black/70' />
       <div className='absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.08),_transparent_35%)]' />
 
       <div className='relative z-10 flex h-screen items-start pl-10 pr-6 pt-10 lg:pl-[210px] lg:pt-[134px] xl:pl-[220px] 2xl:pl-[232px]'>
@@ -28,11 +29,11 @@ function Hero() {
               </p>
             </div>
 
-            <p className='lg:mt-6 mt-2 max-w-xl text-[clamp(0.45rem,1vw,0.7rem)] font-medium uppercase tracking-[0.22em] text-white/75'>
+            <p className='mt-2 max-w-xl text-[clamp(0.45rem,1vw,0.7rem)] font-medium uppercase tracking-[0.22em] text-white/75'>
               Vidreres 26 / 27 Juliol 2026
             </p>
 
-            <div className='mt-8 flex flex-wrap items-center gap-4'>
+            <div className='mt-5 flex flex-wrap items-center gap-4'>
               <a
                 href='#'
                 className='inline-flex items-center justify-center rounded border-2 border-red-600 bg-red-600 px-3 py-1 sm:px-5 sm:py-2.5 lg:px-5 lg:py-2 text-[clamp(0.7rem,1.6vw,0.9rem)] font-bold uppercase tracking-[0.2em] text-white transition hover:bg-transparent mb-4'
