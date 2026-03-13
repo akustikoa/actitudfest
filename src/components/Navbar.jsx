@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 function HomeIcon() {
@@ -89,11 +89,38 @@ const links = [
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [showMobileBar, setShowMobileBar] = useState(false);
+  const [showCompactBar, setShowCompactBar] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowMobileBar(window.scrollY >= 100);
+    };
+
+    handleScroll();
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    let timeout;
+
+    if (isOpen) {
+      setShowCompactBar(false);
+    } else {
+      timeout = setTimeout(() => {
+        setShowCompactBar(true);
+      }, 170);
+    }
+
+    return () => clearTimeout(timeout);
+  }, [isOpen]);
 
   return (
     <>
-      <header className='hidden lg:flex fixed left-10 top-1/2 z-40 -translate-y-1/2'>
-        <nav className='flex flex-col items-center gap-4 bg-surface rounded-2xl py-6'>
+      <header className='fixed left-10 top-1/2 z-40 hidden -translate-y-1/2 lg:flex'>
+        <nav className='flex flex-col items-center gap-4 rounded-2xl bg-surface py-6'>
           {links.map((link) => {
             const Icon = link.icon;
 
@@ -119,16 +146,19 @@ function Navbar() {
 
       <header className='lg:hidden'>
         <div
-          className={`fixed bottom-0 left-0 z-50 flex w-full items-center justify-between bg-surface px-6 py-4 ${
-            isOpen ? 'hidden' : 'flex'
+          className={`fixed bottom-0 left-0 z-50 w-full items-center justify-between bg-surface px-6 py-4 ${
+            !showCompactBar || !showMobileBar ? 'hidden' : 'flex'
           }`}
         >
-          <NavLink
-            to='/'
-            className='text-sm font-semibold uppercase tracking-[0.3em]'
+          <a
+            href='https://entradium.com/events/actitud-fest-vidreres-2026'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='items-center justify-center rounded border-2 border-transparent bg-red-700 px-3 py-1 text-[clamp(0.7rem,1.6vw,0.9rem)] font-bold uppercase tracking-[0.2em] text-white transition hover:border-2 hover:border-red-700 hover:bg-black/70 sm:px-5 sm:py-2.5 lg:px-5 lg:py-2'
           >
-            ACTITUD FEST
-          </NavLink>
+            Tickets
+          </a>
+
           <button
             type='button'
             aria-label={isOpen ? 'Close menu' : 'Open menu'}
@@ -138,13 +168,19 @@ function Navbar() {
           >
             <div className='flex flex-col gap-1.5'>
               <span
-                className={`block h-0.5 w-5 bg-current transition ${isOpen ? 'translate-y-2 rotate-45' : ''}`}
+                className={`block h-0.5 w-5 bg-current transition ${
+                  isOpen ? 'translate-y-2 rotate-45' : ''
+                }`}
               />
               <span
-                className={`block h-0.5 w-5 bg-current transition ${isOpen ? 'opacity-0' : ''}`}
+                className={`block h-0.5 w-5 bg-current transition ${
+                  isOpen ? 'opacity-0' : ''
+                }`}
               />
               <span
-                className={`block h-0.5 w-5 bg-current transition ${isOpen ? '-translate-y-2 -rotate-45' : ''}`}
+                className={`block h-0.5 w-5 bg-current transition ${
+                  isOpen ? '-translate-y-2 -rotate-45' : ''
+                }`}
               />
             </div>
           </button>
@@ -156,13 +192,15 @@ function Navbar() {
           }`}
         >
           <div className='mx-auto flex w-full max-w-sm items-center justify-between pb-2'>
-            <NavLink
-              to='/'
-              onClick={() => setIsOpen(false)}
-              className='text-sm font-semibold uppercase tracking-[0.3em]'
+            <a
+              href='https://entradium.com/events/actitud-fest-vidreres-2026'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='items-center justify-center rounded border-2 border-transparent bg-red-700 px-3 py-1 text-[clamp(0.7rem,1.6vw,0.9rem)] font-bold uppercase tracking-[0.2em] text-white transition hover:border-2 hover:border-red-700 hover:bg-black/70 sm:px-5 sm:py-2.5 lg:px-5 lg:py-2'
             >
-              ACTITUD FEST
-            </NavLink>
+              Tickets
+            </a>
+
             <button
               type='button'
               aria-label='Close menu'
@@ -172,6 +210,7 @@ function Navbar() {
               <span className='text-2xl leading-none'>&times;</span>
             </button>
           </div>
+
           <nav
             className={`mx-auto grid w-full max-w-sm grid-cols-3 gap-x-6 gap-y-8 px-2 py-4 transition-transform duration-300 ${
               isOpen ? 'translate-y-0' : 'translate-y-2'
@@ -186,7 +225,7 @@ function Navbar() {
                   to={link.to}
                   onClick={() => setIsOpen(false)}
                   className={({ isActive }) =>
-                    `flex min-h-24 flex-col bg-primary rounded-md items-center justify-center gap-2 text-center text-[11px] font-semibold uppercase tracking-[0.2em] transition duration-500 ${
+                    `flex min-h-24 flex-col items-center justify-center gap-2 rounded-md bg-primary text-center text-[11px] font-semibold uppercase tracking-[0.2em] transition duration-500 ${
                       isActive ? 'text-white' : 'text-white/70 hover:text-white'
                     }`
                   }

@@ -38,9 +38,9 @@ function LineupPreview() {
           ))}
           <Link
             to='/lineup'
-            className='flex aspect-square items-end justify-end rounded-[1rem] border border-surface bg-surface p-3 transition hover:bg-red-600/10'
+            className='flex justify-end'
           >
-            <span className='inline-flex flex-col rounded border-2 border-red-600 bg-red-600 px-2 py-2 text-left text-[10px] font-black uppercase leading-none tracking-[0.18em] text-white transition hover:bg-transparent'>
+            <span className='inline-flex flex-col rounded border-2 border-red-700 bg-red-700 px-2 py-2 text-left text-[10px] font-black uppercase leading-none tracking-[0.18em] text-white transition hover:bg-transparent'>
               <span>full lineup</span>
             </span>
           </Link>
