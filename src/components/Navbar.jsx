@@ -146,7 +146,10 @@ function Navbar() {
 
       <header className='lg:hidden'>
         <div
-          className={`fixed bottom-0 left-0 z-50 w-full items-center justify-between bg-surface px-6 py-4 ${
+          style={{
+            paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 1rem)',
+          }}
+          className={`fixed bottom-0 left-0 z-50 w-full items-center justify-between bg-surface px-6 pt-4 ${
             !showCompactBar || !showMobileBar ? 'hidden' : 'flex'
           }`}
         >
@@ -187,7 +190,10 @@ function Navbar() {
         </div>
 
         <div
-          className={`fixed bottom-0 left-0 z-40 w-full bg-surface px-6 pb-6 pt-6 transition-transform duration-400 ease-out ${
+          style={{
+            paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 1.5rem)',
+          }}
+          className={`fixed bottom-0 left-0 z-40 w-full bg-surface px-6 pt-6 transition-transform duration-400 ease-out ${
             isOpen ? 'translate-y-0' : 'translate-y-full'
           }`}
         >

@@ -2,7 +2,12 @@ import logoFall from '../assets/images/logo_fall.webp';
 
 function Hero() {
   return (
-    <section className='relative min-h-screen h-[calc(100dvh-72px)] overflow-hidden bg-black lg:h-dvh'>
+    <section
+      style={{
+        paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 4rem)',
+      }}
+      className='relative min-h-screen h-[calc(100dvh-72px)] overflow-hidden bg-black lg:h-dvh lg:pb-0'
+    >
       <video
         className='absolute inset-0 h-full w-full object-cover'
         autoPlay
