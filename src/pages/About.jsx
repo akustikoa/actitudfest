@@ -245,6 +245,18 @@ const archiveYears = Object.keys(groupedArchive).sort();
 function About() {
   return (
     <div className='bg-black text-white'>
+      <section className='bg-[#f4f1ec] px-6 pt-16 pb-0 text-black sm:px-10 lg:px-16'>
+        <div className='mx-auto w-full max-w-[1200px]'>
+          <div className='overflow-hidden rounded-xl border border-1 border-black/10'>
+            <img
+              src='/img/about/actitud-about.jpg'
+              alt='Actitud Fest'
+              className='h-[220px] w-full object-cover sm:h-[280px] lg:h-[540px]'
+            />
+          </div>
+        </div>
+      </section>
+
       <section className='bg-[#f4f1ec] px-6 py-16 text-black sm:px-10 lg:px-16'>
         <div className='mx-auto w-full max-w-[1200px]'>
           <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
@@ -257,22 +269,23 @@ function About() {
             <div className='max-w-3xl space-y-5 text-sm leading-relaxed text-black/72 sm:text-[15px]'>
               <p>
                 Després de gaudir i admirar com a públic durant molts anys la
-                filosofia i tarannà de l’Atzavara Club de Sant Feliu de Guíxols,
-                l’any 2002 ens decidim fer una cosa semblant al nostre poble:
-                Vidreres. Així és com comencem a organitzar bolos sota la
-                filosofia del “Do It Yourself” amb el nom de Freakorange.
+                filosofia i el tarannà de l’Atzavara Club de Sant Feliu de
+                Guíxols, l’any 2002 ens decidim a fer una cosa semblant al
+                nostre poble: Vidreres. Així és com comencem a organitzar bolos
+                sota la filosofia del “Do It Yourself” amb el nom de
+                Freakorange.
               </p>
 
               <p>
                 L’any 2003 Freekorange desapareix i es crea el col·lectiu
                 anomenat Vidcore, que posteriorment es divideix amistosament en
-                dues associacions i així és com neix l’associació Soroll.
+                dues associacions, i així és com neix l’associació Soroll.
               </p>
 
               <p>
                 Des de la nostra fundació, un dels objectius ha estat aconseguir
-                un espai fix on poder organitzar els nostres concerts però a dia
-                d’avui encara seguim lluitant!!
+                un espai fix on poder organitzar els nostres concerts, però a
+                dia d’avui encara seguim lluitant!!
               </p>
 
               <p>
