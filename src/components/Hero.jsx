@@ -14,8 +14,10 @@ function Hero() {
         loop
         muted
         playsInline
-        preload='metadata'
+        poster='/img/hero-poster.webp'
+        preload='auto'
       >
+        <source src='/video/hero.webm' type='video/webm' />
         <source src='/video/hero.mp4' type='video/mp4' />
       </video>
 
@@ -53,7 +55,7 @@ function Hero() {
           <img
             src={logoFall}
             alt='Actitud Fest logo'
-            className='absolute right-6 bottom-[-1px] w-[150px] lg:right-[250px] lg:bottom-[-1px] lg:w-[180px] xl:w-[180px] 2xl:w-[220px] opacity-70 lg:opacity-90'
+            className='absolute right-6 bottom-[-1px] w-[150px] lg:right-[250px] lg:bottom-[-60px] lg:w-[180px] xl:w-[180px] 2xl:w-[220px] opacity-70 lg:opacity-90'
           />
         </div>
       </div>

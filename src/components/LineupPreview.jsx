@@ -36,10 +36,11 @@ function LineupPreview() {
               </div>
             </article>
           ))}
-          <Link to='/lineup' className='flex justify-end'>
-            <span className='inline-flex items-center justify-center rounded mb-4 border-2 border-transparent bg-red-700 px-3 py-1 sm:px-5 sm:py-2.5 lg:px-5 lg:py-2 text-[clamp(0.7rem,1.6vw,0.9rem)] font-bold uppercase tracking-[0.2em] text-white transition hover:bg-black/70 hover:border-2 hover:border-red-700'>
-              <span>full lineup</span>
-            </span>
+          <Link
+            to='/lineup'
+            className='inline-flex items-center justify-center rounded mb-4 border-2 border-transparent bg-red-700 px-3 py-1 sm:px-5 sm:py-2.5 lg:px-5 lg:py-2 text-[clamp(0.7rem,1.6vw,0.9rem)] font-bold uppercase tracking-[0.2em] text-white transition hover:bg-black/70 hover:border-red-700'
+          >
+            Full lineup
           </Link>
         </div>
 

@@ -120,7 +120,7 @@ function Navbar() {
   return (
     <>
       <header className='fixed left-10 top-1/2 z-40 hidden -translate-y-1/2 lg:flex'>
-        <nav className='flex flex-col items-center gap-4 rounded-2xl bg-surface py-6'>
+        <nav className='flex flex-col items-center gap-4 rounded-2xl bg-surface/85 py-6'>
           {links.map((link) => {
             const Icon = link.icon;
 

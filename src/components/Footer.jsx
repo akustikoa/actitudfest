@@ -84,27 +84,27 @@ function MailIcon() {
 const socialLinks = [
   {
     label: 'Instagram',
-    href: 'https://www.instagram.com/',
+    href: 'https://www.instagram.com/actitudfestvidreres/',
     icon: InstagramIcon,
   },
   {
-    label: 'Facebook',
-    href: 'https://www.facebook.com/',
-    icon: FacebookIcon,
-  },
-  {
     label: 'YouTube',
-    href: 'https://www.youtube.com/',
+    href: 'https://www.youtube.com/@actitudfestvidreres4331',
     icon: YouTubeIcon,
   },
   {
     label: 'Twitter',
-    href: 'https://x.com/',
+    href: 'https://x.com/Actitud_Fest',
     icon: TwitterIcon,
   },
   {
+    label: 'Facebook',
+    href: 'https://www.facebook.com/actitudfest/',
+    icon: FacebookIcon,
+  },
+  {
     label: 'Mail',
-    href: 'mailto:info@actitudfest.com',
+    href: 'mailto:info@actitudfest.net',
     icon: MailIcon,
   },
 ];
@@ -186,7 +186,13 @@ function Footer() {
             <p className='w-1/3 flex flex-col items-end text-[11px] text-white/42 lg:flex-row lg:items-center lg:justify-end lg:gap-1 lg:text-[12px]'>
               <span>Designed by</span>
               <span className='font-bold text-white/50'>
-                <a href='https://xavierprat.netlify.app/'>Xavier Prat</a>
+                <a
+                  href='https://xavierprat.netlify.app/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  Xavier Prat
+                </a>
               </span>
             </p>
           </div>

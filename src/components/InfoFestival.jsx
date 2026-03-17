@@ -1,21 +1,33 @@
 const accommodationLinks = {
   localHouses: [
-    { label: 'Can Roig', href: '#' },
-    { label: 'Can Bruno', href: '#' },
-    { label: 'Can Pou', href: '#' },
-    { label: 'Can Suria', href: '#' },
-    { label: 'Can Peuet', href: '#' },
-    { label: 'Can Tarre', href: '#' },
+    { label: 'Can Roig', href: 'https://www.canroig.cat/ca/' },
+    { label: 'Can Bruno', href: 'https://www.canbruno.com/en/home/' },
+    { label: 'Can Pou', href: 'https://www.canpou.net/ca/' },
+    {
+      label: 'Can Suria',
+      href: 'https://www.google.com/maps/place/Can+S%C3%BAria+I+Turisme+Rural/@41.7594444,2.7714224,17z/data=!3m1!4b1!4m9!3m8!1s0x12bb228379f17373:0x3315d3c16734bed3!5m2!4m1!1i2!8m2!3d41.7594444!4d2.7736111!16s%2Fg%2F11fyzcsnyk',
+    },
+    { label: 'Can Peuet', href: 'https://can-pauet.costabrava24.com/en/' },
+    { label: 'Can Tarre', href: 'https://ruralcantarre.com/' },
   ],
   platforms: [
-    { label: 'Booking', href: 'https://www.booking.com/' },
-    { label: 'TripAdvisor', href: 'https://www.tripadvisor.com/' },
-    { label: 'Airbnb', href: 'https://www.airbnb.com/' },
+    {
+      label: 'Booking',
+      href: 'https://www.booking.com/searchresults.html?ss=Vidreres%2C+Catalonia%2C+Spain&ssne=Vidiago&ssne_untouched=Vidiago&label=gen173nr-10CAEoggI46AdIM1gEaEaIAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AvfR1M0GwAIB0gIkMWQwNjdiYmMtOWM1Mi00YTNiLTk4YmQtZjU5YTUwYTgwZmI52AIB4AIB&aid=304142&lang=en-us&sb=1&src_elem=sb&src=searchresults&dest_id=-407147&dest_type=city&ac_position=0&ac_click_type=b&ac_langcode=xu&ac_suggestion_list_length=5&search_selected=true&search_pageview_id=eeac4202ebd40391&ac_meta=GhBlZWFjNDIwMmViZDQwMzkxIAAoATICeHU6CFZpZHJlcmVz&checkin=2026-03-15&checkout=2026-03-16&group_adults=2&no_rooms=1&group_children=0',
+    },
+    {
+      label: 'TripAdvisor',
+      href: 'https://www.tripadvisor.es/Search?q=Vidreres&geo=1&ssrc=a&searchNearby=false&searchSessionId=000129b4665a7758.ssid&offset=0',
+    },
+    {
+      label: 'Airbnb',
+      href: 'https://www.airbnb.es/s/Vidreres--Gerona/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&price_filter_input_type=0&price_filter_num_nights=5&channel=EXPLORE&date_picker_type=calendar&query=Vidreras%2C%20Espa%C3%B1a&place_id=ChIJEa2TgwIZuxIRoHGkIeD6AAQ&source=structured_search_input_header&search_type=autocomplete_click',
+    },
   ],
 };
 
 const buttonClassName =
-  'inline-flex items-center justify-center rounded border-2 border-transparent bg-red-700 px-3 py-1 sm:px-5 sm:py-2.5 lg:px-5 lg:py-2 text-[clamp(0.7rem,1.6vw,0.9rem)] font-bold uppercase tracking-[0.2em] !text-white transition hover:bg-black/70 hover:border-2 hover:border-red-700';
+  'inline-flex items-center justify-center rounded border-2 border-transparent bg-red-700 px-3 py-1 sm:px-5 sm:py-2.5 lg:px-5 lg:py-2 text-[clamp(0.7rem,1.6vw,0.9rem)] font-bold uppercase tracking-[0.2em] !text-white transition hover:bg-[#080808] hover:border-2 hover:border-red-700';
 
 function InfoFestival() {
   return (
@@ -56,7 +68,9 @@ function InfoFestival() {
               </p>
               <div className='flex justify-end'>
                 <a
-                  href='/docs/autoritzacio-menors.pdf'
+                  href='/documents/autoritzacio-menors-actitud.pdf'
+                  target='_blank'
+                  rel='noopener noreferrer'
                   className={`${buttonClassName} mt-5 tracking-[0.11em]`}
                 >
                   Descarregar autorització
@@ -65,14 +79,13 @@ function InfoFestival() {
             </article>
 
             <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2'>
-              <article className='rounded-xl border border-black/10 bg-transparent px-5 py-5 sm:px-6'>
+              <article className='self-start rounded-xl border border-black/10 bg-transparent px-5 py-5 sm:px-6'>
                 <h3 className='text-[1.45rem] font-black uppercase tracking-[-0.05em]'>
                   Zona d'acampada
                 </h3>
-                <p className='mt-3 text-sm leading-relaxed text-black/70'>
+                <p className='mt-3  text-sm leading-relaxed text-black/70'>
                   La zona d&apos;acampada esta reservada a les persones amb
-                  abonament de 3 dies. La piscina estara disponible amb
-                  abonament o amb suplement addicional segons aforament.
+                  abonament de 3 dies.
                 </p>
               </article>
 
@@ -88,6 +101,8 @@ function InfoFestival() {
                         <a
                           key={link.label}
                           href={link.href}
+                          target='_blank'
+                          rel='noreferrer'
                           className='text-sm uppercase tracking-[0.14em] text-black/80 transition hover:text-red-700'
                         >
                           {link.label}

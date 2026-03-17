@@ -1,3 +1,5 @@
+import Footer from '../components/Footer';
+
 const archiveData = `1	19/02/2002	Camping(Granollers) + No time to Think (Granollers)
 2	18/04/2003	Aghast(Fr) + Tekken(Fr)
 3	13/05/2003	Lo mueso(maresme) + Nisei (Bcn)
@@ -244,108 +246,111 @@ const archiveYears = Object.keys(groupedArchive).sort();
 
 function About() {
   return (
-    <div className='bg-black text-white'>
-      <section className='bg-[#f4f1ec] px-6 pt-16 pb-0 text-black sm:px-10 lg:px-16'>
-        <div className='mx-auto w-full max-w-[1200px]'>
-          <div className='overflow-hidden rounded-xl border border-1 border-black/10'>
-            <img
-              src='/img/about/actitud-about.jpg'
-              alt='Actitud Fest'
-              className='h-[220px] w-full object-cover sm:h-[280px] lg:h-[540px]'
-            />
-          </div>
-        </div>
-      </section>
-
-      <section className='bg-[#f4f1ec] px-6 py-16 text-black sm:px-10 lg:px-16'>
-        <div className='mx-auto w-full max-w-[1200px]'>
-          <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
-            <div className='max-w-sm'>
-              <h2 className=' text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
-                L'associació Soroll
-              </h2>
-            </div>
-
-            <div className='max-w-3xl space-y-5 text-sm leading-relaxed text-black/72 sm:text-[15px]'>
-              <p>
-                Després de gaudir i admirar com a públic durant molts anys la
-                filosofia i el tarannà de l’Atzavara Club de Sant Feliu de
-                Guíxols, l’any 2002 ens decidim a fer una cosa semblant al
-                nostre poble: Vidreres. Així és com comencem a organitzar bolos
-                sota la filosofia del “Do It Yourself” amb el nom de
-                Freakorange.
-              </p>
-
-              <p>
-                L’any 2003 Freekorange desapareix i es crea el col·lectiu
-                anomenat Vidcore, que posteriorment es divideix amistosament en
-                dues associacions, i així és com neix l’associació Soroll.
-              </p>
-
-              <p>
-                Des de la nostra fundació, un dels objectius ha estat aconseguir
-                un espai fix on poder organitzar els nostres concerts, però a
-                dia d’avui encara seguim lluitant!!
-              </p>
-
-              <p>
-                Sota el nom de Soroll i Vidcore, a part de les diferents
-                edicions de l’Actitud Fest, s’han organitzat fins a l’actualitat
-                més de 200 concerts en els quals han participat més de 500
-                bandes, tot això gràcies a la dedicació desinteressada de
-                membres i col·laboradors de Soroll.
-              </p>
+    <>
+      <div className='bg-black text-white'>
+        <section className='bg-[#f4f1ec] px-6 pt-16 pb-0 text-black sm:px-10 lg:px-16'>
+          <div className='mx-auto w-full max-w-[1200px]'>
+            <div className='overflow-hidden rounded-xl border border-1 border-black/10'>
+              <img
+                src='/about/actitud-about.jpg'
+                alt='Actitud Fest'
+                className='h-[220px] w-full object-cover sm:h-[280px] lg:h-[540px]'
+              />
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section className='bg-[#f4f1ec] px-6 py-16 text-black sm:px-10 lg:px-16'>
-        <div className='mx-auto w-full max-w-[1200px]'>
-          <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
-            <div className='max-w-sm'>
-              <h2 className='text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
-                Arxiu de concerts
-              </h2>
-            </div>
+        <section className='bg-[#f4f1ec] px-6 py-16 text-black sm:px-10 lg:px-16'>
+          <div className='mx-auto w-full max-w-[1200px]'>
+            <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
+              <div className='max-w-sm'>
+                <h2 className=' text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
+                  Associació Soroll
+                </h2>
+              </div>
 
-            <div className='space-y-8'>
-              {archiveYears.map((year) => (
-                <section
-                  key={year}
-                  className='border-t border-black/10 pt-5 first:border-t-0 first:pt-0'
-                >
-                  <div className='sticky top-16 z-10 mb-4 w-fit rounded-full border border-black/10 bg-[#f4f1ec]/95 px-3 py-1 backdrop-blur'>
-                    <p className='text-[11px] font-black uppercase tracking-[0.2em] text-black/55'>
-                      {year}
-                    </p>
-                  </div>
+              <div className='max-w-3xl space-y-5 text-sm leading-relaxed text-black/72 sm:text-[15px]'>
+                <p>
+                  Després de gaudir i admirar com a públic durant molts anys la
+                  filosofia i el tarannà de l’Atzavara Club de Sant Feliu de
+                  Guíxols, l’any 2002 ens decidim a fer una cosa semblant al
+                  nostre poble: Vidreres. Així és com comencem a organitzar
+                  bolos sota la filosofia del “Do It Yourself” amb el nom de
+                  Freakorange.
+                </p>
 
-                  <div className='space-y-2'>
-                    {groupedArchive[year].map((entry) => (
-                      <article
-                        key={entry.number}
-                        className='grid gap-2 rounded-lg border border-black/8 bg-black/[0.02] px-4 py-3 sm:grid-cols-[72px_110px_minmax(0,1fr)] sm:items-start sm:gap-4'
-                      >
-                        <p className='text-[11px] font-black uppercase tracking-[0.18em] text-black/45'>
-                          #{entry.number}
-                        </p>
-                        <p className='text-[11px] font-black uppercase tracking-[0.16em] text-black/52'>
-                          {entry.date}
-                        </p>
-                        <p className='text-sm leading-relaxed text-black/72'>
-                          {entry.bands}
-                        </p>
-                      </article>
-                    ))}
-                  </div>
-                </section>
-              ))}
+                <p>
+                  L’any 2003 Freekorange desapareix i es crea el col·lectiu
+                  anomenat Vidcore, que posteriorment es divideix amistosament
+                  en dues associacions, i així és com neix l’associació Soroll.
+                </p>
+
+                <p>
+                  Des de la nostra fundació, un dels objectius ha estat
+                  aconseguir un espai fix on poder organitzar els nostres
+                  concerts, però a dia d’avui encara seguim lluitant!!
+                </p>
+
+                <p>
+                  Sota el nom de Soroll i Vidcore, a part de les diferents
+                  edicions de l’Actitud Fest, s’han organitzat fins a
+                  l’actualitat més de 200 concerts en els quals han participat
+                  més de 500 bandes, tot això gràcies a la dedicació
+                  desinteressada de membres i col·laboradors de Soroll.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-    </div>
+        </section>
+
+        <section className='bg-[#f4f1ec] px-6 py-16 text-black sm:px-10 lg:px-16'>
+          <div className='mx-auto w-full max-w-[1200px]'>
+            <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
+              <div className='max-w-sm'>
+                <h2 className='text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
+                  Arxiu de concerts
+                </h2>
+              </div>
+
+              <div className='space-y-8'>
+                {archiveYears.map((year) => (
+                  <section
+                    key={year}
+                    className='border-t border-black/10 pt-5 first:border-t-0 first:pt-0'
+                  >
+                    <div className='sticky top-16 z-10 mb-4 w-fit rounded-full border border-black/10 bg-[#f4f1ec]/95 px-3 py-1 backdrop-blur'>
+                      <p className='text-[11px] font-black uppercase tracking-[0.2em] text-black/55'>
+                        {year}
+                      </p>
+                    </div>
+
+                    <div className='space-y-2'>
+                      {groupedArchive[year].map((entry) => (
+                        <article
+                          key={entry.number}
+                          className='grid gap-2 rounded-lg border border-black/8 bg-black/[0.02] px-4 py-3 sm:grid-cols-[72px_110px_minmax(0,1fr)] sm:items-start sm:gap-4'
+                        >
+                          <p className='text-[11px] font-black uppercase tracking-[0.18em] text-black/45'>
+                            #{entry.number}
+                          </p>
+                          <p className='text-[11px] font-black uppercase tracking-[0.16em] text-black/52'>
+                            {entry.date}
+                          </p>
+                          <p className='text-sm leading-relaxed text-black/72'>
+                            {entry.bands}
+                          </p>
+                        </article>
+                      ))}
+                    </div>
+                  </section>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <Footer />
+    </>
   );
 }
 
