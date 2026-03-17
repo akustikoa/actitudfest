@@ -133,13 +133,14 @@ function Navbar() {
               </NavLink>
             );
           })}
-          <div className='mt-6 grid grid-cols-2 gap-1 text-[11px] font-bold uppercase tracking-[0.2em] text-center'>
+
+          <div className=' border-t border-white/10 pt-6 grid grid-cols-2 gap-2 text-[11px] font-bold uppercase tracking-[0.2em] text-center'>
             <button
               onClick={() => setLanguage('ca')}
               className={
                 language === 'ca'
                   ? 'text-red-700'
-                  : 'text-white/70 hover:text-red-700'
+                  : 'text-white hover:text-red-700'
               }
             >
               CA
@@ -149,7 +150,7 @@ function Navbar() {
               className={
                 language === 'es'
                   ? 'text-red-700'
-                  : 'text-white/70 hover:text-red-700'
+                  : 'text-white hover:text-red-700'
               }
             >
               ES
@@ -159,7 +160,7 @@ function Navbar() {
               className={
                 language === 'en'
                   ? 'text-red-700'
-                  : 'text-white/70 hover:text-red-700'
+                  : 'text-white hover:text-red-700'
               }
             >
               EN
@@ -169,7 +170,7 @@ function Navbar() {
               className={
                 language === 'fr'
                   ? 'text-red-700'
-                  : 'text-white/70 hover:text-red-700'
+                  : 'text-white hover:text-red-700'
               }
             >
               FR

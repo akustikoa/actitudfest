@@ -15,6 +15,8 @@ export const artists = [
       fr: 'It it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
     },
     image: '/bands/ititanita.jpeg',
+    youtube: 'https://www.youtube.com/',
+    instagram: 'https://www.instagram.com/',
   },
   {
     id: 'peligro',
@@ -32,6 +34,8 @@ export const artists = [
       fr: 'Peligro! sit amet cQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolorQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedoloronsectetur adipisicing elit. Quisquam, quae.',
     },
     image: '/bands/peligro.jpeg',
+    youtube: 'https://www.youtube.com/',
+    instagram: 'https://www.instagram.com/',
   },
   {
     id: 'gros-enfant-mort',
@@ -49,6 +53,8 @@ export const artists = [
       fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
     },
     image: '/bands/gros-enfant-mort.jpeg',
+    youtube: 'https://www.youtube.com/',
+    instagram: 'https://www.instagram.com/',
   },
   {
     id: 'pigeon-island',
@@ -66,6 +72,8 @@ export const artists = [
       fr: 'Pigeon- sland It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
     },
     image: '/bands/pigeon-island.jpeg',
+    youtube: 'https://www.youtube.com/',
+    instagram: 'https://www.instagram.com/',
   },
   {
     id: 'chalk-hands',
@@ -83,6 +91,8 @@ export const artists = [
       fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
     },
     image: '/bands/chalk-hands.jpeg',
+    youtube: 'https://www.youtube.com/',
+    instagram: 'https://www.instagram.com/',
   },
   {
     id: 'dark-side-of-soul',
@@ -100,6 +110,8 @@ export const artists = [
       fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
     },
     image: '/bands/dark-side-of-soul.jpeg',
+    youtube: 'https://www.youtube.com/',
+    instagram: 'https://www.instagram.com/',
   },
   {
     id: 'tano',
@@ -117,6 +129,8 @@ export const artists = [
       fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
     },
     image: '/bands/tano.jpeg',
+    youtube: 'https://www.youtube.com/',
+    instagram: 'https://www.instagram.com/',
   },
   {
     id: 'vibora',
@@ -134,6 +148,8 @@ export const artists = [
       fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
     },
     image: '/bands/vibora.jpeg',
+    youtube: 'https://www.youtube.com/',
+    instagram: 'https://www.instagram.com/',
   },
   {
     id: 'ititani',
@@ -151,6 +167,8 @@ export const artists = [
       fr: 'It it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
     },
     image: '/bands/ititanita.jpeg',
+    youtube: 'https://www.youtube.com/',
+    instagram: 'https://www.instagram.com/',
   },
   {
     id: 'gros-enfant',
@@ -168,5 +186,7 @@ export const artists = [
       fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
     },
     image: '/bands/gros-enfant-mort.jpeg',
+    youtube: 'https://www.youtube.com/',
+    instagram: 'https://www.instagram.com/',
   },
 ];
