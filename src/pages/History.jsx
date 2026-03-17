@@ -21,7 +21,7 @@ function History() {
   return (
     <>
       <div className='bg-[#f4f1ec] text-black'>
-        <section className='bg-[#f4f1ec] px-6 py-16 text-black sm:px-10 lg:px-16'>
+        <section className='bg-[#f4f1ec] px-6 lg:py-16 py-10 text-black sm:px-10 lg:px-16'>
           <div className='mx-auto w-full max-w-[1200px]'>
             <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
               <div className='max-w-sm'>

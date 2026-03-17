@@ -71,6 +71,33 @@ const linkConfig = [
   { to: '/history', labelKey: 'navbar.history', icon: HistoryIcon },
 ];
 
+function MobileLanguageSelector({ language, setLanguage }) {
+  const languages = ['ca', 'es', 'en', 'fr'];
+
+  return (
+    <div className='flex items-center justify-center gap-2 text-[15px] font-bold uppercase tracking-[0.16em]'>
+      {languages.map((lang, index) => (
+        <div key={lang} className='flex items-center gap-2'>
+          <button
+            type='button'
+            onClick={() => setLanguage(lang)}
+            className={
+              language === lang
+                ? 'text-red-700'
+                : 'text-white/70 transition hover:text-red-700'
+            }
+          >
+            {lang}
+          </button>
+          {index < languages.length - 1 ? (
+            <span className='text-white/30'>|</span>
+          ) : null}
+        </div>
+      ))}
+    </div>
+  );
+}
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [showMobileBar, setShowMobileBar] = useState(false);
@@ -120,11 +147,12 @@ function Navbar() {
               <NavLink
                 key={link.to}
                 to={link.to}
+                end={link.to === '/'}
                 className={({ isActive }) =>
-                  `flex lg:w-[4.5rem] 2xl:w-[5.5rem] flex-col items-center justify-center gap-2 px-3 py-3 text-center lg:text-[9px] 2xl:text-[11px] font-semibold uppercase tracking-[0.16em] ${
+                  `flex lg:w-[4.5rem] 2xl:w-[5.5rem] flex-col items-center justify-center gap-2 px-3 py-3 text-center lg:text-[9px] 2xl:text-[11px] font-semibold uppercase tracking-[0.16em] transition ${
                     isActive
-                      ? 'text-white'
-                      : 'text-white/70 transition hover:text-white'
+                      ? 'text-red-500 bg-white/10'
+                      : 'text-white/70 hover:text-white'
                   }`
                 }
               >
@@ -196,6 +224,11 @@ function Navbar() {
           >
             Tickets
           </a>
+
+          <MobileLanguageSelector
+            language={language}
+            setLanguage={setLanguage}
+          />
 
           <button
             type='button'

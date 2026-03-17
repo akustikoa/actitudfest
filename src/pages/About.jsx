@@ -251,7 +251,7 @@ function About() {
   return (
     <>
       <div className='bg-black text-white'>
-        <section className='bg-[#f4f1ec] px-6 pt-16 pb-0 text-black sm:px-10 lg:px-16'>
+        <section className='bg-[#f4f1ec] px-6 lg:py-18 py-10 pb-0 text-black sm:px-10 lg:px-16'>
           <div className='mx-auto w-full max-w-[1200px]'>
             <div className='overflow-hidden rounded-xl border border-1 border-black/10'>
               <img

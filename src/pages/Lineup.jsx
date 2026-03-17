@@ -41,7 +41,7 @@ function Lineup() {
   return (
     <>
       <div className='bg-[#f4f1ec] text-black'>
-        <section className='px-6 py-16 sm:px-10 lg:px-16'>
+        <section className='px-6 lg:py-16 py-8 sm:px-10 lg:px-16'>
           <div className='mx-auto max-w-6xl'>
             <div className='grid gap-6 md:grid-row-[minmax(0,0.8fr)_minmax(0,1fr)] md:items-start'>
               <h1 className='text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
