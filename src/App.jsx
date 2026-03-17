@@ -3,7 +3,6 @@ import Navbar from './components/Navbar';
 import About from './pages/About';
 import History from './pages/History';
 import Home from './pages/Home';
-import Info from './pages/Info';
 import Lineup from './pages/Lineup';
 
 function App() {
@@ -14,7 +13,6 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/lineup' element={<Lineup />} />
-          <Route path='/info' element={<Info />} />
           <Route path='/about' element={<About />} />
           <Route path='/history' element={<History />} />
         </Routes>

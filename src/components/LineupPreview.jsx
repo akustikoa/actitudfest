@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { artists } from '../data/artists';
+import { useLanguage } from '../context/LanguageContext';
 
 function LineupPreview() {
+  const { language, t } = useLanguage();
   const [featuredArtist, ...otherArtists] = artists;
   const mobileGridArtists = artists.slice(0, 9);
   const desktopGridArtists = otherArtists.slice(0, 9);
@@ -14,7 +16,7 @@ function LineupPreview() {
             Line UP
           </h2>
           <p className='mt-4 text-sm uppercase tracking-[0.18em] text-white/90 sm:text-base'>
-            Grups confirmats per aquesta edició 2026
+            {t('lineupPreview.subtitle')}
           </p>
         </div>
 
@@ -26,12 +28,12 @@ function LineupPreview() {
             >
               <img
                 src={artist.image}
-                alt={artist.name}
+                alt={artist.name.ca}
                 className='h-full w-full object-cover'
               />
               <div className='absolute inset-0 flex items-end bg-gradient-to-t from-black/80 via-black/20 to-transparent p-2'>
                 <h4 className='truncate text-[15px] font-black uppercase tracking-[-0.03em] text-whitetext'>
-                  {artist.name}
+                  {artist.name.ca}
                 </h4>
               </div>
             </article>
@@ -49,7 +51,7 @@ function LineupPreview() {
             <div className='relative min-h-[220px] bg-gradient-to-br from-red-600/20 via-black to-black lg:min-h-[260px]'>
               <img
                 src={featuredArtist.image}
-                alt={featuredArtist.name}
+                alt={featuredArtist.name[language]}
                 className='h-full w-full object-cover object-center'
               />
               <div className='absolute inset-0 bg-gradient-to-t from-black via-black/35 to-transparent' />
@@ -57,10 +59,10 @@ function LineupPreview() {
 
             <div className='flex flex-col justify-center px-6 py-7 sm:px-8 sm:py-8 lg:px-8 lg:py-7'>
               <h3 className='mt-4 text-3xl font-black uppercase tracking-[-0.05em] sm:text-[2rem]'>
-                {featuredArtist.name}
+                {featuredArtist.name[language]}
               </h3>
               <p className='mt-3 max-w-xl text-sm leading-relaxed text-white/70'>
-                {featuredArtist.description}
+                {featuredArtist.description[language]}
               </p>
               <a
                 href='/lineup'
@@ -80,12 +82,12 @@ function LineupPreview() {
                 >
                   <img
                     src={artist.image}
-                    alt={artist.name}
+                    alt={artist.name.ca}
                     className='h-full w-full object-cover transition duration-100 '
                   />
                   <div className='absolute inset-0 flex items-end bg-black/0 p-2 transition duration-300 group-hover:bg-black/65'>
                     <h4 className='translate-y-2 text-[15px] font-black uppercase tracking-[-0.03em] text-white opacity-0 transition duration-300 group-hover:translate-y-0 group-hover:opacity-100'>
-                      {artist.name}
+                      {artist.name.ca}
                     </h4>
                   </div>
                 </article>

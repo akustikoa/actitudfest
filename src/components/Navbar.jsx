@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { useLanguage } from '../context/LanguageContext';
 
 function HomeIcon() {
   return (
@@ -28,22 +29,6 @@ function LineupIcon() {
       <path d='M4 6h16' />
       <path d='M4 12h16' />
       <path d='M4 18h10' />
-    </svg>
-  );
-}
-
-function InfoIcon() {
-  return (
-    <svg
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='1.8'
-      className='h-5 w-5'
-    >
-      <circle cx='12' cy='12' r='9' />
-      <path d='M12 10v6' />
-      <path d='M12 7.5h.01' />
     </svg>
   );
 }
@@ -79,18 +64,23 @@ function HistoryIcon() {
   );
 }
 
-const links = [
-  { to: '/', label: 'Home', icon: HomeIcon },
-  { to: '/lineup', label: 'Lineup', icon: LineupIcon },
-  { to: '/info', label: 'Info', icon: InfoIcon },
-  { to: '/about', label: 'About', icon: AboutIcon },
-  { to: '/history', label: 'History', icon: HistoryIcon },
+const linkConfig = [
+  { to: '/', labelKey: 'navbar.home', icon: HomeIcon },
+  { to: '/lineup', labelKey: 'navbar.lineup', icon: LineupIcon },
+  { to: '/about', labelKey: 'navbar.about', icon: AboutIcon },
+  { to: '/history', labelKey: 'navbar.history', icon: HistoryIcon },
 ];
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [showMobileBar, setShowMobileBar] = useState(false);
   const [showCompactBar, setShowCompactBar] = useState(false);
+  const { language, setLanguage, t } = useLanguage();
+
+  const links = linkConfig.map((link) => ({
+    ...link,
+    label: t(link.labelKey),
+  }));
 
   useEffect(() => {
     const handleScroll = () => {
@@ -107,7 +97,9 @@ function Navbar() {
     let timeout;
 
     if (isOpen) {
-      setShowCompactBar(false);
+      timeout = setTimeout(() => {
+        setShowCompactBar(false);
+      }, 0);
     } else {
       timeout = setTimeout(() => {
         setShowCompactBar(true);
@@ -129,7 +121,7 @@ function Navbar() {
                 key={link.to}
                 to={link.to}
                 className={({ isActive }) =>
-                  `flex lg:w-16 2xl:w-20 flex-col items-center justify-center gap-2 px-3 py-3 text-center lg:text-[9px] 2xl:text-[11px] font-semibold uppercase tracking-[0.2em] ${
+                  `flex lg:w-[4.5rem] 2xl:w-[5.5rem] flex-col items-center justify-center gap-2 px-3 py-3 text-center lg:text-[9px] 2xl:text-[11px] font-semibold uppercase tracking-[0.16em] ${
                     isActive
                       ? 'text-white'
                       : 'text-white/70 transition hover:text-white'
@@ -141,6 +133,48 @@ function Navbar() {
               </NavLink>
             );
           })}
+          <div className='mt-6 grid grid-cols-2 gap-1 text-[11px] font-bold uppercase tracking-[0.2em] text-center'>
+            <button
+              onClick={() => setLanguage('ca')}
+              className={
+                language === 'ca'
+                  ? 'text-red-700'
+                  : 'text-white/70 hover:text-red-700'
+              }
+            >
+              CA
+            </button>
+            <button
+              onClick={() => setLanguage('es')}
+              className={
+                language === 'es'
+                  ? 'text-red-700'
+                  : 'text-white/70 hover:text-red-700'
+              }
+            >
+              ES
+            </button>
+            <button
+              onClick={() => setLanguage('en')}
+              className={
+                language === 'en'
+                  ? 'text-red-700'
+                  : 'text-white/70 hover:text-red-700'
+              }
+            >
+              EN
+            </button>
+            <button
+              onClick={() => setLanguage('fr')}
+              className={
+                language === 'fr'
+                  ? 'text-red-700'
+                  : 'text-white/70 hover:text-red-700'
+              }
+            >
+              FR
+            </button>
+          </div>
         </nav>
       </header>
 

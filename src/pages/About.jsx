@@ -1,4 +1,5 @@
 import Footer from '../components/Footer';
+import { useLanguage } from '../context/LanguageContext';
 
 const archiveData = `1	19/02/2002	Camping(Granollers) + No time to Think (Granollers)
 2	18/04/2003	Aghast(Fr) + Tekken(Fr)
@@ -245,6 +246,8 @@ const groupedArchive = archiveEntries.reduce((acc, entry) => {
 const archiveYears = Object.keys(groupedArchive).sort();
 
 function About() {
+  const { t } = useLanguage();
+
   return (
     <>
       <div className='bg-black text-white'>
@@ -265,39 +268,18 @@ function About() {
             <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
               <div className='max-w-sm'>
                 <h2 className=' text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
-                  Associació Soroll
+                  {t('about.associacioSoroll')}
                 </h2>
               </div>
 
               <div className='max-w-3xl space-y-5 text-sm leading-relaxed text-black/72 sm:text-[15px]'>
-                <p>
-                  Després de gaudir i admirar com a públic durant molts anys la
-                  filosofia i el tarannà de l’Atzavara Club de Sant Feliu de
-                  Guíxols, l’any 2002 ens decidim a fer una cosa semblant al
-                  nostre poble: Vidreres. Així és com comencem a organitzar
-                  bolos sota la filosofia del “Do It Yourself” amb el nom de
-                  Freakorange.
-                </p>
+                <p>{t('about.about1')}</p>
 
-                <p>
-                  L’any 2003 Freekorange desapareix i es crea el col·lectiu
-                  anomenat Vidcore, que posteriorment es divideix amistosament
-                  en dues associacions, i així és com neix l’associació Soroll.
-                </p>
+                <p>{t('about.about2')}</p>
 
-                <p>
-                  Des de la nostra fundació, un dels objectius ha estat
-                  aconseguir un espai fix on poder organitzar els nostres
-                  concerts, però a dia d’avui encara seguim lluitant!!
-                </p>
+                <p>{t('about.about3')}</p>
 
-                <p>
-                  Sota el nom de Soroll i Vidcore, a part de les diferents
-                  edicions de l’Actitud Fest, s’han organitzat fins a
-                  l’actualitat més de 200 concerts en els quals han participat
-                  més de 500 bandes, tot això gràcies a la dedicació
-                  desinteressada de membres i col·laboradors de Soroll.
-                </p>
+                <p>{t('about.about4')}</p>
               </div>
             </div>
           </div>
@@ -308,7 +290,7 @@ function About() {
             <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
               <div className='max-w-sm'>
                 <h2 className='text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
-                  Arxiu de concerts
+                  {t('about.arxiuConcerts')}
                 </h2>
               </div>
 

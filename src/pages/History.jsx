@@ -1,4 +1,5 @@
 import Footer from '../components/Footer';
+import { useLanguage } from '../context/LanguageContext';
 
 const posters = [
   { year: '2010', src: '/posters/actitud-2010.png' },
@@ -15,6 +16,8 @@ const posters = [
 ];
 
 function History() {
+  const { t } = useLanguage();
+
   return (
     <>
       <div className='bg-[#f4f1ec] text-black'>
@@ -23,17 +26,18 @@ function History() {
             <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
               <div className='max-w-sm'>
                 <h1 className='text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
-                  Historia
+                  {t('history.title')}
                 </h1>
                 <p className='mt-4 text-sm leading-relaxed text-black/65'>
-                  Cartells de les diferents edicions de l&apos;Actitud Fest al
-                  llarg dels anys dissenyats per{' '}
+                  {t('history.intro')}{' '}
                   <a
                     href='https://www.instagram.com/alexalegre22/'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
-                    <span className='font-bold text-black/50'>Alex Alegre</span>
+                    <span className='font-bold text-black/50'>
+                      {t('history.alexAlegre')}
+                    </span>
                   </a>
                 </p>
               </div>

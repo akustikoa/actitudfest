@@ -1,82 +1,172 @@
 export const artists = [
   {
     id: 'ititanita',
-    name: 'It it anita',
+    name: {
+      ca: 'It it anita',
+      es: 'It it anita',
+      en: 'It it anita',
+      fr: 'It it anita',
+    },
     tag: 'Just Announced',
-    description:
-      'It it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    description: {
+      ca: 'caIt it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      es: 'esIt it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      en: 'It it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      fr: 'It it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    },
     image: '/bands/ititanita.jpeg',
   },
   {
     id: 'peligro',
-    name: 'Peligro!',
+    name: {
+      ca: 'Peligro!',
+      es: 'Peligro!',
+      en: 'Peligro!',
+      fr: 'Peligro!',
+    },
     tag: 'Just Announced',
-    description:
-      'Peligro! sit amet cQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolorQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedoloronsectetur adipisicing elit. Quisquam, quae.',
+    description: {
+      ca: 'Peligro! sit amet cQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolorQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedoloronsectetur adipisicing elit. Quisquam, quae.',
+      es: 'Peligro! sit amet cQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolorQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedoloronsectetur adipisicing elit. Quisquam, quae.',
+      en: 'Peligro! sit amet cQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolorQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedoloronsectetur adipisicing elit. Quisquam, quae.',
+      fr: 'Peligro! sit amet cQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolorQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedoloronsectetur adipisicing elit. Quisquam, quae.',
+    },
     image: '/bands/peligro.jpeg',
   },
   {
     id: 'gros-enfant-mort',
-    name: 'Gros enfant mort',
+    name: {
+      ca: 'Gros enfant mort',
+      es: 'Gros enfant mort',
+      en: 'Gros enfant mort',
+      fr: 'Gros enfant mort',
+    },
     tag: 'Just Announced',
-    description:
-      'DescipciÃ³ It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    description: {
+      ca: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      es: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      en: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    },
     image: '/bands/gros-enfant-mort.jpeg',
   },
   {
     id: 'pigeon-island',
-    name: 'Pigeon Island',
+    name: {
+      ca: 'Pigeon Island',
+      es: 'Pigeon Island',
+      en: 'Pigeon Island',
+      fr: 'Pigeon Island',
+    },
     tag: 'Just Announced',
-    description:
-      'Pigeon- sland It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    description: {
+      ca: 'Pigeon- sland It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      es: 'Pigeon- sland It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      en: 'Pigeon- sland It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      fr: 'Pigeon- sland It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    },
     image: '/bands/pigeon-island.jpeg',
   },
   {
     id: 'chalk-hands',
-    name: 'Chalk Hands',
+    name: {
+      ca: 'Chalk Hands',
+      es: 'Chalk Hands',
+      en: 'Chalk Hands',
+      fr: 'Chalk Hands',
+    },
     tag: 'Just Announced',
-    description:
-      'DescipciÃ³ It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    description: {
+      ca: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      es: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      en: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    },
     image: '/bands/chalk-hands.jpeg',
   },
   {
     id: 'dark-side-of-soul',
-    name: 'Dark Side of Soul',
+    name: {
+      ca: 'Dark Side of Soul',
+      es: 'Dark Side of Soul',
+      en: 'Dark Side of Soul',
+      fr: 'Dark Side of Soul',
+    },
     tag: 'Just Announced',
-    description:
-      'DescipciÃ³ It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    description: {
+      ca: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      es: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      en: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    },
     image: '/bands/dark-side-of-soul.jpeg',
   },
   {
     id: 'tano',
-    name: 'Tano!',
+    name: {
+      ca: 'Tano!',
+      es: 'Tano!',
+      en: 'Tano!',
+      fr: 'Tano!',
+    },
     tag: 'Just Announced',
-    description:
-      'DescipciÃ³ It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    description: {
+      ca: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      es: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      en: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    },
     image: '/bands/tano.jpeg',
   },
   {
     id: 'vibora',
-    name: 'Vibora',
+    name: {
+      ca: 'Vibora',
+      es: 'Vibora',
+      en: 'Vibora',
+      fr: 'Vibora',
+    },
     tag: 'Just Announced',
-    description:
-      'DescipciÃ³ It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    description: {
+      ca: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      es: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      en: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    },
     image: '/bands/vibora.jpeg',
   },
   {
-    id: 'ititanita',
-    name: 'It it anita',
+    id: 'ititani',
+    name: {
+      ca: 'It it anita',
+      es: 'It it anita',
+      en: 'It it anita',
+      fr: 'It it anita',
+    },
     tag: 'Just Announced',
-    description:
-      'It it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    description: {
+      ca: 'It it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      es: 'It it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      en: 'It it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      fr: 'It it anita Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    },
     image: '/bands/ititanita.jpeg',
   },
   {
-    id: 'gros-enfant-mort',
-    name: 'Gros enfant mort',
+    id: 'gros-enfant',
+    name: {
+      ca: 'Gros enfant mort',
+      es: 'Gros enfant mort',
+      en: 'Gros enfant mort',
+      fr: 'Gros enfant mort',
+    },
     tag: 'Just Announced',
-    description:
-      'DescipciÃ³ It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    description: {
+      ca: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      es: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      en: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+    },
     image: '/bands/gros-enfant-mort.jpeg',
   },
 ];
