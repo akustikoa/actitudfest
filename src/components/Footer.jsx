@@ -120,7 +120,7 @@ function Footer() {
                 <img
                   src={sorollLogo}
                   alt='El Nostre Soroll'
-                  className='h-15 lg:h-10 w-auto max-w-[30%] object-contain'
+                  className='h-15 lg:h-10 rounded-md w-auto max-w-[30%] object-contain'
                 />
                 <img
                   src={ajuntamentVidreres}
@@ -138,7 +138,7 @@ function Footer() {
                 <img
                   src={sorollLogo}
                   alt='El Nostre Soroll'
-                  className='h-24 w-auto object-contain'
+                  className='h-24 rounded-md  w-auto object-contain'
                 />
 
                 <div className='h-16 w-px bg-white/30' />

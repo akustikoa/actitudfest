@@ -17,7 +17,7 @@ export const translations = {
       downloadAuthorization: 'Descarregar autorització',
       campingTitle: "Zona d'acampada",
       campingText:
-        "La zona d'acampada esta reservada a les persones amb abonament de 3 dies.",
+        "La zona d'acampada esta reservada a les persones amb abonament de 2 dies.",
       nearbyAccommodation: 'Allotjament proper',
       platforms: 'Plataformes',
     },
@@ -62,7 +62,7 @@ export const translations = {
       downloadAuthorization: 'Descargar autorización',
       campingTitle: 'Zona de acampada',
       campingText:
-        'La zona de acampada está reservada para las personas con abono de 3 días.',
+        'La zona de acampada está reservada para las personas con abono de 2 días.',
       nearbyAccommodation: 'Alojamiento cercano',
       platforms: 'Plataformas',
     },
@@ -106,7 +106,7 @@ export const translations = {
         'Minors under 16 years old can access the festival if accompanied by their legal guardian. Adults must have a valid ticket and, in the case of minors, a signed authorization must be brought to access the venue.',
       downloadAuthorization: 'Download authorization',
       campingTitle: 'Camping area',
-      campingText: 'The camping area is reserved for people with a 3-day pass.',
+      campingText: 'The camping area is reserved for people with a 2-day pass.',
       nearbyAccommodation: 'Stay nearby',
       platforms: 'Platforms',
     },
@@ -151,7 +151,7 @@ export const translations = {
       downloadAuthorization: "Télécharger l'autorisation",
       campingTitle: 'Zone de camping',
       campingText:
-        'La zone de camping est réservée aux personnes possédant un pass 3 jours.',
+        'La zone de camping est réservée aux personnes possédant un pass 2 jours.',
       nearbyAccommodation: 'Hébergement à proximité',
       platforms: 'Plateformes',
     },

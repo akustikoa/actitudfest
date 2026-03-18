@@ -11,6 +11,10 @@ const accommodationLinks = {
     },
     { label: 'Can Peuet', href: 'https://can-pauet.costabrava24.com/en/' },
     { label: 'Can Tarre', href: 'https://ruralcantarre.com/' },
+    {
+      label: 'Laselvaturisme',
+      href: 'https://www.laselvaturisme.com/directori/on-dormir/hotels/',
+    },
   ],
   platforms: [
     {
@@ -45,10 +49,10 @@ function InfoFestival() {
         <div className='mt-10 grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,1.15fr)_minmax(320px,0.85fr)] lg:items-start'>
           <article className='overflow-hidden rounded-xl border border-black/10 bg-black/[0.03]'>
             <div className='p-3 sm:p-4'>
-              <div className='overflow-hidden rounded-lg '>
+              <div className='overflow-hidden rounded-lg'>
                 <iframe
                   title='Mapa del festival a Vidreres'
-                  src='https://www.google.com/maps?q=Vidreres,+Girona&z=14&output=embed'
+                  src='https://www.google.com/maps?q=Actitud+Fest+41.790814,2.765210&z=14&output=embed'
                   loading='lazy'
                   allowFullScreen
                   referrerPolicy='no-referrer-when-downgrade'

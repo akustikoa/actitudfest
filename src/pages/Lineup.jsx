@@ -85,9 +85,19 @@ function Lineup() {
                         {artistName}
                       </h2>
 
-                      <p className='text-sm leading-relaxed text-neutral-700 sm:text-[15px]'>
-                        {artistDescription}
-                      </p>
+                      <div className='text-sm text-neutral-700 sm:text-[15px]'>
+                        {artistDescription
+                          .split('\n')
+                          .filter(Boolean)
+                          .map((paragraph, i) => (
+                            <p
+                              key={i}
+                              className='leading-relaxed mb-1.5 last:mb-0'
+                            >
+                              {paragraph}
+                            </p>
+                          ))}
+                      </div>
 
                       {(artist.youtube || artist.instagram) && (
                         <div className='mt-8 flex gap-4 justify-end mr-3 lg:justify-start  text-gray-500 '>
