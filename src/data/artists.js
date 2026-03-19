@@ -9,7 +9,8 @@ export const artists = [
     },
     tag: 'Just Announced',
     description: {
-      ca: `It It Anita és una banda de noise rock procedent de Lieja (Bèlgica) formada el 2014, coneguda per un so visceral i sense filtres que combina l’agressivitat del punk amb la intensitat del noise rock contemporani.Amb guitarres tallants, ritmes tensos i una energia desbordant, el grup ha construït una reputació sòlida dins l’escena alternativa europea, especialment gràcies a uns directes físics i imprevisibles.
+      ca: `It It Anita és una banda de noise rock procedent de Lieja (Bèlgica) formada el 2014, coneguda per un so visceral i sense filtres que combina l’agressivitat del punk amb la intensitat del noise rock contemporani.
+      Amb guitarres tallants, ritmes tensos i una energia desbordant, el grup ha construït una reputació sòlida dins l’escena alternativa europea, especialment gràcies a uns directes físics i imprevisibles.
 Des dels seus inicis, la banda ha apostat per una música directa i catàrtica, influenciada per l’herència del noise rock nord-americà i el post-hardcore, amb referències que sovint evoquen grups com The Jesus Lizard, METZ o At The Drive-In.El seu estil combina riffs abrasadors, estructures dinàmiques i una intensitat constant que oscil·la entre el caos controlat i l’explosió sonora.
 Actualment presenta el seu nou treball HI HI HA HA (Vicious Circle 2026).`,
 
@@ -126,17 +127,17 @@ Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti
     },
     tag: 'Just Announced',
     description: {
-      ca: `Chalk Hands tornen el 27 de març de 2026 amb el seu nou àlbum The Line That Shapes the Coast of Us, publicat a través de Dog Knights Productions.Abans de la sortida del disc, la banda compartirà Breaking Waves, el primer single i un primer tast del món que construeix el nou treball.Ampliant les bases emocionals i sonores establertes pel seu aclamat debut Don’t Think About Death, el quartet de screamo/post-rock de Brighton (Regne Unit) continua explorant les àmplies interseccions entre el caos i la calma, la fúria i la fragilitat — sempre amb una honestedat absoluta al centre del seu projecte.
-        Des de la publicació de Don’t Think About Death, Chalk Hands han fet gires extensives pel Regne Unit i Europa — incloent-hi gires amb Touché Amoré i Frail Body — i han actuat en festivals com ArcTanGent (Regne Unit) i Sonic Rites (Finlàndia).`,
+      ca: `Chalk Hands tornen el 27 de març de 2026 amb el seu nou àlbum The Line That Shapes the Coast of Us, publicat a través de Dog Knights Productions.Abans de la sortida del disc, la banda compartirà Breaking Waves, el primer single i un primer tast del món que construeix el nou treball.Ampliant les bases emocionals i sonores establertes pel seu aclamat debut Don’t Think About Death, el quartet de screamo/post-rock de Brighton (Regne Unit) continua explorant les àmplies interseccions entre el caos i la calma, la fúria i la fragilitat sempre amb una honestedat absoluta al centre del seu projecte.
+        Des de la publicació de Don’t Think About Death, Chalk Hands han fet gires extensives pel Regne Unit i Europa incloent-hi gires amb Touché Amoré i Frail Body i han actuat en festivals com ArcTanGent (Regne Unit) i Sonic Rites (Finlàndia).`,
 
-      es: `Chalk Hands regresan el 27 de marzo de 2026 con su nuevo álbum The Line That Shapes the Coast of Us, publicado a través de Dog Knights Productions.Antes del lanzamiento, la banda compartirá Breaking Waves, el primer single y un primer adelanto del universo que construye el nuevo trabajo.Ampliando las bases emocionales y sonoras establecidas por su aclamado debut Don’t Think About Death, el cuarteto de screamo/post-rock de Brighton (Reino Unido) continúa explorando las amplias intersecciones entre el caos y la calma, la furia y la fragilidad — siempre con una honestidad absoluta en el centro de su propuesta.
-      Desde la publicación de Don’t Think About Death, Chalk Hands han realizado giras extensas por Reino Unido y Europa — incluyendo tours con Touché Amoré y Frail Body — y han actuado en festivales como ArcTanGent (Reino Unido) y Sonic Rites (Finlandia).`,
+      es: `Chalk Hands regresan el 27 de marzo de 2026 con su nuevo álbum The Line That Shapes the Coast of Us, publicado a través de Dog Knights Productions.Antes del lanzamiento, la banda compartirá Breaking Waves, el primer single y un primer adelanto del universo que construye el nuevo trabajo.Ampliando las bases emocionales y sonoras establecidas por su aclamado debut Don’t Think About Death, el cuarteto de screamo/post-rock de Brighton (Reino Unido) continúa explorando las amplias intersecciones entre el caos y la calma, la furia y la fragilidad siempre con una honestidad absoluta en el centro de su propuesta.
+      Desde la publicación de Don’t Think About Death, Chalk Hands han realizado giras extensas por Reino Unido y Europa incluyendo tours con Touché Amoré y Frail Body y han actuado en festivales como ArcTanGent (Reino Unido) y Sonic Rites (Finlandia).`,
 
-      en: `Chalk Hands return on March 27, 2026 with their new album The Line That Shapes the Coast of Us, released via Dog Knights Productions. Ahead of the release, the band will share Breaking Waves, the first single and a first glimpse into the world built by the new record.Expanding on the emotional and sonic foundations laid by their acclaimed debut Don’t Think About Death, the Brighton (UK) screamo/post-rock quartet continues to explore the wide intersections between chaos and calm, fury and fragility — always with absolute honesty at the core of their project.
-      Since releasing Don’t Think About Death, Chalk Hands have toured extensively across the UK and Europe — including tours with Touché Amoré and Frail Body — and have performed at festivals such as ArcTanGent (UK) and Sonic Rites (Finland).`,
+      en: `Chalk Hands return on March 27, 2026 with their new album The Line That Shapes the Coast of Us, released via Dog Knights Productions. Ahead of the release, the band will share Breaking Waves, the first single and a first glimpse into the world built by the new record.Expanding on the emotional and sonic foundations laid by their acclaimed debut Don’t Think About Death, the Brighton (UK) screamo/post-rock quartet continues to explore the wide intersections between chaos and calm, fury and fragility always with absolute honesty at the core of their project.
+      Since releasing Don’t Think About Death, Chalk Hands have toured extensively across the UK and Europe including tours with Touché Amoré and Frail Body and have performed at festivals such as ArcTanGent (UK) and Sonic Rites (Finland).`,
 
-      fr: `Chalk Hands reviennent le 27 mars 2026 avec leur nouvel album The Line That Shapes the Coast of Us, publié via Dog Knights Productions. custom-scrollAvant la sortie, le groupe dévoilera Breaking Waves, premier single et premier aperçu de l’univers du nouvel album. En élargissant les bases émotionnelles et sonores posées par leur premier album acclamé Don’t Think About Death, le quatuor screamo/post-rock de Brighton (Royaume-Uni) continue d’explorer les vastes intersections entre chaos et calme, fureur et fragilité — toujours avec une honnêteté absolue au cœur de leur démarche.
-      Depuis la sortie de Don’t Think About Death, Chalk Hands ont tourné intensivement au Royaume-Uni et en Europe — notamment aux côtés de Touché Amoré et Frail Body — et ont joué dans des festivals comme ArcTanGent (Royaume-Uni) et Sonic Rites (Finlande).`,
+      fr: `Chalk Hands reviennent le 27 mars 2026 avec leur nouvel album The Line That Shapes the Coast of Us, publié via Dog Knights Productions. custom-scrollAvant la sortie, le groupe dévoilera Breaking Waves, premier single et premier aperçu de l’univers du nouvel album. En élargissant les bases émotionnelles et sonores posées par leur premier album acclamé Don’t Think About Death, le quatuor screamo/post-rock de Brighton (Royaume-Uni) continue d’explorer les vastes intersections entre chaos et calme, fureur et fragilité toujours avec une honnêteté absolue au cœur de leur démarche.
+      Depuis la sortie de Don’t Think About Death, Chalk Hands ont tourné intensivement au Royaume-Uni et en Europe notamment aux côtés de Touché Amoré et Frail Body et ont joué dans des festivals comme ArcTanGent (Royaume-Uni) et Sonic Rites (Finlande).`,
     },
     image: '/bands/chalk-hands-band.jpeg',
     youtube: 'https://youtu.be/BJ6hSgLKyAk?si=N6D-ertAyP1oE8F3',
@@ -187,10 +188,13 @@ Text: Ricky Lavado.`,
     },
     tag: 'Just Announced',
     description: {
-      ca: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      es: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      en: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      fr: 'Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      ca: `La llavor del power duo català Tano! es va plantar el 2014, arran dels concerts pòstums de la gira de Hurricäde compartint escenari i gira amb els també desapareguts Anchord. La germinació va sorgir al 2015, quan l'Oskar Garcia (Hurricäde) i en Victor Pelusa (Anchord, Mendra) s'ajunten cada vegada de manera més regular al local d'assaig, d'on n'acabarà sortint un encanteri musical del tot original. Cançons esbojarrades, dissonants, rítmiques i dinàmiques, cantades íntegrament en català i en constant recerca de noves sensacions que es reflecteixen en tres entregues discogràfiques i ressonen en incomptables concerts per terres catalanes, la península ibèrica i part del continent europeu; directes on es mantenen les emocions fortes, la visceralitat i lletres amb caire de llegendes amb un missatge al darrere escopides pel micro.`,
+
+      es: `La semilla del power dúo catalán Tano! se plantó en 2014, a raíz de los conciertos póstumos de la gira de Hurricäde compartiendo escenario y gira con los también desaparecidos Anchord. La germinación llegó en 2015, cuando Oskar Garcia (Hurricäde) y Victor Pelusa (Anchord, Mendra) empiezan a juntarse cada vez con más regularidad en el local de ensayo, de donde acabará saliendo un hechizo musical totalmente original. Canciones alocadas, disonantes, rítmicas y dinámicas, cantadas íntegramente en catalán y en constante búsqueda de nuevas sensaciones que se reflejan en tres entregas discográficas y resuenan en innumerables conciertos por tierras catalanas, la península ibérica y parte del continente europeo; directos donde se mantienen las emociones fuertes, la visceralidad y letras con aire de leyendas con un mensaje detrás escupidas al micro.`,
+
+      en: `The seed of the Catalan power duo Tano! was planted in 2014, following the posthumous concerts of the Hurricäde tour, sharing stage and tour with the also now-defunct Anchord. The germination came in 2015, when Oskar Garcia (Hurricäde) and Victor Pelusa (Anchord, Mendra) began meeting more regularly in the rehearsal space, from which a completely original musical spell would emerge. Wild, dissonant, rhythmic and dynamic songs, entirely sung in Catalan and in constant search of new sensations, reflected in three record releases and echoed in countless concerts across Catalonia, the Iberian Peninsula and parts of Europe; live shows where intense emotions, raw energy and lyrics with a legendary tone and a message behind them are spat into the mic.`,
+
+      fr: `La graine du power duo catalan Tano! a été plantée en 2014, à la suite des concerts posthumes de la tournée de Hurricäde, partageant scène et tournée avec les également disparus Anchord. La germination arrive en 2015, lorsque Oskar Garcia (Hurricäde) et Victor Pelusa (Anchord, Mendra) commencent à se retrouver de plus en plus régulièrement en salle de répétition, d’où naîtra un sort musical totalement original. Des chansons déjantées, dissonantes, rythmiques et dynamiques, entièrement chantées en catalan et en constante recherche de nouvelles sensations, reflétées dans trois sorties discographiques et résonnant dans d’innombrables concerts à travers la Catalogne, la péninsule ibérique et une partie de l’Europe ; des lives où se maintiennent des émotions fortes, la visceralité et des paroles au ton de légendes avec un message derrière, crachées dans le micro.`,
     },
     image: '/bands/tano-band.jpeg',
     youtube: 'https://youtu.be/4WUD3Cmf3xY?si=Vf6BXvoF5Rj1K-Vf',
@@ -240,10 +244,17 @@ Víbora est un groupe de post-hardcore formé à Gasteiz au début de 2018 par d
     },
 
     description: {
-      ca: 'NÖIA Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      es: 'NÖIA Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      en: 'NÖIA Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      fr: 'NÖIA Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae Quisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quaeQuisquam, quaedolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      ca: `NÖIA neix de la inercia de ser músic i viure a Sant Feliu de Guíxols. Al bressol més longeu del punk rock català, entre tovalloles a la platja i colzes a les barres dels bars, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) i Carles (Bécquer, Bad Mongos, Bullitt) comencen a trobar-se al 2019 en els locals de l'antiga Atzavara orfes de banda per començar a encaixar guitarres i tornades enganxifoses. Perque tenen clar que la cosa anira de punk rock i de ballaruques amb punys amunt, fidels al gènere que plana per la localitat des dels ancestrals Sant Feliu Fest.
+Al 2022 editen "NÖIA" amb Saltamarges i igual que en els seus concerts, sense temps per respirar ni mitjos temps, al 2023 enregistren "11". Ambdós amb l'amic de la banda i gurú dels controls de discs guitarreros Santi Garcia. La fórmula es clara i concreta. Base rítmica galopant sense monotonia. Baixos que filen compàs i melodia empenyent guitarres contundents i melodiques per posar en primer pla la veu. Una fórmula infal·lible reforçada per una veu versatil en els registres i directe en les paraules`,
+
+      es: `NÖIA nace de la inercia de ser músico y vivir en Sant Feliu de Guíxols. En la cuna más longeva del punk rock catalán, entre toallas en la playa y codos en las barras de los bares, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) y Carles (Bécquer, Bad Mongos, Bullitt) empiezan a encontrarse en 2019 en los locales de la antigua Atzavara, huérfanos de banda, para empezar a encajar guitarras y estribillos pegadizos. Porque tienen claro que la cosa irá de punk rock y de bailoteos con los puños en alto, fieles al género que sobrevuela la localidad desde los ancestrales Sant Feliu Fest.
+En 2022 editan "NÖIA" con Saltamarges y, igual que en sus conciertos, sin tiempo para respirar ni medios tiempos, en 2023 graban "11". Ambos junto al amigo de la banda y gurú en los controles de discos guitarreros Santi Garcia. La fórmula es clara y concreta. Base rítmica galopante sin monotonía. Bajos que tejen compás y melodía empujando guitarras contundentes y melódicas para situar la voz en primer plano. Una fórmula infalible reforzada por una voz versátil en los registros y directa en las palabras`,
+
+      en: `NÖIA is born from the inertia of being a musician and living in Sant Feliu de Guíxols. In the longest-standing cradle of Catalan punk rock, between beach towels and elbows on bar counters, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) and Carles (Bécquer, Bad Mongos, Bullitt) started meeting in 2019 in the old Atzavara rehearsal spaces, bandless, to piece together guitars and catchy choruses. Because they are clear that this is about punk rock and dancing with fists in the air, faithful to the genre that has hovered over the town since the ancestral Sant Feliu Fest.
+In 2022 they released "NÖIA" with Saltamarges and, just like in their shows, with no time to breathe and no mid-tempos, they recorded "11" in 2023. Both with their friend and guitar-record guru at the controls, Santi Garcia. The formula is clear and precise. A galloping rhythmic base without monotony. Bass lines weaving rhythm and melody, pushing powerful and melodic guitars to bring the vocals to the forefront. A fail-safe formula reinforced by a versatile voice across registers and direct in its words`,
+
+      fr: `NÖIA naît de l’inertie d’être musicien et de vivre à Sant Feliu de Guíxols. Dans le berceau le plus ancien du punk rock catalan, entre serviettes sur la plage et coudes accoudés aux bars, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) et Carles (Bécquer, Bad Mongos, Bullitt) commencent à se retrouver en 2019 dans les locaux de l’ancienne Atzavara, orphelins de groupe, pour assembler guitares et refrains accrocheurs. Parce qu’ils ont bien clair que cela ira vers le punk rock et les danses poings levés, fidèles au genre qui plane sur la ville depuis les ancestraux Sant Feliu Fest.
+En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps pour respirer ni tempos intermédiaires, ils enregistrent "11" en 2023. Les deux avec leur ami du groupe et gourou des enregistrements guitare, Santi Garcia. La formule est claire et précise. Une base rythmique galopante sans monotonie. Des lignes de basse qui tissent rythme et mélodie, poussant des guitares puissantes et mélodiques pour mettre la voix au premier plan. Une formule infaillible renforcée par une voix polyvalente dans ses registres et directe dans ses paroles`,
     },
     image: '/bands/noia.jpeg',
     youtube: 'https://youtu.be/KV7Hy-XFF1A?si=1iP41Y8KR78lCrl1',
@@ -294,7 +305,7 @@ La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec
       en: 'Atak d’Eufòria was formed in the early nineties and split up at the end of the decade. 30 years later, they return as a trio with a handful of songs full of punk rock energy, without forgetting the melodies.',
       fr: 'Atak d’Eufòria se forme au début des années quatre-vingt-dix pour se séparer à la fin de la décennie. 30 ans plus tard, ils reprennent du service en format trio avec une poignée de morceaux chargés d’énergie punk rock, sans oublier les mélodies.',
     },
-    image: '/bands/atakdeuforia.jpeg',
+    image: '/bands/atakdeuforia.png',
     youtube: '',
     instagram: '',
   },
@@ -308,12 +319,15 @@ La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec
     },
     tag: 'Just Announced',
     description: {
-      ca: 'Will.I.Am??? Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      es: 'Will.I.Am??? Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      en: 'Will.I.Am??? Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      fr: 'Will.I.Am??? Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      ca: `Per primera i (potser última) vegada, apareix Will.I.Am??? Després de molts anys i danys, d'ostracisme musical arriba amb una sessió feta de manera desagradable, pregravada i poc previsible...editada amb Spotify i anuncis. Zero vergonya... Caos? Bastant. Barreja d’estils? Sense gaire criteri. Funciona? Doncs a estones sí, a estones no… Ideal si el que busques és soroll de fons i alguna criaturada involuntària.`,
+
+      es: `Por primera y (quizá última) vez, aparece Will.I.Am??? Después de muchos años y daños, de ostracismo musical, llega con una sesión hecha de forma desagradable, pregrabada y poco previsible... editada con Spotify y anuncios. Cero vergüenza... ¿Caos? Bastante. ¿Mezcla de estilos? Sin demasiado criterio. ¿Funciona? Pues a ratos sí, a ratos no… Ideal si lo que buscas es ruido de fondo y alguna salida involuntariamente infantil.`,
+
+      en: `For the first and (perhaps last) time, Will.I.Am??? appears. After many years and plenty of damage, of musical ostracism, he arrives with a set put together in a rather unpleasant way, pre-recorded and hardly predictable... edited with Spotify and ads. Zero shame... Chaos? Quite a lot. A mix of styles? Without much criteria. Does it work? Well, sometimes yes, sometimes no… Ideal if what you are looking for is background noise and the occasional unintentionally childish moment.`,
+
+      fr: `Pour la première et (peut-être dernière) fois, voici Will.I.Am??? Après de longues années et quelques dégâts, d’ostracisme musical, il revient avec un set conçu de manière désagréable, préenregistré et peu prévisible... monté avec Spotify et des publicités. Zéro honte... Du chaos ? Pas mal. Un mélange de styles ? Sans beaucoup de critère. Est-ce que ça fonctionne ? Par moments oui, par moments non… Idéal si tu cherches du bruit de fond et quelques enfantillages involontaires.`,
     },
-    image: '/bands/william.jpeg',
+    image: '/bands/william.png',
     youtube: '',
     instagram: '',
   },
@@ -327,10 +341,21 @@ La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec
     },
     tag: 'Just Announced',
     description: {
-      ca: 'The enjoy division Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      es: 'The enjoy division Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      en: 'The enjoy division Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
-      fr: 'The enjoy division Descipció It it anita lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.',
+      ca: `La Cristina i la Laura formen The Enjoy Division, un projecte nascut d’una amistat de molts anys i d’un vincle molt profund amb la música.
+Fans dels festivals i de tot el que es mou dins l’escena underground.
+Per celebrar els 15 anys d’Actitud, s’han reunit especialment per compartir aquesta passió amb tothom.`,
+
+      es: `Cristina y Laura forman The Enjoy Division, un proyecto nacido de una amistad de muchos años y de un vínculo muy profundo con la música.
+Fans de los festivales y de todo lo que se mueve dentro de la escena underground.
+Para celebrar los 15 años de Actitud, se han reunido especialmente para compartir esta pasión con todo el mundo.`,
+
+      en: `Cristina and Laura form The Enjoy Division, a project born from a long-standing friendship and a very deep connection with music.
+Fans of festivals and everything that moves within the underground scene.
+To celebrate Actitud’s 15th anniversary, they have come together especially to share this passion with everyone.`,
+
+      fr: `Cristina et Laura forment The Enjoy Division, un projet né d’une amitié de longue date et d’un lien très profond avec la musique.
+Fans des festivals et de tout ce qui gravite autour de la scène underground.
+Pour célébrer les 15 ans d’Actitud, elles se sont réunies spécialement pour partager cette passion avec tout le monde.`,
     },
     image: '/bands/theenjoydivision.png',
     youtube: '',
