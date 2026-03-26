@@ -284,9 +284,9 @@ function About() {
           <div className='mx-auto w-full max-w-[1200px]'>
             <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
               <div className='max-w-sm'>
-                <h2 className=' text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
+                <h1 className=' text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
                   {t('about.associacioSoroll')}
-                </h2>
+                </h1>
               </div>
 
               <div className='max-w-3xl space-y-5 text-sm leading-relaxed text-black/72 sm:text-[15px]'>

@@ -13,7 +13,7 @@ export const translations = {
       howToArrive: 'Com arribar',
       minorsTitle: 'Menors i acces',
       minorsText:
-        "Els menors de 16 anys poden accedir al festival si van acompanyats del seu tutor legal. Les persones adultes han de disposar d'entrada valida i, en el cas dels menors, cal portar l'autoritzacio signada per accedir al recinte.",
+        "Els menors de 16 anys poden accedir al festival si van acompanyats del seu tutor legal. Les persones adultes han de disposar d'entrada valida i, en el cas dels menors, cal portar l'autorització signada per accedir al recinte.",
       downloadAuthorization: 'Descarregar autorització',
       campingTitle: "Zona d'acampada",
       campingText:
@@ -43,7 +43,9 @@ export const translations = {
       title: 'Historia',
       intro:
         "Cartells de les diferents edicions de l'Actitud Fest al llarg dels anys dissenyats per",
-      alexAlegre: 'Alex Alegre',
+      alexAlegre: 'Alex Alegre,',
+      intro2: 'excepte el 2023 per ',
+      rogerOrtega: 'Roger Ortega',
     },
   },
   es: {
@@ -88,7 +90,9 @@ export const translations = {
       title: 'Historia',
       intro:
         'Carteles de las diferentes ediciones del Actitud Fest a lo largo de los años diseñados por',
-      alexAlegre: 'Alex Alegre',
+      alexAlegre: 'Alex Alegre,',
+      intro2: 'excepto el 2023 por ',
+      rogerOrtega: 'Roger Ortega',
     },
   },
   en: {
@@ -132,7 +136,9 @@ export const translations = {
       title: 'History',
       intro:
         'Posters from the different editions of Actitud Fest over the years designed by',
-      alexAlegre: 'Alex Alegre',
+      alexAlegre: 'Alex Alegre,',
+      intro2: 'except for 2023 by ',
+      rogerOrtega: 'Roger Ortega',
     },
   },
   fr: {
@@ -177,7 +183,9 @@ export const translations = {
       title: 'Histoire',
       intro:
         "Affiches des différentes éditions d'Actitud Fest au fil des années conçues par",
-      alexAlegre: 'Alex Alegre',
+      alexAlegre: 'Alex Alegre,',
+      intro2: 'sauf 2023 par ',
+      rogerOrtega: 'Roger Ortega',
     },
   },
 };

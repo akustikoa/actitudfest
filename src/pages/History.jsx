@@ -13,6 +13,9 @@ const posters = [
   { year: '2018', src: '/posters/actitud-2018.png' },
   { year: '2019', src: '/posters/actitud-2019.png' },
   { year: '2022', src: '/posters/actitud-2022.png' },
+  { year: '2023', src: '/posters/actitud-2023.png' },
+  { year: '2024', src: '/posters/actitud-2024.png' },
+  { year: '2025', src: '/posters/actitud-2025.png' },
 ];
 
 function History() {
@@ -37,6 +40,16 @@ function History() {
                   >
                     <span className='font-bold text-black/50'>
                       {t('history.alexAlegre')}
+                    </span>
+                  </a>{' '}
+                  {t('history.intro2')}
+                  <a
+                    href='https://www.instagram.com/rogersfg?igsh=ZmxremszeXZtbzU4'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <span className='font-bold text-black/50'>
+                      {t('history.rogerOrtega')}
                     </span>
                   </a>
                 </p>

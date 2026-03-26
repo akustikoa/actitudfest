@@ -4,11 +4,13 @@ import About from './pages/About';
 import History from './pages/History';
 import Home from './pages/Home';
 import Lineup from './pages/Lineup';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <div className='min-h-screen  text-white'>
       <Navbar />
+      <ScrollToTop />
       <main>
         <Routes>
           <Route path='/' element={<Home />} />
