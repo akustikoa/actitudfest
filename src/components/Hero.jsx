@@ -29,17 +29,13 @@ function Hero() {
         <div className='flex h-full w-full flex-col gap-8 lg:flex-row lg:items-start lg:justify-between'>
           <div className='max-w-4xl border-l-2 rounded-2xl border-red-700 pl-5 sm:pl-8'>
             <div className='lg:mt-1 mt-2 space-y-1 uppercase leading-none text-white'>
-              <img
-                src={titolActitud}
-                alt='Actitud Fest logo'
-                className='absolute right-6 bottom-[-1px] w-[150px] lg:right-[250px] lg:bottom-[-60px] lg:w-[180px] xl:w-[180px] 2xl:w-[220px] opacity-70 lg:opacity-90'
-              />
-              {/* <p className='text-[clamp(2rem,4.5vw,3.5rem)] font-black tracking-[-0.08em]'>
-                Actitud
-              </p>
-              <p className='text-[clamp(2rem,4.5vw,3.5rem)] font-black tracking-[-0.08em] text-white/90'>
-                Fest
-              </p> */}
+              <div className='w-[200px] sm:w-[220px] md:w-[230px] lg:w-[230px] xl:w-[250px]'>
+                <img
+                  src={titolActitud}
+                  alt='Actitud Fest logo'
+                  className='block w-full h-auto '
+                />
+              </div>
             </div>
 
             <p className='mt-2 max-w-xl text-[clamp(0.45rem,1vw,0.7rem)] font-medium uppercase tracking-[0.22em] text-white/75'>

@@ -71,7 +71,7 @@ function LineupPreview() {
                 href='/lineup'
                 className='mt-5 inline-flex w-fit items-center rounded border-2 border-transparent bg-red-700 px-3 py-2 text-sm font-extrabold uppercase tracking-[0.2em] text-white transition hover:bg-transparent hover:border-red-700 hover:text-red-700'
               >
-                full lineup
+                {t('lineupPreview.fullLineup')}
               </a>
             </div>
           </article>

@@ -26,6 +26,7 @@ export const translations = {
     },
     lineupPreview: {
       subtitle: 'Grups confirmats per aquesta edició 2026',
+      fullLineup: 'Lineup complet',
     },
     about: {
       associacioSoroll: 'Associació Soroll',
@@ -73,6 +74,7 @@ export const translations = {
     },
     lineupPreview: {
       subtitle: 'Grupos confirmados para esta edición 2026',
+      fullLineup: 'Cartel completo',
     },
     about: {
       associacioSoroll: 'Asociación Soroll',
@@ -119,6 +121,7 @@ export const translations = {
     },
     lineupPreview: {
       subtitle: 'Groups confirmed for this edition 2026',
+      fullLineup: 'Full lineup',
     },
     about: {
       associacioSoroll: 'Soroll Association',
@@ -166,6 +169,7 @@ export const translations = {
     },
     lineupPreview: {
       subtitle: 'Groupes confirmés pour cette edition 2026',
+      fullLineup: 'Affiche complète',
     },
     about: {
       associacioSoroll: 'Association Soroll',
