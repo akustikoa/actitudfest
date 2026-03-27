@@ -37,6 +37,7 @@ function InstagramIcon() {
 
 function Lineup() {
   const { language } = useLanguage();
+  const announcedArtists = artists.filter((artist) => artist.isAnnounced);
 
   return (
     <>
@@ -53,7 +54,7 @@ function Lineup() {
 
         <section className='px-6 pb-8 sm:px-10 lg:px-16'>
           <div className='mx-auto max-w-6xl'>
-            {artists.map((artist, index) => {
+            {[...announcedArtists].reverse().map((artist, index) => {
               const reverse = index % 2 !== 0;
               const artistName = artist.name[language] || artist.name.ca;
               const artistDescription =

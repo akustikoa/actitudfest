@@ -1,35 +1,49 @@
 export const artists = [
   {
-    id: 'ititanita',
+    id: 'atakdeuforia',
     isAnnounced: true,
     name: {
-      ca: 'It it anita',
-      es: 'It it anita',
-      en: 'It it anita',
-      fr: 'It it anita',
+      ca: "Atak d'Eufòria ",
+      es: "Atak d'Eufòria ",
+      en: "Atak d'Eufòria ",
+      fr: "Atak d'Eufòria ",
     },
     tag: 'Just Announced',
     description: {
-      ca: `It It Anita és una banda de noise rock procedent de Lieja (Bèlgica) formada el 2014, coneguda per un so visceral i sense filtres que combina l’agressivitat del punk amb la intensitat del noise rock contemporani.
-      Amb guitarres tallants, ritmes tensos i una energia desbordant, el grup ha construït una reputació sòlida dins l’escena alternativa europea, especialment gràcies a uns directes físics i imprevisibles.
-Des dels seus inicis, la banda ha apostat per una música directa i catàrtica, influenciada per l’herència del noise rock nord-americà i el post-hardcore, amb referències que sovint evoquen grups com The Jesus Lizard, METZ o At The Drive-In.El seu estil combina riffs abrasadors, estructures dinàmiques i una intensitat constant que oscil·la entre el caos controlat i l’explosió sonora.
-Actualment presenta el seu nou treball HI HI HA HA (Vicious Circle 2026).`,
-
-      es: `It It Anita es una banda de noise rock procedente de Lieja (Bélgica) formada en 2014, conocida por un sonido visceral y sin filtros que combina la agresividad del punk con la intensidad del noise rock contemporáneo.
-Con guitarras afiladas, ritmos tensos y una energía desbordante, el grupo ha construido una sólida reputación dentro de la escena alternativa europea, especialmente gracias a unos directos físicos e imprevisibles.
-Desde sus inicios, la banda ha apostado por una música directa y catártica, influenciada por la herencia del noise rock norteamericano y el post-hardcore, con referencias que a menudo evocan a grupos como The Jesus Lizard, METZ o At The Drive-In.Su estilo combina riffs abrasivos, estructuras dinámicas y una intensidad constante que oscila entre el caos controlado y la explosión sonora.
-Actualmente presentan su nuevo trabajo HI HI HA HA (Vicious Circle 2026).`,
-
-      en: `It It Anita is a noise rock band from Liège (Belgium), formed in 2014, known for a raw and uncompromising sound that blends the aggression of punk with the intensity of contemporary noise rock.With sharp guitars, tense rhythms and explosive energy, the band has built a solid reputation within the European alternative scene, especially thanks to their physical and unpredictable live performances.
-Since their beginnings, the band has embraced a direct and cathartic approach, influenced by the legacy of American noise rock and post-hardcore, with references often evoking bands like The Jesus Lizard, METZ or At The Drive-In.Their style combines abrasive riffs, dynamic structures and a constant intensity that moves between controlled chaos and sonic explosion.
-They are currently presenting their new record HI HI HA HA (Vicious Circle 2026).`,
-
-      fr: `It It Anita est un groupe de noise rock originaire de Liège (Belgique), formé en 2014, connu pour un son viscéral et sans filtre qui combine l’agressivité du punk avec l’intensité du noise rock contemporain.Avec des guitares tranchantes, des rythmes tendus et une énergie débordante, le groupe a construit une solide réputation au sein de la scène alternative européenne, notamment grâce à des concerts physiques et imprévisibles.
-Depuis ses débuts, le groupe mise sur une musique directe et cathartique, influencée par l’héritage du noise rock américain et du post-hardcore, avec des références évoquant souvent des groupes comme The Jesus Lizard, METZ ou At The Drive-In.Leur style combine des riffs abrasifs, des structures dynamiques et une intensité constante oscillant entre chaos maîtrisé et explosion sonore.
-Ils présentent actuellement leur nouvel album HI HI HA HA (Vicious Circle 2026).`,
+      ca: 'Atak d’Eufòria es forma a inicis dels noranta per plegar a finals de la dècada. 30 anys després es treuen la pols per tornar en format trio i amb un grapat de temes carregats d’energia punk rock, sense oblidar les melodies.',
+      es: 'Atak d’Eufòria se forma a principios de los noventa para disolverse a finales de la década. 30 años después se sacuden el polvo para volver en formato trío y con un puñado de temas cargados de energía punk rock, sin olvidar las melodías.',
+      en: 'Atak d’Eufòria was formed in the early nineties and split up at the end of the decade. 30 years later, they return as a trio with a handful of songs full of punk rock energy, without forgetting the melodies.',
+      fr: 'Atak d’Eufòria se forme au début des années quatre-vingt-dix pour se séparer à la fin de la décennie. 30 ans plus tard, ils reprennent du service en format trio avec une poignée de morceaux chargés d’énergie punk rock, sans oublier les mélodies.',
     },
-    image: '/bands/ititanita.jpeg',
-    youtube: 'https://youtu.be/RTLPq2gtNs8?si=eqynZDLtshsnnq1P',
+    image: '/bands/atakdeuforia.png',
+    youtube: '',
+    instagram: '',
+  },
+  {
+    id: 'NÖIA',
+    isAnnounced: true,
+    name: {
+      ca: 'NÖIA',
+      es: 'NÖIA',
+      en: 'NÖIA',
+      fr: 'NÖIA',
+    },
+
+    description: {
+      ca: `NÖIA neix de la inercia de ser músic i viure a Sant Feliu de Guíxols. Al bressol més longeu del punk rock català, entre tovalloles a la platja i colzes a les barres dels bars, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) i Carles (Bécquer, Bad Mongos, Bullitt) comencen a trobar-se al 2019 en els locals de l'antiga Atzavara orfes de banda per començar a encaixar guitarres i tornades enganxifoses. Perque tenen clar que la cosa anira de punk rock i de ballaruques amb punys amunt, fidels al gènere que plana per la localitat des dels ancestrals Sant Feliu Fest.
+Al 2022 editen "NÖIA" amb Saltamarges i igual que en els seus concerts, sense temps per respirar ni mitjos temps, al 2023 enregistren "11". Ambdós amb l'amic de la banda i gurú dels controls de discs guitarreros Santi Garcia. La fórmula es clara i concreta. Base rítmica galopant sense monotonia. Baixos que filen compàs i melodia empenyent guitarres contundents i melodiques per posar en primer pla la veu. Una fórmula infal·lible reforçada per una veu versatil en els registres i directe en les paraules`,
+
+      es: `NÖIA nace de la inercia de ser músico y vivir en Sant Feliu de Guíxols. En la cuna más longeva del punk rock catalán, entre toallas en la playa y codos en las barras de los bares, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) y Carles (Bécquer, Bad Mongos, Bullitt) empiezan a encontrarse en 2019 en los locales de la antigua Atzavara, huérfanos de banda, para empezar a encajar guitarras y estribillos pegadizos. Porque tienen claro que la cosa irá de punk rock y de bailoteos con los puños en alto, fieles al género que sobrevuela la localidad desde los ancestrales Sant Feliu Fest.
+En 2022 editan "NÖIA" con Saltamarges y, igual que en sus conciertos, sin tiempo para respirar ni medios tiempos, en 2023 graban "11". Ambos junto al amigo de la banda y gurú en los controles de discos guitarreros Santi Garcia. La fórmula es clara y concreta. Base rítmica galopante sin monotonía. Bajos que tejen compás y melodía empujando guitarras contundentes y melódicas para situar la voz en primer plano. Una fórmula infalible reforzada por una voz versátil en los registros y directa en las palabras`,
+
+      en: `NÖIA is born from the inertia of being a musician and living in Sant Feliu de Guíxols. In the longest-standing cradle of Catalan punk rock, between beach towels and elbows on bar counters, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) and Carles (Bécquer, Bad Mongos, Bullitt) started meeting in 2019 in the old Atzavara rehearsal spaces, bandless, to piece together guitars and catchy choruses. Because they are clear that this is about punk rock and dancing with fists in the air, faithful to the genre that has hovered over the town since the ancestral Sant Feliu Fest.
+In 2022 they released "NÖIA" with Saltamarges and, just like in their shows, with no time to breathe and no mid-tempos, they recorded "11" in 2023. Both with their friend and guitar-record guru at the controls, Santi Garcia. The formula is clear and precise. A galloping rhythmic base without monotony. Bass lines weaving rhythm and melody, pushing powerful and melodic guitars to bring the vocals to the forefront. A fail-safe formula reinforced by a versatile voice across registers and direct in its words`,
+
+      fr: `NÖIA naît de l’inertie d’être musicien et de vivre à Sant Feliu de Guíxols. Dans le berceau le plus ancien du punk rock catalan, entre serviettes sur la plage et coudes accoudés aux bars, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) et Carles (Bécquer, Bad Mongos, Bullitt) commencent à se retrouver en 2019 dans les locaux de l’ancienne Atzavara, orphelins de groupe, pour assembler guitares et refrains accrocheurs. Parce qu’ils ont bien clair que cela ira vers le punk rock et les danses poings levés, fidèles au genre qui plane sur la ville depuis les ancestraux Sant Feliu Fest.
+En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps pour respirer ni tempos intermédiaires, ils enregistrent "11" en 2023. Les deux avec leur ami du groupe et gourou des enregistrements guitare, Santi Garcia. La formule est claire et précise. Une base rythmique galopante sans monotonie. Des lignes de basse qui tissent rythme et mélodie, poussant des guitares puissantes et mélodiques pour mettre la voix au premier plan. Une formule infaillible renforcée par une voix polyvalente dans ses registres et directe dans ses paroles`,
+    },
+    image: '/bands/noia.jpeg',
+    youtube: 'https://youtu.be/KV7Hy-XFF1A?si=1iP41Y8KR78lCrl1',
     instagram: 'https://www.instagram.com/',
   },
   {
@@ -60,34 +74,34 @@ En février 2025, ils ont sorti leur deuxième LP, LOS MALOS MUEREN, enregistré
     instagram: 'https://www.instagram.com/',
   },
   {
-    id: 'gros-enfant-mort',
+    id: 'blak',
     isAnnounced: true,
     name: {
-      ca: 'Gros enfant mort',
-      es: 'Gros enfant mort',
-      en: 'Gros enfant mort',
-      fr: 'Gros enfant mort',
+      ca: 'B·L·A·K ',
+      es: 'B·L·A·K ',
+      en: 'B·L·A·K ',
+      fr: 'B·L·A·K ',
     },
     tag: 'Just Announced',
     description: {
-      ca: `Gros Enfant Mort és una banda de screamo i post-hardcore originària de Poitiers (França), que combina una intensa expressivitat emocional amb passatges sonors durs i abrasius, arrelats en la tradició del hardcore post-punk europeu.
-El projecte arrenca el 2019 com una idea solista que l’autor desenvolupà de manera introspectiva, per després ampliar-se amb músics col·laboradors per tocar en directe i estructurar una proposta de banda més completa.
-Musicalment, Gros Enfant Mort s’inscriu en la vena del screamo francès i post-hardcore que succeeix a figures com Daïtro, Amanda Woodward o Sed Non Satiata, caracteritzant-se per un so carregat d’intensitat, que transita des de passatges melòdics subtils fins a murs de soroll, amb vocals cridats i rítmiques que conjuminen urgència i emotivitat.`,
+      ca: `Blak és com agafar aire i veure quant de temps pots aguantar sense exhalar.
+Des del minimalisme de guitarres i bateria que ressonen amb solitud en habitacions buides fins a la força visceral de murs de so imponents, el post-rock de la banda és un repte constant: el repte de capbussar-se en les emocions més diverses i seguir-les al llarg del viatge que creen els seus àlbums i concerts.
+La música de Blak beu de l’herència del post-rock clàssic —amb referències a bandes com Mogwai, Mono o Explosions in the Sky— però manté una identitat pròpia marcada per la sensibilitat mediterrània i una construcció narrativa molt marcada.`,
 
-      es: `Gros Enfant Mort es una banda de screamo y post-hardcore originaria de Poitiers (Francia), que combina una intensa expresividad emocional con pasajes sonoros duros y abrasivos, arraigados en la tradición del hardcore post-punk europeo.
-El proyecto comienza en 2019 como una idea en solitario que el autor desarrolló de forma introspectiva, para luego ampliarse con músicos colaboradores para tocar en directo y estructurar una propuesta de banda más completa.
-Musicalmente, Gros Enfant Mort se inscribe en la línea del screamo francés y el post-hardcore que sigue a figuras como Daïtro, Amanda Woodward o Sed Non Satiata, caracterizándose por un sonido cargado de intensidad, que transita desde pasajes melódicos sutiles hasta muros de ruido, con voces gritadas y ritmos que combinan urgencia y emotividad.`,
+      es: `Blak es como coger aire y ver cuánto tiempo puedes aguantar sin exhalar.
+Desde el minimalismo de guitarras y batería que resuenan con soledad en habitaciones vacías hasta la fuerza visceral de muros de sonido imponentes, el post-rock de la banda es un reto constante: el reto de sumergirse en las emociones más diversas y seguirlas a lo largo del viaje que crean sus álbumes y conciertos.
+La música de Blak bebe de la herencia del post-rock clásico —con referencias a bandas como Mogwai, Mono o Explosions in the Sky— pero mantiene una identidad propia marcada por la sensibilidad mediterránea y una construcción narrativa muy definida.`,
 
-      en: `Gros Enfant Mort is a screamo and post-hardcore band from Poitiers (France), combining intense emotional expressiveness with harsh and abrasive sonic passages rooted in the European post-punk hardcore tradition.
-The project began in 2019 as a solo idea developed introspectively by its author, later expanding with additional musicians to perform live and shape a more complete band setup.
-Musically, Gros Enfant Mort follows in the vein of French screamo and post-hardcore acts such as Daïtro, Amanda Woodward or Sed Non Satiata, characterized by a sound full of intensity that moves from subtle melodic passages to walls of noise, with screamed vocals and rhythms that blend urgency and emotion.`,
+      en: `Blak is like taking a breath and seeing how long you can hold it without exhaling.
+From the minimalism of guitars and drums echoing with solitude in empty rooms to the visceral force of towering walls of sound, the band’s post-rock is a constant challenge: the challenge of diving into a wide range of emotions and following them throughout the journey created by their albums and live shows.
+Blak’s music draws from the legacy of classic post-rock —with references to bands like Mogwai, Mono or Explosions in the Sky— while maintaining a distinct identity shaped by Mediterranean sensibility and a strong narrative construction.`,
 
-      fr: `Gros Enfant Mort est un groupe de screamo et post-hardcore originaire de Poitiers (France), qui combine une expressivité émotionnelle intense avec des passages sonores durs et abrasifs, ancrés dans la tradition du hardcore post-punk européen.
-Le projet débute en 2019 comme une idée solo développée de manière introspective, avant de s’élargir avec des musiciens collaborateurs pour jouer en live et structurer une proposition de groupe plus complète.
-Musicalement, Gros Enfant Mort s’inscrit dans la lignée du screamo français et du post-hardcore représenté par des groupes comme Daïtro, Amanda Woodward ou Sed Non Satiata, avec un son chargé d’intensité qui évolue de passages mélodiques subtils à des murs de bruit, avec des voix criées et des rythmiques mêlant urgence et émotion.`,
+      fr: `Blak, c’est comme prendre une grande inspiration et voir combien de temps on peut la retenir sans expirer.
+Du minimalisme de guitares et de batterie résonnant avec solitude dans des pièces vides à la puissance viscérale de murs de son imposants, le post-rock du groupe est un défi constant : celui de plonger dans une large palette d’émotions et de les suivre tout au long du voyage que proposent leurs albums et leurs concerts.
+La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec des références à des groupes comme Mogwai, Mono ou Explosions in the Sky— tout en conservant une identité propre marquée par une sensibilité méditerranéenne et une construction narrative très affirmée.`,
     },
-    image: '/bands/gros-enfant-mort.jpeg',
-    youtube: 'https://youtu.be/dsppxPfMGpo?si=wTYROirVKA0Rqe4M',
+    image: '/bands/blak.jpeg',
+    youtube: 'https://youtu.be/6FrdzJlO_MU?si=fi4ysRc_ma0cCXj6',
     instagram: 'https://www.instagram.com/',
   },
   {
@@ -149,6 +163,29 @@ Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti
     instagram: 'https://www.instagram.com/',
   },
   {
+    id: 'tano',
+    isAnnounced: true,
+    name: {
+      ca: 'Tano!',
+      es: 'Tano!',
+      en: 'Tano!',
+      fr: 'Tano!',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `La llavor del power duo català Tano! es va plantar el 2014, arran dels concerts pòstums de la gira de Hurricäde compartint escenari i gira amb els també desapareguts Anchord. La germinació va sorgir al 2015, quan l'Oskar Garcia (Hurricäde) i en Victor Pelusa (Anchord, Mendra) s'ajunten cada vegada de manera més regular al local d'assaig, d'on n'acabarà sortint un encanteri musical del tot original. Cançons esbojarrades, dissonants, rítmiques i dinàmiques, cantades íntegrament en català i en constant recerca de noves sensacions que es reflecteixen en tres entregues discogràfiques i ressonen en incomptables concerts per terres catalanes, la península ibèrica i part del continent europeu; directes on es mantenen les emocions fortes, la visceralitat i lletres amb caire de llegendes amb un missatge al darrere escopides pel micro.`,
+
+      es: `La semilla del power dúo catalán Tano! se plantó en 2014, a raíz de los conciertos póstumos de la gira de Hurricäde compartiendo escenario y gira con los también desaparecidos Anchord. La germinación llegó en 2015, cuando Oskar Garcia (Hurricäde) y Victor Pelusa (Anchord, Mendra) empiezan a juntarse cada vez con más regularidad en el local de ensayo, de donde acabará saliendo un hechizo musical totalmente original. Canciones alocadas, disonantes, rítmicas y dinámicas, cantadas íntegramente en catalán y en constante búsqueda de nuevas sensaciones que se reflejan en tres entregas discográficas y resuenan en innumerables conciertos por tierras catalanas, la península ibérica y parte del continente europeo; directos donde se mantienen las emociones fuertes, la visceralidad y letras con aire de leyendas con un mensaje detrás escupidas al micro.`,
+
+      en: `The seed of the Catalan power duo Tano! was planted in 2014, following the posthumous concerts of the Hurricäde tour, sharing stage and tour with the also now-defunct Anchord. The germination came in 2015, when Oskar Garcia (Hurricäde) and Victor Pelusa (Anchord, Mendra) began meeting more regularly in the rehearsal space, from which a completely original musical spell would emerge. Wild, dissonant, rhythmic and dynamic songs, entirely sung in Catalan and in constant search of new sensations, reflected in three record releases and echoed in countless concerts across Catalonia, the Iberian Peninsula and parts of Europe; live shows where intense emotions, raw energy and lyrics with a legendary tone and a message behind them are spat into the mic.`,
+
+      fr: `La graine du power duo catalan Tano! a été plantée en 2014, à la suite des concerts posthumes de la tournée de Hurricäde, partageant scène et tournée avec les également disparus Anchord. La germination arrive en 2015, lorsque Oskar Garcia (Hurricäde) et Victor Pelusa (Anchord, Mendra) commencent à se retrouver de plus en plus régulièrement en salle de répétition, d’où naîtra un sort musical totalement original. Des chansons déjantées, dissonantes, rythmiques et dynamiques, entièrement chantées en catalan et en constante recherche de nouvelles sensations, reflétées dans trois sorties discographiques et résonnant dans d’innombrables concerts à travers la Catalogne, la péninsule ibérique et une partie de l’Europe ; des lives où se maintiennent des émotions fortes, la visceralité et des paroles au ton de légendes avec un message derrière, crachées dans le micro.`,
+    },
+    image: '/bands/tano-band.jpeg',
+    youtube: 'https://youtu.be/4WUD3Cmf3xY?si=Vf6BXvoF5Rj1K-Vf',
+    instagram: 'https://www.instagram.com/',
+  },
+  {
     id: 'dark-side-of-soul',
     isAnnounced: true,
     name: {
@@ -185,31 +222,39 @@ Text: Ricky Lavado.`,
     instagram: 'https://www.instagram.com/',
   },
   {
-    id: 'tano',
-    isAnnounced: false,
+    id: 'gros-enfant-mort',
+    isAnnounced: true,
     name: {
-      ca: 'Tano!',
-      es: 'Tano!',
-      en: 'Tano!',
-      fr: 'Tano!',
+      ca: 'Gros enfant mort',
+      es: 'Gros enfant mort',
+      en: 'Gros enfant mort',
+      fr: 'Gros enfant mort',
     },
     tag: 'Just Announced',
     description: {
-      ca: `La llavor del power duo català Tano! es va plantar el 2014, arran dels concerts pòstums de la gira de Hurricäde compartint escenari i gira amb els també desapareguts Anchord. La germinació va sorgir al 2015, quan l'Oskar Garcia (Hurricäde) i en Victor Pelusa (Anchord, Mendra) s'ajunten cada vegada de manera més regular al local d'assaig, d'on n'acabarà sortint un encanteri musical del tot original. Cançons esbojarrades, dissonants, rítmiques i dinàmiques, cantades íntegrament en català i en constant recerca de noves sensacions que es reflecteixen en tres entregues discogràfiques i ressonen en incomptables concerts per terres catalanes, la península ibèrica i part del continent europeu; directes on es mantenen les emocions fortes, la visceralitat i lletres amb caire de llegendes amb un missatge al darrere escopides pel micro.`,
+      ca: `Gros Enfant Mort és una banda de screamo i post-hardcore originària de Poitiers (França), que combina una intensa expressivitat emocional amb passatges sonors durs i abrasius, arrelats en la tradició del hardcore post-punk europeu.
+El projecte arrenca el 2019 com una idea solista que l’autor desenvolupà de manera introspectiva, per després ampliar-se amb músics col·laboradors per tocar en directe i estructurar una proposta de banda més completa.
+Musicalment, Gros Enfant Mort s’inscriu en la vena del screamo francès i post-hardcore que succeeix a figures com Daïtro, Amanda Woodward o Sed Non Satiata, caracteritzant-se per un so carregat d’intensitat, que transita des de passatges melòdics subtils fins a murs de soroll, amb vocals cridats i rítmiques que conjuminen urgència i emotivitat.`,
 
-      es: `La semilla del power dúo catalán Tano! se plantó en 2014, a raíz de los conciertos póstumos de la gira de Hurricäde compartiendo escenario y gira con los también desaparecidos Anchord. La germinación llegó en 2015, cuando Oskar Garcia (Hurricäde) y Victor Pelusa (Anchord, Mendra) empiezan a juntarse cada vez con más regularidad en el local de ensayo, de donde acabará saliendo un hechizo musical totalmente original. Canciones alocadas, disonantes, rítmicas y dinámicas, cantadas íntegramente en catalán y en constante búsqueda de nuevas sensaciones que se reflejan en tres entregas discográficas y resuenan en innumerables conciertos por tierras catalanas, la península ibérica y parte del continente europeo; directos donde se mantienen las emociones fuertes, la visceralidad y letras con aire de leyendas con un mensaje detrás escupidas al micro.`,
+      es: `Gros Enfant Mort es una banda de screamo y post-hardcore originaria de Poitiers (Francia), que combina una intensa expresividad emocional con pasajes sonoros duros y abrasivos, arraigados en la tradición del hardcore post-punk europeo.
+El proyecto comienza en 2019 como una idea en solitario que el autor desarrolló de forma introspectiva, para luego ampliarse con músicos colaboradores para tocar en directo y estructurar una propuesta de banda más completa.
+Musicalmente, Gros Enfant Mort se inscribe en la línea del screamo francés y el post-hardcore que sigue a figuras como Daïtro, Amanda Woodward o Sed Non Satiata, caracterizándose por un sonido cargado de intensidad, que transita desde pasajes melódicos sutiles hasta muros de ruido, con voces gritadas y ritmos que combinan urgencia y emotividad.`,
 
-      en: `The seed of the Catalan power duo Tano! was planted in 2014, following the posthumous concerts of the Hurricäde tour, sharing stage and tour with the also now-defunct Anchord. The germination came in 2015, when Oskar Garcia (Hurricäde) and Victor Pelusa (Anchord, Mendra) began meeting more regularly in the rehearsal space, from which a completely original musical spell would emerge. Wild, dissonant, rhythmic and dynamic songs, entirely sung in Catalan and in constant search of new sensations, reflected in three record releases and echoed in countless concerts across Catalonia, the Iberian Peninsula and parts of Europe; live shows where intense emotions, raw energy and lyrics with a legendary tone and a message behind them are spat into the mic.`,
+      en: `Gros Enfant Mort is a screamo and post-hardcore band from Poitiers (France), combining intense emotional expressiveness with harsh and abrasive sonic passages rooted in the European post-punk hardcore tradition.
+The project began in 2019 as a solo idea developed introspectively by its author, later expanding with additional musicians to perform live and shape a more complete band setup.
+Musically, Gros Enfant Mort follows in the vein of French screamo and post-hardcore acts such as Daïtro, Amanda Woodward or Sed Non Satiata, characterized by a sound full of intensity that moves from subtle melodic passages to walls of noise, with screamed vocals and rhythms that blend urgency and emotion.`,
 
-      fr: `La graine du power duo catalan Tano! a été plantée en 2014, à la suite des concerts posthumes de la tournée de Hurricäde, partageant scène et tournée avec les également disparus Anchord. La germination arrive en 2015, lorsque Oskar Garcia (Hurricäde) et Victor Pelusa (Anchord, Mendra) commencent à se retrouver de plus en plus régulièrement en salle de répétition, d’où naîtra un sort musical totalement original. Des chansons déjantées, dissonantes, rythmiques et dynamiques, entièrement chantées en catalan et en constante recherche de nouvelles sensations, reflétées dans trois sorties discographiques et résonnant dans d’innombrables concerts à travers la Catalogne, la péninsule ibérique et une partie de l’Europe ; des lives où se maintiennent des émotions fortes, la visceralité et des paroles au ton de légendes avec un message derrière, crachées dans le micro.`,
+      fr: `Gros Enfant Mort est un groupe de screamo et post-hardcore originaire de Poitiers (France), qui combine une expressivité émotionnelle intense avec des passages sonores durs et abrasifs, ancrés dans la tradition du hardcore post-punk européen.
+Le projet débute en 2019 comme une idée solo développée de manière introspective, avant de s’élargir avec des musiciens collaborateurs pour jouer en live et structurer une proposition de groupe plus complète.
+Musicalement, Gros Enfant Mort s’inscrit dans la lignée du screamo français et du post-hardcore représenté par des groupes comme Daïtro, Amanda Woodward ou Sed Non Satiata, avec un son chargé d’intensité qui évolue de passages mélodiques subtils à des murs de bruit, avec des voix criées et des rythmiques mêlant urgence et émotion.`,
     },
-    image: '/bands/tano-band.jpeg',
-    youtube: 'https://youtu.be/4WUD3Cmf3xY?si=Vf6BXvoF5Rj1K-Vf',
+    image: '/bands/gros-enfant-mort.jpeg',
+    youtube: 'https://youtu.be/dsppxPfMGpo?si=wTYROirVKA0Rqe4M',
     instagram: 'https://www.instagram.com/',
   },
   {
     id: 'vibora',
-    isAnnounced: false,
+    isAnnounced: true,
     name: {
       ca: 'Vibora',
       es: 'Vibora',
@@ -243,82 +288,99 @@ Víbora est un groupe de post-hardcore formé à Gasteiz au début de 2018 par d
     instagram: 'https://www.instagram.com/',
   },
   {
-    id: 'NÖIA',
-    isAnnounced: false,
+    id: 'E150',
+    isAnnounced: true,
     name: {
-      ca: 'NÖIA',
-      es: 'NÖIA',
-      en: 'NÖIA',
-      fr: 'NÖIA',
-    },
-
-    description: {
-      ca: `NÖIA neix de la inercia de ser músic i viure a Sant Feliu de Guíxols. Al bressol més longeu del punk rock català, entre tovalloles a la platja i colzes a les barres dels bars, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) i Carles (Bécquer, Bad Mongos, Bullitt) comencen a trobar-se al 2019 en els locals de l'antiga Atzavara orfes de banda per començar a encaixar guitarres i tornades enganxifoses. Perque tenen clar que la cosa anira de punk rock i de ballaruques amb punys amunt, fidels al gènere que plana per la localitat des dels ancestrals Sant Feliu Fest.
-Al 2022 editen "NÖIA" amb Saltamarges i igual que en els seus concerts, sense temps per respirar ni mitjos temps, al 2023 enregistren "11". Ambdós amb l'amic de la banda i gurú dels controls de discs guitarreros Santi Garcia. La fórmula es clara i concreta. Base rítmica galopant sense monotonia. Baixos que filen compàs i melodia empenyent guitarres contundents i melodiques per posar en primer pla la veu. Una fórmula infal·lible reforçada per una veu versatil en els registres i directe en les paraules`,
-
-      es: `NÖIA nace de la inercia de ser músico y vivir en Sant Feliu de Guíxols. En la cuna más longeva del punk rock catalán, entre toallas en la playa y codos en las barras de los bares, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) y Carles (Bécquer, Bad Mongos, Bullitt) empiezan a encontrarse en 2019 en los locales de la antigua Atzavara, huérfanos de banda, para empezar a encajar guitarras y estribillos pegadizos. Porque tienen claro que la cosa irá de punk rock y de bailoteos con los puños en alto, fieles al género que sobrevuela la localidad desde los ancestrales Sant Feliu Fest.
-En 2022 editan "NÖIA" con Saltamarges y, igual que en sus conciertos, sin tiempo para respirar ni medios tiempos, en 2023 graban "11". Ambos junto al amigo de la banda y gurú en los controles de discos guitarreros Santi Garcia. La fórmula es clara y concreta. Base rítmica galopante sin monotonía. Bajos que tejen compás y melodía empujando guitarras contundentes y melódicas para situar la voz en primer plano. Una fórmula infalible reforzada por una voz versátil en los registros y directa en las palabras`,
-
-      en: `NÖIA is born from the inertia of being a musician and living in Sant Feliu de Guíxols. In the longest-standing cradle of Catalan punk rock, between beach towels and elbows on bar counters, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) and Carles (Bécquer, Bad Mongos, Bullitt) started meeting in 2019 in the old Atzavara rehearsal spaces, bandless, to piece together guitars and catchy choruses. Because they are clear that this is about punk rock and dancing with fists in the air, faithful to the genre that has hovered over the town since the ancestral Sant Feliu Fest.
-In 2022 they released "NÖIA" with Saltamarges and, just like in their shows, with no time to breathe and no mid-tempos, they recorded "11" in 2023. Both with their friend and guitar-record guru at the controls, Santi Garcia. The formula is clear and precise. A galloping rhythmic base without monotony. Bass lines weaving rhythm and melody, pushing powerful and melodic guitars to bring the vocals to the forefront. A fail-safe formula reinforced by a versatile voice across registers and direct in its words`,
-
-      fr: `NÖIA naît de l’inertie d’être musicien et de vivre à Sant Feliu de Guíxols. Dans le berceau le plus ancien du punk rock catalan, entre serviettes sur la plage et coudes accoudés aux bars, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) et Carles (Bécquer, Bad Mongos, Bullitt) commencent à se retrouver en 2019 dans les locaux de l’ancienne Atzavara, orphelins de groupe, pour assembler guitares et refrains accrocheurs. Parce qu’ils ont bien clair que cela ira vers le punk rock et les danses poings levés, fidèles au genre qui plane sur la ville depuis les ancestraux Sant Feliu Fest.
-En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps pour respirer ni tempos intermédiaires, ils enregistrent "11" en 2023. Les deux avec leur ami du groupe et gourou des enregistrements guitare, Santi Garcia. La formule est claire et précise. Une base rythmique galopante sans monotonie. Des lignes de basse qui tissent rythme et mélodie, poussant des guitares puissantes et mélodiques pour mettre la voix au premier plan. Une formule infaillible renforcée par une voix polyvalente dans ses registres et directe dans ses paroles`,
-    },
-    image: '/bands/noia.jpeg',
-    youtube: 'https://youtu.be/KV7Hy-XFF1A?si=1iP41Y8KR78lCrl1',
-    instagram: 'https://www.instagram.com/',
-  },
-  {
-    id: 'blak',
-    isAnnounced: false,
-    name: {
-      ca: 'B·L·A·K ',
-      es: 'B·L·A·K ',
-      en: 'B·L·A·K ',
-      fr: 'B·L·A·K ',
+      ca: 'E150',
+      es: 'E150',
+      en: 'E150',
+      fr: 'E150',
     },
     tag: 'Just Announced',
     description: {
-      ca: `Blak és com agafar aire i veure quant de temps pots aguantar sense exhalar.
-Des del minimalisme de guitarres i bateria que ressonen amb solitud en habitacions buides fins a la força visceral de murs de so imponents, el post-rock de la banda és un repte constant: el repte de capbussar-se en les emocions més diverses i seguir-les al llarg del viatge que creen els seus àlbums i concerts.
-La música de Blak beu de l’herència del post-rock clàssic —amb referències a bandes com Mogwai, Mono o Explosions in the Sky— però manté una identitat pròpia marcada per la sensibilitat mediterrània i una construcció narrativa molt marcada.`,
+      ca: `E150 neix a Barcelona en el si d’una efervescent escena hardcore underground, amb una proposta marcada per l’autogestió, l’honestedat i una intensitat sonora sense concessions. 
+Lluny de fórmules comercials, la banda desenvolupa un so propi que transita entre el hardcore i el punk, combinant estructures canviants, guitarres denses i una forta càrrega emocional en les seves lletres.
+La seva trajectòria s’ha construït dins del circuit DIY, actuant en sales, centres socials i festivals alternatius tant a nivell estatal com europeu. Amb el pas dels anys, E150 s’ha consolidat com una banda de culte dins de l’underground, deixant empremta i influint en noves generacions de grups.`,
 
-      es: `Blak es como coger aire y ver cuánto tiempo puedes aguantar sin exhalar.
-Desde el minimalismo de guitarras y batería que resuenan con soledad en habitaciones vacías hasta la fuerza visceral de muros de sonido imponentes, el post-rock de la banda es un reto constante: el reto de sumergirse en las emociones más diversas y seguirlas a lo largo del viaje que crean sus álbumes y conciertos.
-La música de Blak bebe de la herencia del post-rock clásico —con referencias a bandas como Mogwai, Mono o Explosions in the Sky— pero mantiene una identidad propia marcada por la sensibilidad mediterránea y una construcción narrativa muy definida.`,
+      es: `E150 nace en Barcelona en el seno de una efervescente escena hardcore underground, con una propuesta marcada por la autogestión, la honestidad y una intensidad sonora sin concesiones.
+Lejos de fórmulas comerciales, la banda desarrolla un sonido propio que transita entre el hardcore y el punk, combinando estructuras cambiantes, guitarras densas y una fuerte carga emocional en sus letras.
+Su trayectoria se ha construido dentro del circuito DIY, actuando en salas, centros sociales y festivales alternativos tanto a nivel estatal como europeo. Con el paso de los años, E150 se ha consolidado como una banda de culto dentro del underground, dejando huella e influyendo en nuevas generaciones de grupos.`,
 
-      en: `Blak is like taking a breath and seeing how long you can hold it without exhaling.
-From the minimalism of guitars and drums echoing with solitude in empty rooms to the visceral force of towering walls of sound, the band’s post-rock is a constant challenge: the challenge of diving into a wide range of emotions and following them throughout the journey created by their albums and live shows.
-Blak’s music draws from the legacy of classic post-rock —with references to bands like Mogwai, Mono or Explosions in the Sky— while maintaining a distinct identity shaped by Mediterranean sensibility and a strong narrative construction.`,
+      en: `E150 was born in Barcelona within a vibrant underground hardcore scene, with a proposal defined by self-management, honesty and an uncompromising sonic intensity.
+Far from commercial formulas, the band develops its own sound, moving between hardcore and punk, combining shifting structures, dense guitars and a strong emotional charge in their lyrics.
+Their trajectory has been built within the DIY circuit, performing in venues, social centers and alternative festivals across Spain and Europe. Over the years, E150 has established itself as a cult band within the underground, leaving its mark and influencing new generations of bands.`,
 
-      fr: `Blak, c’est comme prendre une grande inspiration et voir combien de temps on peut la retenir sans expirer.
-Du minimalisme de guitares et de batterie résonnant avec solitude dans des pièces vides à la puissance viscérale de murs de son imposants, le post-rock du groupe est un défi constant : celui de plonger dans une large palette d’émotions et de les suivre tout au long du voyage que proposent leurs albums et leurs concerts.
-La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec des références à des groupes comme Mogwai, Mono ou Explosions in the Sky— tout en conservant une identité propre marquée par une sensibilité méditerranéenne et une construction narrative très affirmée.`,
+      fr: `E150 naît à Barcelone au cœur d’une scène hardcore underground en pleine effervescence, avec une proposition marquée par l’autogestion, l’honnêteté et une intensité sonore sans concessions.
+Loin des formules commerciales, le groupe développe un son propre qui oscille entre hardcore et punk, combinant des structures changeantes, des guitares denses et une forte charge émotionnelle dans ses paroles.
+Sa trajectoire s’est construite au sein du circuit DIY, se produisant dans des salles, centres sociaux et festivals alternatifs à l’échelle nationale et européenne. Au fil des années, E150 s’est imposé comme un groupe culte de l’underground, laissant une empreinte et influençant de nouvelles générations de groupes.`,
     },
-    image: '/bands/blak.jpeg',
-    youtube: 'https://youtu.be/6FrdzJlO_MU?si=fi4ysRc_ma0cCXj6',
+    image: '/bands/e150.png',
+    youtube: 'https://youtube.com',
     instagram: 'https://www.instagram.com/',
   },
   {
-    id: 'atakdeuforia',
-    isAnnounced: false,
+    id: 'ititanita',
+    isAnnounced: true,
     name: {
-      ca: "Atak d'Eufòria ",
-      es: "Atak d'Eufòria ",
-      en: "Atak d'Eufòria ",
-      fr: "Atak d'Eufòria ",
+      ca: 'It it anita',
+      es: 'It it anita',
+      en: 'It it anita',
+      fr: 'It it anita',
     },
     tag: 'Just Announced',
     description: {
-      ca: 'Atak d’Eufòria es forma a inicis dels noranta per plegar a finals de la dècada. 30 anys després es treuen la pols per tornar en format trio i amb un grapat de temes carregats d’energia punk rock, sense oblidar les melodies.',
-      es: 'Atak d’Eufòria se forma a principios de los noventa para disolverse a finales de la década. 30 años después se sacuden el polvo para volver en formato trío y con un puñado de temas cargados de energía punk rock, sin olvidar las melodías.',
-      en: 'Atak d’Eufòria was formed in the early nineties and split up at the end of the decade. 30 years later, they return as a trio with a handful of songs full of punk rock energy, without forgetting the melodies.',
-      fr: 'Atak d’Eufòria se forme au début des années quatre-vingt-dix pour se séparer à la fin de la décennie. 30 ans plus tard, ils reprennent du service en format trio avec une poignée de morceaux chargés d’énergie punk rock, sans oublier les mélodies.',
+      ca: `It It Anita és una banda de noise rock procedent de Lieja (Bèlgica) formada el 2014, coneguda per un so visceral i sense filtres que combina l’agressivitat del punk amb la intensitat del noise rock contemporani.
+      Amb guitarres tallants, ritmes tensos i una energia desbordant, el grup ha construït una reputació sòlida dins l’escena alternativa europea, especialment gràcies a uns directes físics i imprevisibles.
+Des dels seus inicis, la banda ha apostat per una música directa i catàrtica, influenciada per l’herència del noise rock nord-americà i el post-hardcore, amb referències que sovint evoquen grups com The Jesus Lizard, METZ o At The Drive-In.El seu estil combina riffs abrasadors, estructures dinàmiques i una intensitat constant que oscil·la entre el caos controlat i l’explosió sonora.
+Actualment presenta el seu nou treball HI HI HA HA (Vicious Circle 2026).`,
+
+      es: `It It Anita es una banda de noise rock procedente de Lieja (Bélgica) formada en 2014, conocida por un sonido visceral y sin filtros que combina la agresividad del punk con la intensidad del noise rock contemporáneo.
+Con guitarras afiladas, ritmos tensos y una energía desbordante, el grupo ha construido una sólida reputación dentro de la escena alternativa europea, especialmente gracias a unos directos físicos e imprevisibles.
+Desde sus inicios, la banda ha apostado por una música directa y catártica, influenciada por la herencia del noise rock norteamericano y el post-hardcore, con referencias que a menudo evocan a grupos como The Jesus Lizard, METZ o At The Drive-In.Su estilo combina riffs abrasivos, estructuras dinámicas y una intensidad constante que oscila entre el caos controlado y la explosión sonora.
+Actualmente presentan su nuevo trabajo HI HI HA HA (Vicious Circle 2026).`,
+
+      en: `It It Anita is a noise rock band from Liège (Belgium), formed in 2014, known for a raw and uncompromising sound that blends the aggression of punk with the intensity of contemporary noise rock.With sharp guitars, tense rhythms and explosive energy, the band has built a solid reputation within the European alternative scene, especially thanks to their physical and unpredictable live performances.
+Since their beginnings, the band has embraced a direct and cathartic approach, influenced by the legacy of American noise rock and post-hardcore, with references often evoking bands like The Jesus Lizard, METZ or At The Drive-In.Their style combines abrasive riffs, dynamic structures and a constant intensity that moves between controlled chaos and sonic explosion.
+They are currently presenting their new record HI HI HA HA (Vicious Circle 2026).`,
+
+      fr: `It It Anita est un groupe de noise rock originaire de Liège (Belgique), formé en 2014, connu pour un son viscéral et sans filtre qui combine l’agressivité du punk avec l’intensité du noise rock contemporain.Avec des guitares tranchantes, des rythmes tendus et une énergie débordante, le groupe a construit une solide réputation au sein de la scène alternative européenne, notamment grâce à des concerts physiques et imprévisibles.
+Depuis ses débuts, le groupe mise sur une musique directe et cathartique, influencée par l’héritage du noise rock américain et du post-hardcore, avec des références évoquant souvent des groupes comme The Jesus Lizard, METZ ou At The Drive-In.Leur style combine des riffs abrasifs, des structures dynamiques et une intensité constante oscillant entre chaos maîtrisé et explosion sonore.
+Ils présentent actuellement leur nouvel album HI HI HA HA (Vicious Circle 2026).`,
     },
-    image: '/bands/atakdeuforia.png',
-    youtube: '',
-    instagram: '',
+    image: '/bands/ititanita.jpeg',
+    youtube: 'https://youtu.be/RTLPq2gtNs8?si=eqynZDLtshsnnq1P',
+    instagram: 'https://www.instagram.com/',
+  },
+  {
+    id: 'hippie-tirm',
+    isAnnounced: true,
+    name: {
+      ca: 'Hippie trim',
+      es: 'Hippie trim',
+      en: 'Hippie trim',
+      fr: 'Hippie trim',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Hippie Trim es van donar a conèixer amb el seu primer senzill “Supersonic”, que va generar molt d’interès dins l’escena i va impulsar un ascens ràpid, amb el seu primer concert esgotat setmanes abans.
+El grup va compartir escenari amb la banda nord-americana Drug Church durant la seva gira per Alemanya i el 2019 va cridar l’atenció amb el seu disc de debut “Cult”. Aquest àlbum mostrava una combinació única de duresa i melodia, amb riffs dinàmics i una veu alhora crua i etèria, convertint-se en el seu segell distintiu i captivant tant públic com crítica.
+Després d’una pausa breu per la pandèmia, van tornar amb força el 2022, rebent elogis de mitjans internacionals. Han tocat amb grups destacats com Turnstile, Fleshwater o Fiddlehead, ampliant el seu estil musical. El seu segon disc, “What Consumes Me”, va marcar una nova etapa en la seva evolució.`,
+
+      es: `Hippie Trim se dieron a conocer con su primer sencillo “Supersonic”, que generó mucho interés dentro de la escena e impulsó un ascenso rápido, con su primer concierto agotado semanas antes.
+El grupo compartió escenario con la banda estadounidense Drug Church durante su gira por Alemania y en 2019 llamó la atención con su álbum debut “Cult”. Este disco mostraba una combinación única de dureza y melodía, con riffs dinámicos y una voz a la vez cruda y etérea, convirtiéndose en su sello distintivo y cautivando tanto al público como a la crítica.
+Tras una breve pausa por la pandemia, regresaron con fuerza en 2022, recibiendo elogios de medios internacionales. Han tocado con bandas destacadas como Turnstile, Fleshwater o Fiddlehead, ampliando su estilo musical. Su segundo álbum, “What Consumes Me”, marcó una nueva etapa en su evolución.`,
+
+      en: `Hippie Trim gained recognition with their debut single “Supersonic”, which generated significant buzz within the scene and sparked a rapid rise, with their first show selling out weeks in advance.
+The band shared the stage with American group Drug Church during their tour in Germany, and in 2019 they drew attention with their debut album “Cult”. The record showcased a unique blend of heaviness and melody, featuring dynamic riffs and a voice that was both raw and ethereal, becoming their signature sound and captivating both audiences and critics.
+After a brief pause during the pandemic, they returned strong in 2022, receiving praise from international media. They have played alongside notable acts such as Turnstile, Fleshwater, and Fiddlehead, expanding their musical style. Their second album, “What Consumes Me”, marked a new phase in their evolution.`,
+
+      fr: `Hippie Trim se sont fait connaître avec leur premier single “Supersonic”, qui a suscité beaucoup d’intérêt au sein de la scène et a lancé une ascension rapide, avec un premier concert complet plusieurs semaines à l’avance.
+Le groupe a partagé la scène avec le groupe américain Drug Church lors de sa tournée en Allemagne et, en 2019, a attiré l’attention avec son premier album “Cult”. Cet album présentait une combinaison unique de dureté et de mélodie, avec des riffs dynamiques et une voix à la fois brute et éthérée, devenant leur signature et séduisant à la fois le public et la critique.
+Après une brève pause due à la pandémie, ils sont revenus en force en 2022, recevant des éloges de la presse internationale. Ils ont joué avec des groupes majeurs tels que Turnstile, Fleshwater ou Fiddlehead, élargissant leur style musical. Leur deuxième album, “What Consumes Me”, a marqué une nouvelle étape dans leur évolution.`,
+    },
+    image: '/bands/hippie-trim.png',
+    youtube: 'https://youtu.be/e_RA55mqCbI?si=sdr6QvrwJQK_5TVK',
+    instagram: 'https://www.instagram.com/',
   },
   {
     id: 'william',
@@ -373,36 +435,5 @@ Pour célébrer les 15 ans d’Actitud, elles se sont réunies spécialement pou
     image: '/bands/theenjoydivision.png',
     youtube: '',
     instagram: '',
-  },
-  {
-    id: 'hippie-tirm',
-    isAnnounced: false,
-    name: {
-      ca: 'Hippie trim',
-      es: 'Hippie trim',
-      en: 'Hippie trim',
-      fr: 'Hippie trim',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `Hippie Trim es van donar a conèixer amb el seu primer senzill “Supersonic”, que va generar molt d’interès dins l’escena i va impulsar un ascens ràpid, amb el seu primer concert esgotat setmanes abans.
-El grup va compartir escenari amb la banda nord-americana Drug Church durant la seva gira per Alemanya i el 2019 va cridar l’atenció amb el seu disc de debut “Cult”. Aquest àlbum mostrava una combinació única de duresa i melodia, amb riffs dinàmics i una veu alhora crua i etèria, convertint-se en el seu segell distintiu i captivant tant públic com crítica.
-Després d’una pausa breu per la pandèmia, van tornar amb força el 2022, rebent elogis de mitjans internacionals. Han tocat amb grups destacats com Turnstile, Fleshwater o Fiddlehead, ampliant el seu estil musical. El seu segon disc, “What Consumes Me”, va marcar una nova etapa en la seva evolució.`,
-
-      es: `Hippie Trim se dieron a conocer con su primer sencillo “Supersonic”, que generó mucho interés dentro de la escena e impulsó un ascenso rápido, con su primer concierto agotado semanas antes.
-El grupo compartió escenario con la banda estadounidense Drug Church durante su gira por Alemania y en 2019 llamó la atención con su álbum debut “Cult”. Este disco mostraba una combinación única de dureza y melodía, con riffs dinámicos y una voz a la vez cruda y etérea, convirtiéndose en su sello distintivo y cautivando tanto al público como a la crítica.
-Tras una breve pausa por la pandemia, regresaron con fuerza en 2022, recibiendo elogios de medios internacionales. Han tocado con bandas destacadas como Turnstile, Fleshwater o Fiddlehead, ampliando su estilo musical. Su segundo álbum, “What Consumes Me”, marcó una nueva etapa en su evolución.`,
-
-      en: `Hippie Trim gained recognition with their debut single “Supersonic”, which generated significant buzz within the scene and sparked a rapid rise, with their first show selling out weeks in advance.
-The band shared the stage with American group Drug Church during their tour in Germany, and in 2019 they drew attention with their debut album “Cult”. The record showcased a unique blend of heaviness and melody, featuring dynamic riffs and a voice that was both raw and ethereal, becoming their signature sound and captivating both audiences and critics.
-After a brief pause during the pandemic, they returned strong in 2022, receiving praise from international media. They have played alongside notable acts such as Turnstile, Fleshwater, and Fiddlehead, expanding their musical style. Their second album, “What Consumes Me”, marked a new phase in their evolution.`,
-
-      fr: `Hippie Trim se sont fait connaître avec leur premier single “Supersonic”, qui a suscité beaucoup d’intérêt au sein de la scène et a lancé une ascension rapide, avec un premier concert complet plusieurs semaines à l’avance.
-Le groupe a partagé la scène avec le groupe américain Drug Church lors de sa tournée en Allemagne et, en 2019, a attiré l’attention avec son premier album “Cult”. Cet album présentait une combinaison unique de dureté et de mélodie, avec des riffs dynamiques et une voix à la fois brute et éthérée, devenant leur signature et séduisant à la fois le public et la critique.
-Après une brève pause due à la pandémie, ils sont revenus en force en 2022, recevant des éloges de la presse internationale. Ils ont joué avec des groupes majeurs tels que Turnstile, Fleshwater ou Fiddlehead, élargissant leur style musical. Leur deuxième album, “What Consumes Me”, a marqué une nouvelle étape dans leur évolution.`,
-    },
-    image: '/bands/hippie-trim.png',
-    youtube: 'https://youtu.be/e_RA55mqCbI?si=sdr6QvrwJQK_5TVK',
-    instagram: 'https://www.instagram.com/',
   },
 ];

@@ -231,7 +231,7 @@ const archiveData = `1	19/02/2002	Camping(Granollers) + No time to Think (Granol
 228	20-21-22/7/23	Actitud Fest 2023-Vidreres
 229	20/04/2024	Johnny Mafia (França) + Sonic Beast (Sfg) Gransrecords Lleida
 230	21/04/2024	Johnny Mafia(França) + Sonic beast Sala ATV Sarrià de Ter
-231	28-29/6/24	Actitu Fest 24 -Vidreres
+231	28-29/6/24	Actitud Fest 24 -Vidreres
 232	22/09/2024	It It Anita (Bèlgica) + iou3R (Maresme) Sala ATV-Sarrià de Ter
 233	01/03/2025	Las Nubes(USA) + Fajardo (Canaries)
 234	09/05/2025	Aerial Salad(UK)+Flamsteed(Bcn)
@@ -312,7 +312,7 @@ function About() {
               </div>
 
               <div className='space-y-8'>
-                {archiveYears.map((year) => (
+                {[...archiveYears].reverse().map((year) => (
                   <section
                     key={year}
                     className='border-t border-black/10 pt-5 first:border-t-0 first:pt-0'
@@ -324,7 +324,7 @@ function About() {
                     </div>
 
                     <div className='space-y-2'>
-                      {groupedArchive[year].map((entry) => (
+                      {[...groupedArchive[year]].reverse().map((entry) => (
                         <article
                           key={entry.number}
                           className='grid gap-2 rounded-lg border border-black/8 bg-black/[0.02] px-4 py-3 sm:grid-cols-[72px_110px_minmax(0,1fr)] sm:items-start sm:gap-4'
