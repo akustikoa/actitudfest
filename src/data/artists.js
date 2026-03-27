@@ -1,6 +1,7 @@
 export const artists = [
   {
     id: 'ititanita',
+    isAnnounced: true,
     name: {
       ca: 'It it anita',
       es: 'It it anita',
@@ -33,6 +34,7 @@ Ils présentent actuellement leur nouvel album HI HI HA HA (Vicious Circle 2026)
   },
   {
     id: 'peligro',
+    isAnnounced: true,
     name: {
       ca: 'Peligro!',
       es: 'Peligro!',
@@ -59,6 +61,7 @@ En février 2025, ils ont sorti leur deuxième LP, LOS MALOS MUEREN, enregistré
   },
   {
     id: 'gros-enfant-mort',
+    isAnnounced: true,
     name: {
       ca: 'Gros enfant mort',
       es: 'Gros enfant mort',
@@ -89,6 +92,7 @@ Musicalement, Gros Enfant Mort s’inscrit dans la lignée du screamo français 
   },
   {
     id: 'pigeon-island',
+    isAnnounced: true,
     name: {
       ca: 'Pigeon Island',
       es: 'Pigeon Island',
@@ -119,6 +123,7 @@ Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti
   },
   {
     id: 'chalk-hands',
+    isAnnounced: true,
     name: {
       ca: 'Chalk Hands',
       es: 'Chalk Hands',
@@ -145,6 +150,7 @@ Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti
   },
   {
     id: 'dark-side-of-soul',
+    isAnnounced: true,
     name: {
       ca: 'Dark Side of Soul',
       es: 'Dark Side of Soul',
@@ -180,6 +186,7 @@ Text: Ricky Lavado.`,
   },
   {
     id: 'tano',
+    isAnnounced: false,
     name: {
       ca: 'Tano!',
       es: 'Tano!',
@@ -202,6 +209,7 @@ Text: Ricky Lavado.`,
   },
   {
     id: 'vibora',
+    isAnnounced: false,
     name: {
       ca: 'Vibora',
       es: 'Vibora',
@@ -236,6 +244,7 @@ Víbora est un groupe de post-hardcore formé à Gasteiz au début de 2018 par d
   },
   {
     id: 'NÖIA',
+    isAnnounced: false,
     name: {
       ca: 'NÖIA',
       es: 'NÖIA',
@@ -262,6 +271,7 @@ En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps 
   },
   {
     id: 'blak',
+    isAnnounced: false,
     name: {
       ca: 'B·L·A·K ',
       es: 'B·L·A·K ',
@@ -292,6 +302,7 @@ La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec
   },
   {
     id: 'atakdeuforia',
+    isAnnounced: false,
     name: {
       ca: "Atak d'Eufòria ",
       es: "Atak d'Eufòria ",
@@ -311,6 +322,7 @@ La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec
   },
   {
     id: 'william',
+    isAnnounced: false,
     name: {
       ca: 'Will.I.Am??? ',
       es: 'Will.I.Am??? ',
@@ -333,6 +345,7 @@ La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec
   },
   {
     id: 'theenjoydivision',
+    isAnnounced: false,
     name: {
       ca: 'The enjoy division',
       es: 'The enjoy division',
@@ -363,6 +376,7 @@ Pour célébrer les 15 ans d’Actitud, elles se sont réunies spécialement pou
   },
   {
     id: 'hippie-tirm',
+    isAnnounced: false,
     name: {
       ca: 'Hippie trim',
       es: 'Hippie trim',

@@ -1,7 +1,8 @@
 import logoFall from '../assets/images/logo_fall.webp';
 import titolActitud from '../assets/images/titol-actitud.png';
-
+import { useLanguage } from '../context/LanguageContext';
 function Hero() {
+  const { t } = useLanguage();
   return (
     <section
       style={{
@@ -39,7 +40,7 @@ function Hero() {
             </div>
 
             <p className='mt-2 max-w-xl text-[clamp(0.45rem,1vw,0.7rem)] font-medium uppercase tracking-[0.22em] text-white/75'>
-              Vidreres 26 / 27 Juny 2026
+              {t('hero.date')}
             </p>
 
             <div className='mt-5 flex flex-wrap items-center gap-4'>

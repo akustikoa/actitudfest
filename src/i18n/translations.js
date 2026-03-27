@@ -1,5 +1,3 @@
-import LineupPreview from '../components/LineupPreview';
-
 export const translations = {
   ca: {
     navbar: {
@@ -8,6 +6,9 @@ export const translations = {
       info: 'Info',
       about: 'About',
       history: 'History',
+    },
+    hero: {
+      date: 'Vidreres 26 / 27 juny 2026',
     },
     infoFestival: {
       howToArrive: 'Com arribar',
@@ -57,6 +58,9 @@ export const translations = {
       about: 'Sobre',
       history: 'Historia',
     },
+    hero: {
+      date: 'Vidreres 26 / 27 junio 2026',
+    },
     infoFestival: {
       howToArrive: 'Cómo llegar',
       minorsTitle: 'Menores y acceso',
@@ -105,6 +109,9 @@ export const translations = {
       about: 'About',
       history: 'History',
     },
+    hero: {
+      date: 'Vidreres June 26 / 27 2026',
+    },
     infoFestival: {
       howToArrive: 'How to get here',
       minorsTitle: 'Minors and access',
@@ -151,6 +158,9 @@ export const translations = {
       info: 'Info',
       about: 'À propos',
       history: 'Histoire',
+    },
+    hero: {
+      date: 'Vidreres 26 / 27 juin 2026',
     },
     infoFestival: {
       howToArrive: 'Comment y accéder',
