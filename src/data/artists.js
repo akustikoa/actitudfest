@@ -361,4 +361,34 @@ Pour célébrer les 15 ans d’Actitud, elles se sont réunies spécialement pou
     youtube: '',
     instagram: '',
   },
+  {
+    id: 'hippie-tirm',
+    name: {
+      ca: 'Hippie trim',
+      es: 'Hippie trim',
+      en: 'Hippie trim',
+      fr: 'Hippie trim',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Hippie Trim es van donar a conèixer amb el seu primer senzill “Supersonic”, que va generar molt d’interès dins l’escena i va impulsar un ascens ràpid, amb el seu primer concert esgotat setmanes abans.
+El grup va compartir escenari amb la banda nord-americana Drug Church durant la seva gira per Alemanya i el 2019 va cridar l’atenció amb el seu disc de debut “Cult”. Aquest àlbum mostrava una combinació única de duresa i melodia, amb riffs dinàmics i una veu alhora crua i etèria, convertint-se en el seu segell distintiu i captivant tant públic com crítica.
+Després d’una pausa breu per la pandèmia, van tornar amb força el 2022, rebent elogis de mitjans internacionals. Han tocat amb grups destacats com Turnstile, Fleshwater o Fiddlehead, ampliant el seu estil musical. El seu segon disc, “What Consumes Me”, va marcar una nova etapa en la seva evolució.`,
+
+      es: `Hippie Trim se dieron a conocer con su primer sencillo “Supersonic”, que generó mucho interés dentro de la escena e impulsó un ascenso rápido, con su primer concierto agotado semanas antes.
+El grupo compartió escenario con la banda estadounidense Drug Church durante su gira por Alemania y en 2019 llamó la atención con su álbum debut “Cult”. Este disco mostraba una combinación única de dureza y melodía, con riffs dinámicos y una voz a la vez cruda y etérea, convirtiéndose en su sello distintivo y cautivando tanto al público como a la crítica.
+Tras una breve pausa por la pandemia, regresaron con fuerza en 2022, recibiendo elogios de medios internacionales. Han tocado con bandas destacadas como Turnstile, Fleshwater o Fiddlehead, ampliando su estilo musical. Su segundo álbum, “What Consumes Me”, marcó una nueva etapa en su evolución.`,
+
+      en: `Hippie Trim gained recognition with their debut single “Supersonic”, which generated significant buzz within the scene and sparked a rapid rise, with their first show selling out weeks in advance.
+The band shared the stage with American group Drug Church during their tour in Germany, and in 2019 they drew attention with their debut album “Cult”. The record showcased a unique blend of heaviness and melody, featuring dynamic riffs and a voice that was both raw and ethereal, becoming their signature sound and captivating both audiences and critics.
+After a brief pause during the pandemic, they returned strong in 2022, receiving praise from international media. They have played alongside notable acts such as Turnstile, Fleshwater, and Fiddlehead, expanding their musical style. Their second album, “What Consumes Me”, marked a new phase in their evolution.`,
+
+      fr: `Hippie Trim se sont fait connaître avec leur premier single “Supersonic”, qui a suscité beaucoup d’intérêt au sein de la scène et a lancé une ascension rapide, avec un premier concert complet plusieurs semaines à l’avance.
+Le groupe a partagé la scène avec le groupe américain Drug Church lors de sa tournée en Allemagne et, en 2019, a attiré l’attention avec son premier album “Cult”. Cet album présentait une combinaison unique de dureté et de mélodie, avec des riffs dynamiques et une voix à la fois brute et éthérée, devenant leur signature et séduisant à la fois le public et la critique.
+Après une brève pause due à la pandémie, ils sont revenus en force en 2022, recevant des éloges de la presse internationale. Ils ont joué avec des groupes majeurs tels que Turnstile, Fleshwater ou Fiddlehead, élargissant leur style musical. Leur deuxième album, “What Consumes Me”, a marqué une nouvelle étape dans leur évolution.`,
+    },
+    image: '/bands/hippie-trim.png',
+    youtube: 'https://youtu.be/e_RA55mqCbI?si=sdr6QvrwJQK_5TVK',
+    instagram: 'https://www.instagram.com/',
+  },
 ];

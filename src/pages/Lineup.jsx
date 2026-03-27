@@ -51,7 +51,7 @@ function Lineup() {
           </div>
         </section>
 
-        <section className='px-6 pb-20 sm:px-10 lg:px-16'>
+        <section className='px-6 pb-8 sm:px-10 lg:px-16'>
           <div className='mx-auto max-w-6xl'>
             {artists.map((artist, index) => {
               const reverse = index % 2 !== 0;
@@ -62,7 +62,7 @@ function Lineup() {
               return (
                 <article
                   key={artist.id}
-                  className='border-t border-neutral-200 py-10 first:border-t-0 first:pt-0'
+                  className='border-t border-neutral-200 py-16 first:border-t-0 first:pt-0'
                 >
                   <div className='grid grid-cols-1 items-center gap-10 md:grid-cols-2'>
                     <div className={reverse ? 'md:order-2' : ''}>

@@ -21,7 +21,8 @@ function LineupPreview() {
         </div>
 
         <div className='grid grid-cols-1 gap-6 lg:hidden'>
-          {mobileGridArtists.map((artist) => (
+          {/* l'slice i posem les miniatures que volem veure en responsive */}
+          {mobileGridArtists.slice(0, 1).map((artist) => (
             <article
               key={`${artist.id}-mobile`}
               className='group relative aspect-square overflow-hidden rounded-[0.4rem] border border-white/10 bg-white/[0.2]'
@@ -54,19 +55,21 @@ function LineupPreview() {
                 alt={featuredArtist.name[language]}
                 className='h-full w-full object-cover object-center'
               />
-              <div className='absolute inset-0 bg-gradient-to-t from-black via-black/35 to-transparent' />
+              <div className='absolute inset-0' />
             </div>
 
-            <div className='flex flex-col justify-center px-6 py-7 sm:px-8 sm:py-8 lg:px-8 lg:py-7'>
+            <div className='flex h-full flex-col px-6 py-7 sm:px-8 sm:py-8 lg:px-8 lg:py-7'>
               <h3 className='mt-4 text-3xl font-black uppercase tracking-[-0.05em] sm:text-[2rem]'>
                 {featuredArtist.name[language]}
               </h3>
-              <p className='mt-3 max-w-xl text-sm leading-relaxed text-white/70'>
+
+              <p className='mt-3 line-clamp-8 max-w-xl text-sm leading-relaxed text-white/70'>
                 {featuredArtist.description[language]}
               </p>
+
               <a
                 href='/lineup'
-                className='mt-6 inline-flex w-fit items-center rounded border-2 border-transparent bg-red-700 px-3 py-2 text-sm font-extrabold uppercase tracking-[0.2em] text-white transition hover:bg-transparent hover:border-red-700 hover:text-red-700'
+                className='mt-5 inline-flex w-fit items-center rounded border-2 border-transparent bg-red-700 px-3 py-2 text-sm font-extrabold uppercase tracking-[0.2em] text-white transition hover:bg-transparent hover:border-red-700 hover:text-red-700'
               >
                 full lineup
               </a>
