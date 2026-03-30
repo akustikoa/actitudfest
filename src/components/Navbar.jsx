@@ -2,14 +2,14 @@ import { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 
-function HomeIcon() {
+function HomeIcon({ className = '' }) {
   return (
     <svg
       viewBox='0 0 24 24'
       fill='none'
       stroke='currentColor'
       strokeWidth='1.8'
-      className='h-5 w-5'
+      className={`h-5 w-5 ${className}`}
     >
       <path d='M3 10.5 12 3l9 7.5' />
       <path d='M5.5 9.5V21h13V9.5' />
@@ -17,14 +17,14 @@ function HomeIcon() {
   );
 }
 
-function LineupIcon() {
+function LineupIcon({ className = '' }) {
   return (
     <svg
       viewBox='0 0 24 24'
       fill='none'
       stroke='currentColor'
       strokeWidth='1.8'
-      className='h-5 w-5'
+      className={`h-5 w-5 ${className}`}
     >
       <path d='M4 6h16' />
       <path d='M4 12h16' />
@@ -33,14 +33,14 @@ function LineupIcon() {
   );
 }
 
-function AboutIcon() {
+function AboutIcon({ className = '' }) {
   return (
     <svg
       viewBox='0 0 24 24'
       fill='none'
       stroke='currentColor'
       strokeWidth='1.8'
-      className='h-5 w-5'
+      className={`h-5 w-5 ${className}`}
     >
       <path d='M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z' />
       <path d='M5 20a7 7 0 0 1 14 0' />
@@ -48,14 +48,14 @@ function AboutIcon() {
   );
 }
 
-function HistoryIcon() {
+function HistoryIcon({ className = '' }) {
   return (
     <svg
       viewBox='0 0 24 24'
       fill='none'
       stroke='currentColor'
       strokeWidth='1.8'
-      className='h-5 w-5'
+      className={`h-5 w-5 ${className}`}
     >
       <path d='M3 12a9 9 0 1 0 3-6.7' />
       <path d='M3 4v5h5' />
@@ -149,15 +149,17 @@ function Navbar() {
                 to={link.to}
                 end={link.to === '/'}
                 className={({ isActive }) =>
-                  `flex lg:w-[4.5rem] 2xl:w-[5.5rem] flex-col items-center justify-center gap-2 px-3 py-3 text-center lg:text-[9px] 2xl:text-[11px] font-semibold uppercase tracking-[0.16em] transition ${
-                    isActive
-                      ? 'text-red-500 bg-white/10'
-                      : 'text-white/70 hover:text-white'
-                  }`
+                  `flex lg:w-[4.5rem] 2xl:w-[5.5rem] flex-col items-center justify-center gap-2 px-3 py-3 text-center lg:text-[9px] 2xl:text-[11px] font-semibold uppercase tracking-[0.16em] transition`
                 }
               >
-                <Icon />
-                <span>{link.label}</span>
+                {({ isActive }) => (
+                  <>
+                    <Icon
+                      className={isActive ? 'text-red-500' : 'text-white'}
+                    />
+                    <span className='text-white'>{link.label}</span>
+                  </>
+                )}
               </NavLink>
             );
           })}
