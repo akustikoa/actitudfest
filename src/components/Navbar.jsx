@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 
-/* ================= ICONS ================= */
+/* ICONS*/
 
 function IconBase({ children, className = '' }) {
   return (
@@ -48,7 +48,7 @@ const HistoryIcon = (props) => (
   </IconBase>
 );
 
-/* ================= CONFIG ================= */
+/* CONFIG  */
 
 const linkConfig = [
   { to: '/', labelKey: 'navbar.home', icon: HomeIcon },
@@ -57,7 +57,7 @@ const linkConfig = [
   { to: '/history', labelKey: 'navbar.history', icon: HistoryIcon },
 ];
 
-/* ================= HOOKS ================= */
+/* HOOKS  */
 
 function useScrollThreshold(threshold = 100) {
   const [isPassed, setIsPassed] = useState(false);
@@ -72,7 +72,7 @@ function useScrollThreshold(threshold = 100) {
   return isPassed;
 }
 
-/* ================= COMPONENTS ================= */
+/* COMPONENTS */
 
 function LanguageSelector({ language, setLanguage, variant = 'desktop' }) {
   const languages = ['ca', 'es', 'en', 'fr'];
@@ -154,7 +154,7 @@ function TicketsButton() {
   );
 }
 
-/* ================= MAIN ================= */
+/* MAIN */
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -206,8 +206,10 @@ function Navbar() {
           style={{
             paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 1rem)',
           }}
-          className={`fixed bottom-0 left-0 z-50 w-full items-center justify-between bg-surface px-6 pt-4 ${
-            !showCompactBar || !showMobileBar ? 'hidden' : 'flex'
+          className={`fixed bottom-0 left-0 z-50 w-full h-16 pt-4 flex items-center justify-between bg-surface px-6 transition-transform duration-300 ${
+            !showCompactBar || !showMobileBar || isOpen
+              ? 'translate-y-full'
+              : 'translate-y-0'
           }`}
         >
           <TicketsButton />
@@ -219,8 +221,8 @@ function Navbar() {
           />
 
           <button
-            onClick={() => setIsOpen((o) => !o)}
-            className='flex h-10 w-10 items-center justify-center text-white'
+            onClick={() => setIsOpen(!isOpen)}
+            className='flex h-10 w-10 items-center justify-center text-white shrink-0'
           >
             <div className='flex flex-col gap-1.5'>
               <span
@@ -256,7 +258,7 @@ function Navbar() {
 
             <button
               onClick={() => setIsOpen(false)}
-              className='h-10 w-10 text-white text-2xl'
+              className='h-0 w-10 text-white text-2xl'
             >
               &times;
             </button>
