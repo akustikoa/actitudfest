@@ -16,7 +16,7 @@ export const artists = [
       fr: 'Atak d’Eufòria se forme au début des années quatre-vingt-dix pour se séparer à la fin de la décennie. 30 ans plus tard, ils reprennent du service en format trio avec une poignée de morceaux chargés d’énergie punk rock, sans oublier les mélodies.',
     },
     image: '/bands/atakdeuforia.png',
-    youtube: '',
+    youtube: 'https://youtu.be/g1sAcpv6J1Q?is=DJjsy3gzZjMJGlaz',
     instagram: '',
   },
   {
@@ -44,7 +44,7 @@ En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps 
     },
     image: '/bands/noia.jpeg',
     youtube: 'https://youtu.be/KV7Hy-XFF1A?si=1iP41Y8KR78lCrl1',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/noia_music/',
   },
   {
     id: 'peligro',
@@ -71,7 +71,7 @@ En février 2025, ils ont sorti leur deuxième LP, LOS MALOS MUEREN, enregistré
     },
     image: '/bands/peligro.jpeg',
     youtube: 'https://youtu.be/kz6G3GWnZ-U?si=h1nG5Vhy4Ki4BUgM',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/peligroband/',
   },
   {
     id: 'blak',
@@ -102,7 +102,7 @@ La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec
     },
     image: '/bands/blak.jpeg',
     youtube: 'https://youtu.be/6FrdzJlO_MU?si=fi4ysRc_ma0cCXj6',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/thisisblak/',
   },
   {
     id: 'pigeon-island',
@@ -133,7 +133,7 @@ Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti
     },
     image: '/bands/pigeon-island.jpeg',
     youtube: 'https://youtu.be/Xf6E0B2S9gM?si=9myb2U2aTfdjBUxO',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/pigeon_island_band/',
   },
   {
     id: 'chalk-hands',
@@ -160,7 +160,7 @@ Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti
     },
     image: '/bands/chalk-hands-band.jpeg',
     youtube: 'https://youtu.be/BJ6hSgLKyAk?si=N6D-ertAyP1oE8F3',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/chalkhandsofficial/',
   },
   {
     id: 'tano',
@@ -183,7 +183,7 @@ Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti
     },
     image: '/bands/tano-band.jpeg',
     youtube: 'https://youtu.be/4WUD3Cmf3xY?si=Vf6BXvoF5Rj1K-Vf',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/tanoduo/',
   },
   {
     id: 'dark-side-of-soul',
@@ -219,7 +219,7 @@ Text: Ricky Lavado.`,
     },
     image: '/bands/dark-side-of-soul.jpeg',
     youtube: 'https://youtu.be/uCtGM3ngwTE?si=2-5paQl7vp5Ng3yU',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/darksideofsoulbcn/',
   },
   {
     id: 'gros-enfant-mort',
@@ -250,7 +250,7 @@ Musicalement, Gros Enfant Mort s’inscrit dans la lignée du screamo français 
     },
     image: '/bands/gros-enfant-mort.jpeg',
     youtube: 'https://youtu.be/dsppxPfMGpo?si=wTYROirVKA0Rqe4M',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/grosenfantmort/',
   },
   {
     id: 'vibora',
@@ -285,7 +285,7 @@ Víbora est un groupe de post-hardcore formé à Gasteiz au début de 2018 par d
     },
     image: '/bands/vibora-band.png',
     youtube: 'https://youtu.be/QTx6gGcpKnM?si=Apct_2SVZA8rDNy9no',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/viboraband/',
   },
   {
     id: 'E150',
@@ -298,25 +298,22 @@ Víbora est un groupe de post-hardcore formé à Gasteiz au début de 2018 par d
     },
     tag: 'Just Announced',
     description: {
-      ca: `E150 neix a Barcelona en el si d’una efervescent escena hardcore underground, amb una proposta marcada per l’autogestió, l’honestedat i una intensitat sonora sense concessions. 
-Lluny de fórmules comercials, la banda desenvolupa un so propi que transita entre el hardcore i el punk, combinant estructures canviants, guitarres denses i una forta càrrega emocional en les seves lletres.
-La seva trajectòria s’ha construït dins del circuit DIY, actuant en sales, centres socials i festivals alternatius tant a nivell estatal com europeu. Amb el pas dels anys, E150 s’ha consolidat com una banda de culte dins de l’underground, deixant empremta i influint en noves generacions de grups.`,
-
-      es: `E150 nace en Barcelona en el seno de una efervescente escena hardcore underground, con una propuesta marcada por la autogestión, la honestidad y una intensidad sonora sin concesiones.
-Lejos de fórmulas comerciales, la banda desarrolla un sonido propio que transita entre el hardcore y el punk, combinando estructuras cambiantes, guitarras densas y una fuerte carga emocional en sus letras.
-Su trayectoria se ha construido dentro del circuito DIY, actuando en salas, centros sociales y festivales alternativos tanto a nivel estatal como europeo. Con el paso de los años, E150 se ha consolidado como una banda de culto dentro del underground, dejando huella e influyendo en nuevas generaciones de grupos.`,
-
-      en: `E150 was born in Barcelona within a vibrant underground hardcore scene, with a proposal defined by self-management, honesty and an uncompromising sonic intensity.
-Far from commercial formulas, the band develops its own sound, moving between hardcore and punk, combining shifting structures, dense guitars and a strong emotional charge in their lyrics.
-Their trajectory has been built within the DIY circuit, performing in venues, social centers and alternative festivals across Spain and Europe. Over the years, E150 has established itself as a cult band within the underground, leaving its mark and influencing new generations of bands.`,
-
-      fr: `E150 naît à Barcelone au cœur d’une scène hardcore underground en pleine effervescence, avec une proposition marquée par l’autogestion, l’honnêteté et une intensité sonore sans concessions.
-Loin des formules commerciales, le groupe développe un son propre qui oscille entre hardcore et punk, combinant des structures changeantes, des guitares denses et une forte charge émotionnelle dans ses paroles.
-Sa trajectoire s’est construite au sein du circuit DIY, se produisant dans des salles, centres sociaux et festivals alternatifs à l’échelle nationale et européenne. Au fil des années, E150 s’est imposé comme un groupe culte de l’underground, laissant une empreinte et influençant de nouvelles générations de groupes.`,
+      ca: `Fundats el 1995 a la perifèria barcelonina, E150 van perpetrar una activitat de 9 anys, en la qual van materialitzar un munt de gravacions, dues gires pels EUA i infinitat de dates peninsulars i europees. Es van acomiadar el 2004, entre l’esgotament i la dificultat de compaginar el grup amb les responsabilitats de la vida adulta.
+      Però 30 anys no se celebren cada dia i E150 aprofiten aquesta efemèride (i la reedició de la seva discografia) per fer una sèrie de concerts de reunió que, si no passa res, tindrà la seva última parada a l'Actitud Fest de Vidreres.
+      Ocasió única per viure una vetllada de rabiós hardcore com les d'abans!`,
+      es: `Fundados en 1995 en la periferia barcelonesa, E150 desarrollaron una actividad de 9 años en la que materializaron numerosas grabaciones, dos giras por EE. UU. y una infinidad de fechas por la península y Europa. Se despidieron en 2004, entre el agotamiento y la dificultad de compaginar el grupo con las responsabilidades de la vida adulta.
+      Pero 30 años no se celebran cada día y E150 aprovechan esta efeméride (y la reedición de su discografía) para realizar una serie de conciertos de reunión que, si nada lo impide, tendrá su última parada en el Actitud Fest de Vidreres.
+      ¡Una ocasión única para vivir una velada de hardcore rabioso como las de antes!`,
+      en: `Founded in 1995 on the outskirts of Barcelona, E150 were active for 9 years, during which they produced numerous recordings, toured the USA twice, and played countless shows across Spain and Europe. They said goodbye in 2004, worn out and facing the challenge of balancing the band with adult life responsibilities. 
+      But 30 years is not something you celebrate every day, and E150 are taking advantage of this milestone (along with the reissue of their discography) to play a series of reunion shows that, if all goes well, will have its final stop at Actitud Fest in Vidreres. 
+      A unique chance to experience a night of raw hardcore like in the old days!`,
+      fr: `Fondé en 1995 dans la périphérie barcelonaise, E150 a mené une activité de 9 ans durant laquelle le groupe a réalisé de nombreux enregistrements, effectué deux tournées aux États-Unis et joué une infinité de dates en Espagne et en Europe. Ils se sont séparés en 2004, entre l’épuisement et la difficulté de concilier le groupe avec les responsabilités de la vie adulte. 
+      Mais on ne fête pas 30 ans tous les jours, et E150 profitent de cette occasion (ainsi que de la réédition de leur discographie) pour proposer une série de concerts de réunion qui, sauf imprévu, aura sa dernière étape à l’Actitud Fest de Vidreres. 
+      Une occasion unique de vivre une soirée de hardcore furieux comme à l’ancienne !`,
     },
-    image: '/bands/e150.png',
-    youtube: 'https://youtube.com',
-    instagram: 'https://www.instagram.com/',
+    image: '/bands/e150.jpeg',
+    youtube: 'https://youtu.be/PcP2FUSt00E?si=uMaeq0VUovtA2B9m',
+    instagram: 'https://www.instagram.com/e150_punk/',
   },
   {
     id: 'ititanita',
@@ -349,7 +346,7 @@ Ils présentent actuellement leur nouvel album HI HI HA HA (Vicious Circle 2026)
     },
     image: '/bands/ititanita.jpeg',
     youtube: 'https://youtu.be/RTLPq2gtNs8?si=eqynZDLtshsnnq1P',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/ititanita/',
   },
   {
     id: 'hippie-tirm',
@@ -380,7 +377,7 @@ Après une brève pause due à la pandémie, ils sont revenus en force en 2022, 
     },
     image: '/bands/hippie-trim.png',
     youtube: 'https://youtu.be/e_RA55mqCbI?si=sdr6QvrwJQK_5TVK',
-    instagram: 'https://www.instagram.com/',
+    instagram: 'https://www.instagram.com/hippietrim/',
   },
   {
     id: 'william',
