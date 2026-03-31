@@ -1,8 +1,10 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
 
-function HomeIcon({ className = '' }) {
+/* ================= ICONS ================= */
+
+function IconBase({ children, className = '' }) {
   return (
     <svg
       viewBox='0 0 24 24'
@@ -11,58 +13,42 @@ function HomeIcon({ className = '' }) {
       strokeWidth='1.8'
       className={`h-5 w-5 ${className}`}
     >
-      <path d='M3 10.5 12 3l9 7.5' />
-      <path d='M5.5 9.5V21h13V9.5' />
+      {children}
     </svg>
   );
 }
 
-function LineupIcon({ className = '' }) {
-  return (
-    <svg
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='1.8'
-      className={`h-5 w-5 ${className}`}
-    >
-      <path d='M4 6h16' />
-      <path d='M4 12h16' />
-      <path d='M4 18h10' />
-    </svg>
-  );
-}
+const HomeIcon = (props) => (
+  <IconBase {...props}>
+    <path d='M3 10.5 12 3l9 7.5' />
+    <path d='M5.5 9.5V21h13V9.5' />
+  </IconBase>
+);
 
-function AboutIcon({ className = '' }) {
-  return (
-    <svg
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='1.8'
-      className={`h-5 w-5 ${className}`}
-    >
-      <path d='M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z' />
-      <path d='M5 20a7 7 0 0 1 14 0' />
-    </svg>
-  );
-}
+const LineupIcon = (props) => (
+  <IconBase {...props}>
+    <path d='M4 6h16' />
+    <path d='M4 12h16' />
+    <path d='M4 18h10' />
+  </IconBase>
+);
 
-function HistoryIcon({ className = '' }) {
-  return (
-    <svg
-      viewBox='0 0 24 24'
-      fill='none'
-      stroke='currentColor'
-      strokeWidth='1.8'
-      className={`h-5 w-5 ${className}`}
-    >
-      <path d='M3 12a9 9 0 1 0 3-6.7' />
-      <path d='M3 4v5h5' />
-      <path d='M12 7v5l3 2' />
-    </svg>
-  );
-}
+const AboutIcon = (props) => (
+  <IconBase {...props}>
+    <path d='M12 13a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z' />
+    <path d='M5 20a7 7 0 0 1 14 0' />
+  </IconBase>
+);
+
+const HistoryIcon = (props) => (
+  <IconBase {...props}>
+    <path d='M3 12a9 9 0 1 0 3-6.7' />
+    <path d='M3 4v5h5' />
+    <path d='M12 7v5l3 2' />
+  </IconBase>
+);
+
+/* ================= CONFIG ================= */
 
 const linkConfig = [
   { to: '/', labelKey: 'navbar.home', icon: HomeIcon },
@@ -71,66 +57,128 @@ const linkConfig = [
   { to: '/history', labelKey: 'navbar.history', icon: HistoryIcon },
 ];
 
-function MobileLanguageSelector({ language, setLanguage }) {
+/* ================= HOOKS ================= */
+
+function useScrollThreshold(threshold = 100) {
+  const [isPassed, setIsPassed] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setIsPassed(window.scrollY >= threshold);
+    onScroll();
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [threshold]);
+
+  return isPassed;
+}
+
+/* ================= COMPONENTS ================= */
+
+function LanguageSelector({ language, setLanguage, variant = 'desktop' }) {
   const languages = ['ca', 'es', 'en', 'fr'];
 
   return (
-    <div className='flex items-center justify-center gap-2 text-[15px] font-bold uppercase tracking-[0.16em]'>
+    <div
+      className={`flex items-center justify-center ${
+        variant === 'mobile'
+          ? 'gap-2 text-[15px]'
+          : 'grid grid-cols-2 gap-2 text-[11px]'
+      } font-bold uppercase tracking-[0.16em]`}
+    >
       {languages.map((lang, index) => (
         <div key={lang} className='flex items-center gap-2'>
           <button
-            type='button'
             onClick={() => setLanguage(lang)}
             className={
               language === lang
                 ? 'text-red-700'
-                : 'text-white/70 transition hover:text-red-700'
+                : 'text-white/70 hover:text-red-700'
             }
           >
             {lang}
           </button>
-          {index < languages.length - 1 ? (
+
+          {variant === 'mobile' && index < languages.length - 1 && (
             <span className='text-white/30'>|</span>
-          ) : null}
+          )}
         </div>
       ))}
     </div>
   );
 }
 
+function NavItem({ to, label, icon: Icon, onClick, variant = 'desktop' }) {
+  return (
+    <NavLink
+      to={to}
+      end={to === '/'}
+      onClick={onClick}
+      className={({ isActive }) =>
+        variant === 'desktop'
+          ? `flex lg:w-[4.5rem] 2xl:w-[5.5rem] flex-col items-center justify-center gap-2 px-3 py-3 text-center lg:text-[9px] 2xl:text-[11px] font-semibold uppercase tracking-[0.16em]`
+          : `flex min-h-24 flex-col items-center justify-center gap-2 rounded-md bg-primary text-[11px] uppercase tracking-[0.2em] ${
+              isActive ? 'text-white' : 'text-white/70 hover:text-white'
+            }`
+      }
+    >
+      {({ isActive }) => (
+        <>
+          {Icon && (
+            <Icon
+              className={
+                variant === 'desktop'
+                  ? isActive
+                    ? 'text-red-500'
+                    : 'text-white'
+                  : ''
+              }
+            />
+          )}
+          <span>{label}</span>
+        </>
+      )}
+    </NavLink>
+  );
+}
+
+function TicketsButton() {
+  return (
+    <a
+      href='https://entradium.com/events/actitud-fest-vidreres-2026'
+      target='_blank'
+      rel='noopener noreferrer'
+      className='rounded bg-red-700 px-3 py-1 text-[clamp(0.7rem,1.6vw,0.9rem)] font-bold uppercase tracking-[0.2em] text-white transition hover:bg-black/70'
+    >
+      Tickets
+    </a>
+  );
+}
+
+/* ================= MAIN ================= */
+
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [showMobileBar, setShowMobileBar] = useState(false);
   const [showCompactBar, setShowCompactBar] = useState(false);
+
+  const showMobileBar = useScrollThreshold(100);
   const { language, setLanguage, t } = useLanguage();
 
-  const links = linkConfig.map((link) => ({
-    ...link,
-    label: t(link.labelKey),
-  }));
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setShowMobileBar(window.scrollY >= 100);
-    };
-
-    handleScroll();
-    window.addEventListener('scroll', handleScroll);
-
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  const links = useMemo(
+    () =>
+      linkConfig.map((link) => ({
+        ...link,
+        label: t(link.labelKey),
+      })),
+    [t],
+  );
 
   useEffect(() => {
     let timeout;
 
     if (isOpen) {
-      timeout = setTimeout(() => {
-        setShowCompactBar(false);
-      }, 0);
+      timeout = setTimeout(() => setShowCompactBar(false), 0);
     } else {
-      timeout = setTimeout(() => {
-        setShowCompactBar(true);
-      }, 170);
+      timeout = setTimeout(() => setShowCompactBar(true), 170);
     }
 
     return () => clearTimeout(timeout);
@@ -138,78 +186,22 @@ function Navbar() {
 
   return (
     <>
+      {/* DESKTOP */}
       <header className='fixed left-10 top-1/2 z-40 hidden -translate-y-1/2 lg:flex'>
         <nav className='flex flex-col items-center gap-4 rounded-2xl bg-surface/85 py-6'>
-          {links.map((link) => {
-            const Icon = link.icon;
+          {links.map((link) => (
+            <NavItem key={link.to} {...link} />
+          ))}
 
-            return (
-              <NavLink
-                key={link.to}
-                to={link.to}
-                end={link.to === '/'}
-                className={({ isActive }) =>
-                  `flex lg:w-[4.5rem] 2xl:w-[5.5rem] flex-col items-center justify-center gap-2 px-3 py-3 text-center lg:text-[9px] 2xl:text-[11px] font-semibold uppercase tracking-[0.16em] transition`
-                }
-              >
-                {({ isActive }) => (
-                  <>
-                    <Icon
-                      className={isActive ? 'text-red-500' : 'text-white'}
-                    />
-                    <span className='text-white'>{link.label}</span>
-                  </>
-                )}
-              </NavLink>
-            );
-          })}
-
-          <div className=' border-t border-white/10 pt-6 grid grid-cols-2 gap-2 text-[11px] font-bold uppercase tracking-[0.2em] text-center'>
-            <button
-              onClick={() => setLanguage('ca')}
-              className={
-                language === 'ca'
-                  ? 'text-red-700'
-                  : 'text-white hover:text-red-700'
-              }
-            >
-              CA
-            </button>
-            <button
-              onClick={() => setLanguage('es')}
-              className={
-                language === 'es'
-                  ? 'text-red-700'
-                  : 'text-white hover:text-red-700'
-              }
-            >
-              ES
-            </button>
-            <button
-              onClick={() => setLanguage('en')}
-              className={
-                language === 'en'
-                  ? 'text-red-700'
-                  : 'text-white hover:text-red-700'
-              }
-            >
-              EN
-            </button>
-            <button
-              onClick={() => setLanguage('fr')}
-              className={
-                language === 'fr'
-                  ? 'text-red-700'
-                  : 'text-white hover:text-red-700'
-              }
-            >
-              FR
-            </button>
+          <div className='border-t border-white/10 pt-6'>
+            <LanguageSelector language={language} setLanguage={setLanguage} />
           </div>
         </nav>
       </header>
 
+      {/* MOBILE */}
       <header className='lg:hidden'>
+        {/* BOTTOM BAR */}
         <div
           style={{
             paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 1rem)',
@@ -218,40 +210,31 @@ function Navbar() {
             !showCompactBar || !showMobileBar ? 'hidden' : 'flex'
           }`}
         >
-          <a
-            href='https://entradium.com/events/actitud-fest-vidreres-2026'
-            target='_blank'
-            rel='noopener noreferrer'
-            className='items-center justify-center rounded border-2 border-transparent bg-red-700 px-3 py-1 text-[clamp(0.7rem,1.6vw,0.9rem)] font-bold uppercase tracking-[0.2em] text-white transition hover:border-2 hover:border-red-700 hover:bg-black/70 sm:px-5 sm:py-2.5 lg:px-5 lg:py-2'
-          >
-            Tickets
-          </a>
+          <TicketsButton />
 
-          <MobileLanguageSelector
+          <LanguageSelector
             language={language}
             setLanguage={setLanguage}
+            variant='mobile'
           />
 
           <button
-            type='button'
-            aria-label={isOpen ? 'Close menu' : 'Open menu'}
-            aria-expanded={isOpen}
-            onClick={() => setIsOpen((open) => !open)}
+            onClick={() => setIsOpen((o) => !o)}
             className='flex h-10 w-10 items-center justify-center text-white'
           >
             <div className='flex flex-col gap-1.5'>
               <span
-                className={`block h-0.5 w-5 bg-current transition ${
+                className={`h-0.5 w-5 bg-current transition ${
                   isOpen ? 'translate-y-2 rotate-45' : ''
                 }`}
               />
               <span
-                className={`block h-0.5 w-5 bg-current transition ${
+                className={`h-0.5 w-5 bg-current transition ${
                   isOpen ? 'opacity-0' : ''
                 }`}
               />
               <span
-                className={`block h-0.5 w-5 bg-current transition ${
+                className={`h-0.5 w-5 bg-current transition ${
                   isOpen ? '-translate-y-2 -rotate-45' : ''
                 }`}
               />
@@ -259,58 +242,35 @@ function Navbar() {
           </button>
         </div>
 
+        {/* MENU */}
         <div
           style={{
             paddingBottom: 'calc(env(safe-area-inset-bottom, 0px) + 1.5rem)',
           }}
-          className={`fixed bottom-0 left-0 z-40 w-full bg-surface px-6 pt-6 transition-transform duration-400 ease-out ${
+          className={`fixed bottom-0 left-0 z-40 w-full bg-surface px-6 pt-6 transition-transform duration-400 ${
             isOpen ? 'translate-y-0' : 'translate-y-full'
           }`}
         >
-          <div className='mx-auto flex w-full max-w-sm items-center justify-between pb-2'>
-            <a
-              href='https://entradium.com/events/actitud-fest-vidreres-2026'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='items-center justify-center rounded border-2 border-transparent bg-red-700 px-3 py-1 text-[clamp(0.7rem,1.6vw,0.9rem)] font-bold uppercase tracking-[0.2em] text-white transition hover:border-2 hover:border-red-700 hover:bg-black/70 sm:px-5 sm:py-2.5 lg:px-5 lg:py-2'
-            >
-              Tickets
-            </a>
+          <div className='mx-auto flex max-w-sm justify-between pb-2'>
+            <TicketsButton />
 
             <button
-              type='button'
-              aria-label='Close menu'
               onClick={() => setIsOpen(false)}
-              className='flex h-10 w-10 items-center justify-center text-white'
+              className='h-10 w-10 text-white text-2xl'
             >
-              <span className='text-2xl leading-none'>&times;</span>
+              &times;
             </button>
           </div>
 
-          <nav
-            className={`mx-auto grid w-full max-w-sm grid-cols-3 gap-x-6 gap-y-8 px-2 py-4 transition-transform duration-300 ${
-              isOpen ? 'translate-y-0' : 'translate-y-2'
-            }`}
-          >
-            {links.map((link) => {
-              const Icon = link.icon;
-
-              return (
-                <NavLink
-                  key={link.to}
-                  to={link.to}
-                  onClick={() => setIsOpen(false)}
-                  className={({ isActive }) =>
-                    `flex min-h-24 flex-col items-center justify-center gap-2 rounded-md bg-primary text-center text-[11px] font-semibold uppercase tracking-[0.2em] transition duration-500 ${
-                      isActive ? 'text-white' : 'text-white/70 hover:text-white'
-                    }`
-                  }
-                >
-                  <Icon />
-                  <span>{link.label}</span>
-                </NavLink>
-              );
-            })}
+          <nav className='mx-auto grid max-w-sm grid-cols-3 gap-6 py-4'>
+            {links.map((link) => (
+              <NavItem
+                key={link.to}
+                {...link}
+                variant='mobile'
+                onClick={() => setIsOpen(false)}
+              />
+            ))}
           </nav>
         </div>
       </header>
