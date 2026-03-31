@@ -48,7 +48,7 @@ En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps 
   },
   {
     id: 'peligro',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'Peligro!',
       es: 'Peligro!',
@@ -75,7 +75,7 @@ En février 2025, ils ont sorti leur deuxième LP, LOS MALOS MUEREN, enregistré
   },
   {
     id: 'blak',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'B·L·A·K ',
       es: 'B·L·A·K ',
@@ -106,7 +106,7 @@ La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec
   },
   {
     id: 'pigeon-island',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'Pigeon Island',
       es: 'Pigeon Island',
@@ -137,7 +137,7 @@ Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti
   },
   {
     id: 'chalk-hands',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'Chalk Hands',
       es: 'Chalk Hands',
@@ -164,7 +164,7 @@ Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti
   },
   {
     id: 'tano',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'Tano!',
       es: 'Tano!',
@@ -187,7 +187,7 @@ Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti
   },
   {
     id: 'dark-side-of-soul',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'Dark Side of Soul',
       es: 'Dark Side of Soul',
@@ -223,7 +223,7 @@ Text: Ricky Lavado.`,
   },
   {
     id: 'gros-enfant-mort',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'Gros enfant mort',
       es: 'Gros enfant mort',
@@ -254,7 +254,7 @@ Musicalement, Gros Enfant Mort s’inscrit dans la lignée du screamo français 
   },
   {
     id: 'vibora',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'Vibora',
       es: 'Vibora',
@@ -289,7 +289,7 @@ Víbora est un groupe de post-hardcore formé à Gasteiz au début de 2018 par d
   },
   {
     id: 'E150',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'E150',
       es: 'E150',
@@ -317,7 +317,7 @@ Víbora est un groupe de post-hardcore formé à Gasteiz au début de 2018 par d
   },
   {
     id: 'ititanita',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'It it anita',
       es: 'It it anita',
@@ -350,7 +350,7 @@ Ils présentent actuellement leur nouvel album HI HI HA HA (Vicious Circle 2026)
   },
   {
     id: 'hippie-tirm',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'Hippie trim',
       es: 'Hippie trim',
