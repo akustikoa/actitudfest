@@ -1,6 +1,7 @@
 import ajuntamentVidreres from '../assets/images/ajuntament-vidreres.png';
 import diputacioGirona from '../assets/images/Diputacio.png';
 import sorollLogo from '../assets/images/soroll.png';
+import saltamarges from '../assets/images/saltamarges.jpg';
 
 function InstagramIcon() {
   return (
@@ -111,54 +112,108 @@ const socialLinks = [
 
 function Footer() {
   return (
-    <footer className='border-t border-white/10 bg-black px-6 py-12 text-white sm:px-10 lg:px-16'>
+    <footer className='border-t border-white/10 bg-black px-6 py-8 text-white sm:px-10 lg:px-16'>
       <div className='mx-auto w-full max-w-[1200px]'>
-        <div className='flex flex-col gap-8 pb-16 sm:pb-6 sm:pt-3'>
+        <div className='flex flex-col gap-6 pb-16 sm:pb-6 sm:pt-3'>
           <div className='flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between'>
             <div className='flex flex-col gap-4'>
               <div className='flex items-center justify-between gap-4 sm:gap-5 lg:hidden'>
-                <img
-                  src={sorollLogo}
-                  alt='El Nostre Soroll'
-                  className='h-15 lg:h-10 rounded-md w-auto max-w-[30%] object-contain'
-                />
-                <img
-                  src={ajuntamentVidreres}
-                  alt='Ajuntament de Vidreres'
-                  className='h-10 w-auto max-w-[30%] object-contain'
-                />
-                <img
-                  src={diputacioGirona}
-                  alt='Diputacio de Girona'
-                  className='h-10 w-auto max-w-[30%] object-contain'
-                />
+                <a className='max-w-[27%]'>
+                  <img
+                    src={sorollLogo}
+                    alt='El Nostre Soroll'
+                    className='h-15 rounded-md w-auto object-contain'
+                  />
+                </a>
+
+                <a
+                  href='https://www.instagram.com/saltamargesrecs/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='max-w-[17%]'
+                >
+                  <img
+                    src={saltamarges}
+                    alt='Saltamarges'
+                    className='h-10 w-auto object-contain'
+                  />
+                </a>
+
+                <a
+                  href='https://vidreres.cat/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='max-w-[20%]'
+                >
+                  <img
+                    src={ajuntamentVidreres}
+                    alt='Ajuntament de Vidreres'
+                    className='h-10 w-auto object-contain'
+                  />
+                </a>
+
+                <a
+                  href='https://www.ddgi.cat/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='max-w-[21%]'
+                >
+                  <img
+                    src={diputacioGirona}
+                    alt='Diputacio de Girona'
+                    className='h-10 w-auto object-contain'
+                  />
+                </a>
               </div>
 
               <div className='hidden lg:flex lg:flex-nowrap lg:items-center lg:gap-8'>
                 <img
                   src={sorollLogo}
                   alt='El Nostre Soroll'
-                  className='h-24 rounded-md  w-auto object-contain'
+                  className='h-25 rounded-md  w-auto object-contain'
                 />
 
                 <div className='h-16 w-px bg-white/30' />
+                <a
+                  href='https://www.instagram.com/saltamargesrecs/'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                >
+                  <img
+                    src={saltamarges}
+                    alt='Saltamarges'
+                    className='h-14 ml-3 w-auto object-contain'
+                  />
+                </a>
 
                 <div className='flex items-center gap-x-7'>
-                  <img
-                    src={ajuntamentVidreres}
-                    alt='Ajuntament de Vidreres'
-                    className='h-12 w-auto object-contain'
-                  />
-                  <img
-                    src={diputacioGirona}
-                    alt='Diputacio de Girona'
-                    className='h-13 w-auto object-contain'
-                  />
+                  <a
+                    href='https://vidreres.cat/ '
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img
+                      src={ajuntamentVidreres}
+                      alt='Ajuntament de Vidreres'
+                      className='h-13 w-auto mr-2 object-contain'
+                    />
+                  </a>
+                  <a
+                    href='https://www.ddgi.cat/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
+                    <img
+                      src={diputacioGirona}
+                      alt='Diputacio de Girona'
+                      className='h-13 w-auto object-contain'
+                    />
+                  </a>
                 </div>
               </div>
             </div>
 
-            <nav className='flex items-center  gap-5 self-start lg:self-auto'>
+            <nav className='flex items-center  gap-5 self-start lg:self-center'>
               {socialLinks.map((link) => (
                 <a
                   key={link.label}
@@ -174,7 +229,7 @@ function Footer() {
             </nav>
           </div>
 
-          <div className='flex flex-row justify-between pt-6'>
+          <div className='flex flex-row justify-between pt-3'>
             <p className='w-2/3 flex flex-col text-[11px] text-white/42 lg:text-[12px]'>
               <span>
                 This website does not use any cookie and does not collect any
@@ -184,8 +239,8 @@ function Footer() {
             </p>
 
             <p className='w-1/3 flex flex-col items-end text-[11px] text-white/42 lg:flex-row lg:items-center lg:justify-end lg:gap-1 lg:text-[12px]'>
-              <span>Designed by</span>
-              <span className='font-bold text-white/50'>
+              <span>Built by</span>
+              <span className='font-bold text-white/90'>
                 <a
                   href='https://xavierprat.netlify.app/'
                   target='_blank'
