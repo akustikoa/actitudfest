@@ -9,6 +9,7 @@ export const translations = {
     },
     hero: {
       date: 'Vidreres 26 / 27 juny 2026',
+      link: 'https://entradium.com/ca/events/actitud-fest-vidreres-2026',
     },
     infoFestival: {
       howToArrive: 'Com arribar',
@@ -60,6 +61,7 @@ export const translations = {
     },
     hero: {
       date: 'Vidreres 26 / 27 junio 2026',
+      link: 'https://entradium.com/es/events/actitud-fest-vidreres-2026',
     },
     infoFestival: {
       howToArrive: 'Cómo llegar',
@@ -111,6 +113,7 @@ export const translations = {
     },
     hero: {
       date: 'Vidreres June 26 / 27 2026',
+      link: 'https://entradium.com/en/events/actitud-fest-vidreres-2026',
     },
     infoFestival: {
       howToArrive: 'How to get here',
@@ -161,6 +164,7 @@ export const translations = {
     },
     hero: {
       date: 'Vidreres 26 / 27 juin 2026',
+      link: 'https://entradium.com/fr/events/actitud-fest-vidreres-2026',
     },
     infoFestival: {
       howToArrive: 'Comment y accéder',

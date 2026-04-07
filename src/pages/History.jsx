@@ -83,10 +83,30 @@ function History() {
           <div className='mx-auto w-full max-w-[1200px]'>
             {/* TEXT */}
             <div className='grid gap-10 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]'>
-              <div className='max-w-sm'>
+              <div className='max-w-sm space-y-8'>
                 <h1 className='text-4xl font-black uppercase tracking-[-0.06em] sm:text-5xl'>
                   {t('history.title')}
                 </h1>
+                <p className='text-sm leading-relaxed text-black/72 sm:text-[15px]'>
+                  {t('history.intro')}{' '}
+                  <a
+                    href='https://www.instagram.com/alexalegre22/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className='font-bold hover:opacity-70'
+                  >
+                    {t('history.alexAlegre')}
+                  </a>{' '}
+                  {t('history.intro2')}
+                  <a
+                    href='https://www.instagram.com/rogersfg?igsh=ZmxremszeXZtbzU4'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                    className=' font-bold hover:opacity-70'
+                  >
+                    {t('history.rogerOrtega')}
+                  </a>
+                </p>
               </div>
 
               {/* GRID */}
