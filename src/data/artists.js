@@ -1,7 +1,7 @@
 export const artists = [
   {
     id: 'atakdeuforia',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: "Atak d'Eufòria ",
       es: "Atak d'Eufòria ",
@@ -21,7 +21,7 @@ export const artists = [
   },
   {
     id: 'NÖIA',
-    isAnnounced: true,
+    isAnnounced: false,
     name: {
       ca: 'NÖIA',
       es: 'NÖIA',

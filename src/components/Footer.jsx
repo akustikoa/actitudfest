@@ -240,7 +240,7 @@ function Footer() {
 
             <p className='w-1/3 flex flex-col items-end text-[11px] text-white/42 lg:flex-row lg:items-center lg:justify-end lg:gap-1 lg:text-[12px]'>
               <span>Built by</span>
-              <span className='font-bold text-white/90'>
+              <span className='font-bold text-white/80'>
                 <a
                   href='https://xavierprat.netlify.app/'
                   target='_blank'
