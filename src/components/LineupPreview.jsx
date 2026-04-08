@@ -24,8 +24,12 @@ function LineupPreview() {
   }));
 
   const desktopGridItems = [
-    ...desktopArtistTiles.map((artist) => ({ type: 'artist', ...artist })),
-    ...desktopTeaserTiles.map((item) => ({ type: 'teaser', ...item })),
+    ...desktopArtistTiles
+      .reverse()
+      .map((artist) => ({ type: 'artist', ...artist })),
+    ...desktopTeaserTiles
+      .reverse()
+      .map((item) => ({ type: 'teaser', ...item })),
   ];
 
   const mobileGridItems = announcedArtists.slice(0, 9);
@@ -100,7 +104,7 @@ function LineupPreview() {
           </article>
 
           <div className='grid h-full grid-cols-2 gap-x-3 gap-y-3 overflow-hidden lg:grid-cols-3'>
-            {desktopGridItems.map((item) => (
+            {desktopGridItems.slice(1).map((item) => (
               <article
                 key={item.id}
                 className='group relative aspect-square overflow-hidden rounded-md border border-white/10 bg-white/[0.03]'

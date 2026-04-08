@@ -1,54 +1,7 @@
 export const artists = [
   {
-    id: 'atakdeuforia',
-    isAnnounced: true,
-    name: {
-      ca: "Atak d'Eufòria ",
-      es: "Atak d'Eufòria ",
-      en: "Atak d'Eufòria ",
-      fr: "Atak d'Eufòria ",
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: 'Atak d’Eufòria es forma a inicis dels noranta per plegar a finals de la dècada. 30 anys després es treuen la pols per tornar en format trio i amb un grapat de temes carregats d’energia punk rock, sense oblidar les melodies.',
-      es: 'Atak d’Eufòria se forma a principios de los noventa para disolverse a finales de la década. 30 años después se sacuden el polvo para volver en formato trío y con un puñado de temas cargados de energía punk rock, sin olvidar las melodías.',
-      en: 'Atak d’Eufòria was formed in the early nineties and split up at the end of the decade. 30 years later, they return as a trio with a handful of songs full of punk rock energy, without forgetting the melodies.',
-      fr: 'Atak d’Eufòria se forme au début des années quatre-vingt-dix pour se séparer à la fin de la décennie. 30 ans plus tard, ils reprennent du service en format trio avec une poignée de morceaux chargés d’énergie punk rock, sans oublier les mélodies.',
-    },
-    image: '/bands/atakdeuforia.png',
-    youtube: 'https://youtu.be/g1sAcpv6J1Q?is=DJjsy3gzZjMJGlaz',
-    instagram: '',
-  },
-  {
-    id: 'NÖIA',
-    isAnnounced: true,
-    name: {
-      ca: 'NÖIA',
-      es: 'NÖIA',
-      en: 'NÖIA',
-      fr: 'NÖIA',
-    },
-
-    description: {
-      ca: `NÖIA neix de la inercia de ser músic i viure a Sant Feliu de Guíxols. Al bressol més longeu del punk rock català, entre tovalloles a la platja i colzes a les barres dels bars, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) i Carles (Bécquer, Bad Mongos, Bullitt) comencen a trobar-se al 2019 en els locals de l'antiga Atzavara orfes de banda per començar a encaixar guitarres i tornades enganxifoses. Perque tenen clar que la cosa anira de punk rock i de ballaruques amb punys amunt, fidels al gènere que plana per la localitat des dels ancestrals Sant Feliu Fest.
-Al 2022 editen "NÖIA" amb Saltamarges i igual que en els seus concerts, sense temps per respirar ni mitjos temps, al 2023 enregistren "11". Ambdós amb l'amic de la banda i gurú dels controls de discs guitarreros Santi Garcia. La fórmula es clara i concreta. Base rítmica galopant sense monotonia. Baixos que filen compàs i melodia empenyent guitarres contundents i melodiques per posar en primer pla la veu. Una fórmula infal·lible reforçada per una veu versatil en els registres i directe en les paraules`,
-
-      es: `NÖIA nace de la inercia de ser músico y vivir en Sant Feliu de Guíxols. En la cuna más longeva del punk rock catalán, entre toallas en la playa y codos en las barras de los bares, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) y Carles (Bécquer, Bad Mongos, Bullitt) empiezan a encontrarse en 2019 en los locales de la antigua Atzavara, huérfanos de banda, para empezar a encajar guitarras y estribillos pegadizos. Porque tienen claro que la cosa irá de punk rock y de bailoteos con los puños en alto, fieles al género que sobrevuela la localidad desde los ancestrales Sant Feliu Fest.
-En 2022 editan "NÖIA" con Saltamarges y, igual que en sus conciertos, sin tiempo para respirar ni medios tiempos, en 2023 graban "11". Ambos junto al amigo de la banda y gurú en los controles de discos guitarreros Santi Garcia. La fórmula es clara y concreta. Base rítmica galopante sin monotonía. Bajos que tejen compás y melodía empujando guitarras contundentes y melódicas para situar la voz en primer plano. Una fórmula infalible reforzada por una voz versátil en los registros y directa en las palabras`,
-
-      en: `NÖIA is born from the inertia of being a musician and living in Sant Feliu de Guíxols. In the longest-standing cradle of Catalan punk rock, between beach towels and elbows on bar counters, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) and Carles (Bécquer, Bad Mongos, Bullitt) started meeting in 2019 in the old Atzavara rehearsal spaces, bandless, to piece together guitars and catchy choruses. Because they are clear that this is about punk rock and dancing with fists in the air, faithful to the genre that has hovered over the town since the ancestral Sant Feliu Fest.
-In 2022 they released "NÖIA" with Saltamarges and, just like in their shows, with no time to breathe and no mid-tempos, they recorded "11" in 2023. Both with their friend and guitar-record guru at the controls, Santi Garcia. The formula is clear and precise. A galloping rhythmic base without monotony. Bass lines weaving rhythm and melody, pushing powerful and melodic guitars to bring the vocals to the forefront. A fail-safe formula reinforced by a versatile voice across registers and direct in its words`,
-
-      fr: `NÖIA naît de l’inertie d’être musicien et de vivre à Sant Feliu de Guíxols. Dans le berceau le plus ancien du punk rock catalan, entre serviettes sur la plage et coudes accoudés aux bars, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) et Carles (Bécquer, Bad Mongos, Bullitt) commencent à se retrouver en 2019 dans les locaux de l’ancienne Atzavara, orphelins de groupe, pour assembler guitares et refrains accrocheurs. Parce qu’ils ont bien clair que cela ira vers le punk rock et les danses poings levés, fidèles au genre qui plane sur la ville depuis les ancestraux Sant Feliu Fest.
-En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps pour respirer ni tempos intermédiaires, ils enregistrent "11" en 2023. Les deux avec leur ami du groupe et gourou des enregistrements guitare, Santi Garcia. La formule est claire et précise. Une base rythmique galopante sans monotonie. Des lignes de basse qui tissent rythme et mélodie, poussant des guitares puissantes et mélodiques pour mettre la voix au premier plan. Une formule infaillible renforcée par une voix polyvalente dans ses registres et directe dans ses paroles`,
-    },
-    image: '/bands/noia.jpeg',
-    youtube: 'https://youtu.be/KV7Hy-XFF1A?si=1iP41Y8KR78lCrl1',
-    instagram: 'https://www.instagram.com/noia_music/',
-  },
-  {
     id: 'peligro',
-    isAnnounced: false,
+    isAnnounced: true,
     name: {
       ca: 'Peligro!',
       es: 'Peligro!',
@@ -75,7 +28,7 @@ En février 2025, ils ont sorti leur deuxième LP, LOS MALOS MUEREN, enregistré
   },
   {
     id: 'blak',
-    isAnnounced: false,
+    isAnnounced: true,
     name: {
       ca: 'B·L·A·K ',
       es: 'B·L·A·K ',
@@ -105,35 +58,51 @@ La musique de Blak s’inscrit dans l’héritage du post-rock classique —avec
     instagram: 'https://www.instagram.com/thisisblak/',
   },
   {
-    id: 'pigeon-island',
-    isAnnounced: false,
+    id: 'NÖIA',
+    isAnnounced: true,
     name: {
-      ca: 'Pigeon Island',
-      es: 'Pigeon Island',
-      en: 'Pigeon Island',
-      fr: 'Pigeon Island',
+      ca: 'NÖIA',
+      es: 'NÖIA',
+      en: 'NÖIA',
+      fr: 'NÖIA',
+    },
+
+    description: {
+      ca: `NÖIA neix de la inercia de ser músic i viure a Sant Feliu de Guíxols. Al bressol més longeu del punk rock català, entre tovalloles a la platja i colzes a les barres dels bars, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) i Carles (Bécquer, Bad Mongos, Bullitt) comencen a trobar-se al 2019 en els locals de l'antiga Atzavara orfes de banda per començar a encaixar guitarres i tornades enganxifoses. Perque tenen clar que la cosa anira de punk rock i de ballaruques amb punys amunt, fidels al gènere que plana per la localitat des dels ancestrals Sant Feliu Fest.
+Al 2022 editen "NÖIA" amb Saltamarges i igual que en els seus concerts, sense temps per respirar ni mitjos temps, al 2023 enregistren "11". Ambdós amb l'amic de la banda i gurú dels controls de discs guitarreros Santi Garcia. La fórmula es clara i concreta. Base rítmica galopant sense monotonia. Baixos que filen compàs i melodia empenyent guitarres contundents i melodiques per posar en primer pla la veu. Una fórmula infal·lible reforçada per una veu versatil en els registres i directe en les paraules`,
+
+      es: `NÖIA nace de la inercia de ser músico y vivir en Sant Feliu de Guíxols. En la cuna más longeva del punk rock catalán, entre toallas en la playa y codos en las barras de los bares, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) y Carles (Bécquer, Bad Mongos, Bullitt) empiezan a encontrarse en 2019 en los locales de la antigua Atzavara, huérfanos de banda, para empezar a encajar guitarras y estribillos pegadizos. Porque tienen claro que la cosa irá de punk rock y de bailoteos con los puños en alto, fieles al género que sobrevuela la localidad desde los ancestrales Sant Feliu Fest.
+En 2022 editan "NÖIA" con Saltamarges y, igual que en sus conciertos, sin tiempo para respirar ni medios tiempos, en 2023 graban "11". Ambos junto al amigo de la banda y gurú en los controles de discos guitarreros Santi Garcia. La fórmula es clara y concreta. Base rítmica galopante sin monotonía. Bajos que tejen compás y melodía empujando guitarras contundentes y melódicas para situar la voz en primer plano. Una fórmula infalible reforzada por una voz versátil en los registros y directa en las palabras`,
+
+      en: `NÖIA is born from the inertia of being a musician and living in Sant Feliu de Guíxols. In the longest-standing cradle of Catalan punk rock, between beach towels and elbows on bar counters, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) and Carles (Bécquer, Bad Mongos, Bullitt) started meeting in 2019 in the old Atzavara rehearsal spaces, bandless, to piece together guitars and catchy choruses. Because they are clear that this is about punk rock and dancing with fists in the air, faithful to the genre that has hovered over the town since the ancestral Sant Feliu Fest.
+In 2022 they released "NÖIA" with Saltamarges and, just like in their shows, with no time to breathe and no mid-tempos, they recorded "11" in 2023. Both with their friend and guitar-record guru at the controls, Santi Garcia. The formula is clear and precise. A galloping rhythmic base without monotony. Bass lines weaving rhythm and melody, pushing powerful and melodic guitars to bring the vocals to the forefront. A fail-safe formula reinforced by a versatile voice across registers and direct in its words`,
+
+      fr: `NÖIA naît de l’inertie d’être musicien et de vivre à Sant Feliu de Guíxols. Dans le berceau le plus ancien du punk rock catalan, entre serviettes sur la plage et coudes accoudés aux bars, Gemma Rodríguez (Two Dead Cats, Nord), Gerard Valverde (Crossword, Clarice, Saint Tropez), Johnny Clara (Pitt Marvel, Kathon) et Carles (Bécquer, Bad Mongos, Bullitt) commencent à se retrouver en 2019 dans les locaux de l’ancienne Atzavara, orphelins de groupe, pour assembler guitares et refrains accrocheurs. Parce qu’ils ont bien clair que cela ira vers le punk rock et les danses poings levés, fidèles au genre qui plane sur la ville depuis les ancestraux Sant Feliu Fest.
+En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps pour respirer ni tempos intermédiaires, ils enregistrent "11" en 2023. Les deux avec leur ami du groupe et gourou des enregistrements guitare, Santi Garcia. La formule est claire et précise. Une base rythmique galopante sans monotonie. Des lignes de basse qui tissent rythme et mélodie, poussant des guitares puissantes et mélodiques pour mettre la voix au premier plan. Une formule infaillible renforcée par une voix polyvalente dans ses registres et directe dans ses paroles`,
+    },
+    image: '/bands/noia.jpeg',
+    youtube: 'https://youtu.be/KV7Hy-XFF1A?si=1iP41Y8KR78lCrl1',
+    instagram: 'https://www.instagram.com/noia_music/',
+  },
+  {
+    id: 'atakdeuforia',
+    isAnnounced: true,
+    name: {
+      ca: "Atak d'Eufòria ",
+      es: "Atak d'Eufòria ",
+      en: "Atak d'Eufòria ",
+      fr: "Atak d'Eufòria ",
     },
     tag: 'Just Announced',
     description: {
-      ca: `L’any 2008, un grup d’amics d’Oakland, Califòrnia, va formar una banda anomenada Big Kids.Van publicar diversos discos, van fer gires per més de 20 països i van fer amics arreu del món tant durant les gires com organitzant concerts a les cases punk on vivien.Malauradament, res dura per sempre i el 2014 la banda va fer els seus últims concerts.
-Pigeon Island es va formar just després de la desaparició de la banda.Van publicar una demo i van tocar alguns concerts, però mai van prioritzar el temps ni l’energia necessaris per acabar un disc.Avancem fins a la tardor de 2022: després de retrobar-se amb bandes d’amics que havien tornat a sortir de gira, el guitarrista i cantant Jason Romero es va inspirar per tornar a l’estudi i acabar allò que mai hauria d’haver deixat.
-A l’estiu de 2025, Lauren Records (Los Angeles) i Saltamarges Records (Espanya) van publicar el primer àlbum llarg de Pigeon Island, titulat “Bad Kids”.`,
-
-      es: `En 2008, un grupo de amigos de Oakland, California, formó una banda llamada Big Kids.Publicaron varios discos, giraron por más de 20 países e hicieron amigos por todo el mundo tanto durante las giras como organizando conciertos en las casas punk donde vivían.Desafortunadamente, nada dura para siempre y en 2014 la banda dio sus últimos conciertos.
-Pigeon Island se formó justo después de la desaparición de la banda.Publicaron una demo y tocaron algunos conciertos, pero nunca priorizaron el tiempo ni la energía necesarios para terminar un disco.Avanzamos hasta el otoño de 2022: tras reencontrarse con bandas amigas que habían vuelto a salir de gira, el guitarrista y cantante Jason Romero se inspiró para volver al estudio y terminar aquello que nunca debería haber dejado.
-En el verano de 2025, Lauren Records (Los Ángeles) y Saltamarges Records (España) publicaron el primer álbum largo de Pigeon Island, titulado “Bad Kids”.`,
-
-      en: `In 2008, a group of friends from Oakland, California, formed a band called Big Kids.They released several records, toured in more than 20 countries, and made friends all over the world both on tour and by organizing shows in the punk houses where they lived.Unfortunately, nothing lasts forever and in 2014 the band played their final shows.
-Pigeon Island was formed right after the band’s breakup.They released a demo and played a few shows, but never prioritized the time or energy needed to finish a full album.Fast forward to the fall of 2022: after reconnecting with friends’ bands who had gone back on tour, guitarist and singer Jason Romero felt inspired to return to the studio and finish what he should never have left unfinished.
-In the summer of 2025, Lauren Records (Los Angeles) and Saltamarges Records (Spain) released Pigeon Island’s first full-length album, titled “Bad Kids”.`,
-
-      fr: `En 2008, un groupe d’amis d’Oakland, en Californie, a formé un groupe appelé Big Kids.Ils ont sorti plusieurs disques, tourné dans plus de 20 pays et se sont fait des amis partout dans le monde, à la fois en tournée et en organisant des concerts dans les maisons punk où ils vivaient.Malheureusement, rien ne dure éternellement et en 2014 le groupe a donné ses derniers concerts.
-Pigeon Island s’est formé juste après la disparition du groupe.Ils ont sorti une démo et joué quelques concerts, mais n’ont jamais vraiment consacré le temps ni l’énergie nécessaires pour terminer un album.Avançons jusqu’à l’automne 2022 : après avoir retrouvé des groupes d’amis repartis en tournée, le guitariste et chanteur Jason Romero a trouvé l’inspiration pour retourner en studio et achever ce qu’il n’aurait jamais dû abandonner.
-À l’été 2025, Lauren Records (Los Angeles) et Saltamarges Records (Espagne) ont sorti le premier album long de Pigeon Island, intitulé “Bad Kids”.`,
+      ca: 'Atak d’Eufòria es forma a inicis dels noranta per plegar a finals de la dècada. 30 anys després es treuen la pols per tornar en format trio i amb un grapat de temes carregats d’energia punk rock, sense oblidar les melodies.',
+      es: 'Atak d’Eufòria se forma a principios de los noventa para disolverse a finales de la década. 30 años después se sacuden el polvo para volver en formato trío y con un puñado de temas cargados de energía punk rock, sin olvidar las melodías.',
+      en: 'Atak d’Eufòria was formed in the early nineties and split up at the end of the decade. 30 years later, they return as a trio with a handful of songs full of punk rock energy, without forgetting the melodies.',
+      fr: 'Atak d’Eufòria se forme au début des années quatre-vingt-dix pour se séparer à la fin de la décennie. 30 ans plus tard, ils reprennent du service en format trio avec une poignée de morceaux chargés d’énergie punk rock, sans oublier les mélodies.',
     },
-    image: '/bands/pigeon-island.jpeg',
-    youtube: 'https://youtu.be/Xf6E0B2S9gM?si=9myb2U2aTfdjBUxO',
-    instagram: 'https://www.instagram.com/pigeon_island_band/',
+    image: '/bands/atakdeuforia.png',
+    youtube: 'https://youtu.be/g1sAcpv6J1Q?is=DJjsy3gzZjMJGlaz',
+    instagram: '',
   },
   {
     id: 'chalk-hands',

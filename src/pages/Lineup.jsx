@@ -54,7 +54,7 @@ function Lineup() {
 
         <section className='px-6  sm:px-10 lg:px-16 lg:pb-8'>
           <div className='mx-auto max-w-6xl'>
-            {[...announcedArtists].reverse().map((artist, index) => {
+            {[...announcedArtists].map((artist, index) => {
               const reverse = index % 2 !== 0;
               const artistName = artist.name[language] || artist.name.ca;
               const artistDescription =
