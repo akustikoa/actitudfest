@@ -1,13 +1,15 @@
 import Footer from '../components/Footer';
 import Hero from '../components/Hero';
-import InfoFestival from '../components/InfoFestival';
 import LineupPreview from '../components/LineupPreview';
+import Presentation from '../components/Presentation';
+import InfoFestival from '../components/InfoFestival';
 
 function Home() {
   return (
     <>
       <Hero />
       <LineupPreview />
+      <Presentation />
       <InfoFestival />
       <Footer />
     </>

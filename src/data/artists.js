@@ -1,5 +1,255 @@
 export const artists = [
   {
+    id: 'E150',
+    isAnnounced: true,
+    name: {
+      ca: 'E150',
+      es: 'E150',
+      en: 'E150',
+      fr: 'E150',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Fundats el 1995 a la perifèria barcelonina, E150 van perpetrar una activitat de 9 anys, en la qual van materialitzar un munt de gravacions, dues gires pels EUA i infinitat de dates peninsulars i europees. Es van acomiadar el 2004, entre l’esgotament i la dificultat de compaginar el grup amb les responsabilitats de la vida adulta.
+      Però 30 anys no se celebren cada dia i E150 aprofiten aquesta efemèride (i la reedició de la seva discografia) per fer una sèrie de concerts de reunió que, si no passa res, tindrà la seva última parada a l'Actitud Fest de Vidreres.
+      Ocasió única per viure una vetllada de rabiós hardcore com les d'abans!`,
+      es: `Fundados en 1995 en la periferia barcelonesa, E150 desarrollaron una actividad de 9 años en la que materializaron numerosas grabaciones, dos giras por EE. UU. y una infinidad de fechas por la península y Europa. Se despidieron en 2004, entre el agotamiento y la dificultad de compaginar el grupo con las responsabilidades de la vida adulta.
+      Pero 30 años no se celebran cada día y E150 aprovechan esta efeméride (y la reedición de su discografía) para realizar una serie de conciertos de reunión que, si nada lo impide, tendrá su última parada en el Actitud Fest de Vidreres.
+      ¡Una ocasión única para vivir una velada de hardcore rabioso como las de antes!`,
+      en: `Founded in 1995 on the outskirts of Barcelona, E150 were active for 9 years, during which they produced numerous recordings, toured the USA twice, and played countless shows across Spain and Europe. They said goodbye in 2004, worn out and facing the challenge of balancing the band with adult life responsibilities. 
+      But 30 years is not something you celebrate every day, and E150 are taking advantage of this milestone (along with the reissue of their discography) to play a series of reunion shows that, if all goes well, will have its final stop at Actitud Fest in Vidreres. 
+      A unique chance to experience a night of raw hardcore like in the old days!`,
+      fr: `Fondé en 1995 dans la périphérie barcelonaise, E150 a mené une activité de 9 ans durant laquelle le groupe a réalisé de nombreux enregistrements, effectué deux tournées aux États-Unis et joué une infinité de dates en Espagne et en Europe. Ils se sont séparés en 2004, entre l’épuisement et la difficulté de concilier le groupe avec les responsabilités de la vie adulte. 
+      Mais on ne fête pas 30 ans tous les jours, et E150 profitent de cette occasion (ainsi que de la réédition de leur discographie) pour proposer une série de concerts de réunion qui, sauf imprévu, aura sa dernière étape à l’Actitud Fest de Vidreres. 
+      Une occasion unique de vivre une soirée de hardcore furieux comme à l’ancienne !`,
+    },
+    image: '/bands/e150.jpeg',
+    youtube: 'https://youtu.be/PcP2FUSt00E?si=uMaeq0VUovtA2B9m',
+    instagram: 'https://www.instagram.com/e150_punk/',
+  },
+  {
+    id: 'big-kids',
+    isAnnounced: true,
+    name: {
+      ca: 'Big Kids',
+      es: 'Big Kids',
+      en: 'Big Kids',
+      fr: 'Big Kids',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Big Kids (Oakland, EUA) és el projecte de llarga trajectòria de Jason Romero, una figura clau de l’escena punk/emo de la Costa Oest. Nascut en el context del “revival emo” de finals dels anys 2000, el projecte va girar internacionalment amb bandes com Joyce Manor, Algernon Cadwallader o Sed Non Satiata, mantenint-se sempre profundament arrelat a l’escena DIY.
+      Després dels seus últims concerts el 2014, Jason va continuar el projecte amb Pigeon Island, publicant Bad Kids el 2025 i mantenint el seu so característic.
+      Ara, 15 anys després, Big Kids tornen als escenaris, creuant l’Atlàntic amb una nova formació que inclou dos amics catalans. El seu so captura l’essència de l’amistat, les gires DIY i l’energia del punk rock: melodies i intensitat, tornades corejables i feedback.
+      La banda girarà per Europa, reconnectant amb una història que va començar el 2011 a l’Actitud Fest, interpretant cançons tant de Big Kids com de Pigeon Island.`,
+
+      es: `Big Kids (Oakland, USA) és el projecte de llarga trajectòria de Jason Romero, una figura clau de l’escena punk/emo de la Costa Oest. Nascut en el context del “revival emo” de finals dels anys 2000, el projecte va girar internacionalment amb bandes com Joyce Manor, Algernon Cadwallader o Sed Non Satiata, mantenint-se sempre profundament arrelat a l’escena DIY.
+      Després dels seus últims concerts el 2014, Jason va continuar el projecte amb Pigeon Island, publicant Bad Kids el 2025 i mantenint el seu so característic.
+      Ara, 15 anys després, Big Kids tornen als escenaris, creuant l’Atlàntic amb una nova formació que inclou dos amics catalans. El seu so captura l’essència de l’amistat, les gires DIY i l’energia del punk rock: melodies i intensitat, tornades corejables i feedback.
+      La banda girarà per Europa, reconnectant amb una història que va començar el 2011 a l’Actitud Fest, interpretant cançons tant de Big Kids com de Pigeon Island.`,
+
+      en: `Big Kids (Oakland, USA) is the long-running project of Jason Romero, a key figure in the West Coast punk/emo scene. Born in the late 2000s emo revival context, the project toured internationally with bands such as Joyce Manor, Algernon Cadwallader or Sed Non Satiata, always remaining deeply rooted in the DIY scene.
+      After their last shows in 2014, Jason continued the project as Pigeon Island, releasing Bad Kids in 2025 while maintaining his signature sound.
+      Now, 15 years later, Big Kids return to the stage, crossing the Atlantic with a new lineup that includes two Catalan friends. Their sound captures the essence of friendship, DIY touring and punk rock energy: melody and intensity, singalong choruses and feedback.T
+      he band will tour across Europe, reconnecting with a story that began in 2011 at Actitud Fest, performing songs from both Big Kids and Pigeon Island.`,
+
+      fr: `Big Kids (Oakland, États-Unis) és el projecte de longue date de Jason Romero, figure clé de la scène punk/emo de la côte Ouest. Né dans le contexte du revival emo de la fin des années 2000, le projet a tourné à l’international avec des groupes comme Joyce Manor, Algernon Cadwallader ou Sed Non Satiata, tout en restant profondément ancré dans la scène DIY.
+      Après ses derniers concerts en 2014, Jason a poursuivi le projet avec Pigeon Island, publiant Bad Kids en 2025 tout en conservant son identité sonore.
+      Aujourd’hui, 15 ans plus tard, Big Kids remontent sur scène et traversent l’Atlantique avec une nouvelle formation incluant deux amis catalans. Leur son capture l’essence de l’amitié, des tournées DIY et de l’énergie punk rock : mélodies et intensité, refrains fédérateurs et feedback.
+      Le groupe tournera en Europe, renouant avec une histoire commencée en 2011 à l’Actitud Fest, en interprétant des morceaux de Big Kids et de Pigeon Island.`,
+    },
+    image: '/bands/bigkids.png',
+    youtube: 'https://youtu.be/KsJRkjW8dWg?si=6AtkhXLw9um8jhn8',
+    instagram: 'https://www.instagram.com/bigkidspunk',
+  },
+  {
+    id: 'tano',
+    isAnnounced: true,
+    name: {
+      ca: 'Tano!',
+      es: 'Tano!',
+      en: 'Tano!',
+      fr: 'Tano!',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `La llavor del power duo català Tano! es va plantar el 2014, arran dels concerts pòstums de la gira de Hurricäde compartint escenari i gira amb els també desapareguts Anchord. La germinació va sorgir al 2015, quan l'Oskar Garcia (Hurricäde) i en Victor Pelusa (Anchord, Mendra) s'ajunten cada vegada de manera més regular al local d'assaig, d'on n'acabarà sortint un encanteri musical del tot original. Cançons esbojarrades, dissonants, rítmiques i dinàmiques, cantades íntegrament en català i en constant recerca de noves sensacions que es reflecteixen en tres entregues discogràfiques i ressonen en incomptables concerts per terres catalanes, la península ibèrica i part del continent europeu; directes on es mantenen les emocions fortes, la visceralitat i lletres amb caire de llegendes amb un missatge al darrere escopides pel micro.`,
+
+      es: `La semilla del power dúo catalán Tano! se plantó en 2014, a raíz de los conciertos póstumos de la gira de Hurricäde compartiendo escenario y gira con los también desaparecidos Anchord. La germinación llegó en 2015, cuando Oskar Garcia (Hurricäde) y Victor Pelusa (Anchord, Mendra) empiezan a juntarse cada vez con más regularidad en el local de ensayo, de donde acabará saliendo un hechizo musical totalmente original. Canciones alocadas, disonantes, rítmicas y dinámicas, cantadas íntegramente en catalán y en constante búsqueda de nuevas sensaciones que se reflejan en tres entregas discográficas y resuenan en innumerables conciertos por tierras catalanas, la península ibérica y parte del continente europeo; directos donde se mantienen las emociones fuertes, la visceralidad y letras con aire de leyendas con un mensaje detrás escupidas al micro.`,
+
+      en: `The seed of the Catalan power duo Tano! was planted in 2014, following the posthumous concerts of the Hurricäde tour, sharing stage and tour with the also now-defunct Anchord. The germination came in 2015, when Oskar Garcia (Hurricäde) and Victor Pelusa (Anchord, Mendra) began meeting more regularly in the rehearsal space, from which a completely original musical spell would emerge. Wild, dissonant, rhythmic and dynamic songs, entirely sung in Catalan and in constant search of new sensations, reflected in three record releases and echoed in countless concerts across Catalonia, the Iberian Peninsula and parts of Europe; live shows where intense emotions, raw energy and lyrics with a legendary tone and a message behind them are spat into the mic.`,
+
+      fr: `La graine du power duo catalan Tano! a été plantée en 2014, à la suite des concerts posthumes de la tournée de Hurricäde, partageant scène et tournée avec les également disparus Anchord. La germination arrive en 2015, lorsque Oskar Garcia (Hurricäde) et Victor Pelusa (Anchord, Mendra) commencent à se retrouver de plus en plus régulièrement en salle de répétition, d’où naîtra un sort musical totalement original. Des chansons déjantées, dissonantes, rythmiques et dynamiques, entièrement chantées en catalan et en constante recherche de nouvelles sensations, reflétées dans trois sorties discographiques et résonnant dans d’innombrables concerts à travers la Catalogne, la péninsule ibérique et une partie de l’Europe ; des lives où se maintiennent des émotions fortes, la visceralité et des paroles au ton de légendes avec un message derrière, crachées dans le micro.`,
+    },
+    image: '/bands/tano-band.jpeg',
+    youtube: 'https://youtu.be/4WUD3Cmf3xY?si=Vf6BXvoF5Rj1K-Vf',
+    instagram: 'https://www.instagram.com/tanoduo/',
+  },
+  {
+    id: 'johnnie-carwash',
+    isAnnounced: true,
+    name: {
+      ca: 'Johnnie Carwash',
+      es: 'Johnnie Carwash',
+      en: 'Johnnie Carwash',
+      fr: 'Johnnie Carwash',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `A la banda assolellada del carrer hi ha un garatge desordenat: és d’allà d’on surt la música de Johnnie Carwash.
+Guitarra, baix i bateria: és tot el que necessiten per destrossar cançons pop amb un somriure despreocupat i llançar onades de punk crues i honestes a la teva cara.
+Després de quatre anys a la carretera i prop de dos-cents concerts, els cool kids tornen amb el seu segon àlbum, No Friends No Pain.
+Deu temes que celebren l’amistat, l’amor i les ruptures, sense renunciar mai a la diversió i la lleugeresa.`,
+
+      es: `En la parte soleada de la calle hay un garaje desordenado: de ahí sale la música de Johnnie Carwash.
+Guitarra, bajo y batería: es todo lo que necesitan para destrozar canciones pop con una sonrisa despreocupada y lanzar oleadas de punk crudo y honesto a tu cara.
+Después de cuatro años en la carretera y cerca de doscientos conciertos, los cool kids vuelven con su segundo álbum, No Friends No Pain.
+Diez temas que celebran la amistad, el amor y las rupturas, sin renunciar nunca a la diversión y la ligereza.`,
+
+      en: `On the sunny side of the street there is a messy garage: that’s where the music of Johnnie Carwash comes from.
+Guitar, bass and drums: that’s all they need to tear apart pop songs with a carefree smile and throw waves of raw and honest punk in your face.
+After four years on the road and nearly two hundred shows, the cool kids are back with their second album, No Friends No Pain.
+Ten tracks that celebrate friendship, love and breakups, without ever giving up fun and lightness.`,
+
+      fr: `Du côté ensoleillé de la rue se trouve un garage en désordre : c’est de là que vient la musique de Johnnie Carwash.
+Guitare, basse et batterie : c’est tout ce dont ils ont besoin pour détruire des chansons pop avec un sourire insouciant et lancer des vagues de punk brut et honnête à la figure.
+Après quatre ans sur la route et près de deux cents concerts, les cool kids reviennent avec leur deuxième album, No Friends No Pain.
+Dix morceaux qui célèbrent l’amitié, l’amour et les ruptures, sans jamais renoncer au plaisir et à la légèreté.`,
+    },
+    image: '/bands/Johnniecarwash.png',
+    youtube: 'https://youtu.be/OMGaz4k8bF8?si=dQROT4j6Dt2fKhhY',
+    instagram: 'https://www.instagram.com/johnniecarwash/',
+  },
+  {
+    id: 'gros-enfant-mort',
+    isAnnounced: true,
+    name: {
+      ca: 'Gros enfant mort',
+      es: 'Gros enfant mort',
+      en: 'Gros enfant mort',
+      fr: 'Gros enfant mort',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Gros Enfant Mort és una banda de screamo i post-hardcore originària de Poitiers (França), que combina una intensa expressivitat emocional amb passatges sonors durs i abrasius, arrelats en la tradició del hardcore post-punk europeu.
+El projecte arrenca el 2019 com una idea solista que l’autor desenvolupà de manera introspectiva, per després ampliar-se amb músics col·laboradors per tocar en directe i estructurar una proposta de banda més completa.
+Musicalment, Gros Enfant Mort s’inscriu en la vena del screamo francès i post-hardcore que succeeix a figures com Daïtro, Amanda Woodward o Sed Non Satiata, caracteritzant-se per un so carregat d’intensitat, que transita des de passatges melòdics subtils fins a murs de soroll, amb vocals cridats i rítmiques que conjuminen urgència i emotivitat.`,
+
+      es: `Gros Enfant Mort es una banda de screamo y post-hardcore originaria de Poitiers (Francia), que combina una intensa expresividad emocional con pasajes sonoros duros y abrasivos, arraigados en la tradición del hardcore post-punk europeo.
+El proyecto comienza en 2019 como una idea en solitario que el autor desarrolló de forma introspectiva, para luego ampliarse con músicos colaboradores para tocar en directo y estructurar una propuesta de banda más completa.
+Musicalmente, Gros Enfant Mort se inscribe en la línea del screamo francés y el post-hardcore que sigue a figuras como Daïtro, Amanda Woodward o Sed Non Satiata, caracterizándose por un sonido cargado de intensidad, que transita desde pasajes melódicos sutiles hasta muros de ruido, con voces gritadas y ritmos que combinan urgencia y emotividad.`,
+
+      en: `Gros Enfant Mort is a screamo and post-hardcore band from Poitiers (France), combining intense emotional expressiveness with harsh and abrasive sonic passages rooted in the European post-punk hardcore tradition.
+The project began in 2019 as a solo idea developed introspectively by its author, later expanding with additional musicians to perform live and shape a more complete band setup.
+Musically, Gros Enfant Mort follows in the vein of French screamo and post-hardcore acts such as Daïtro, Amanda Woodward or Sed Non Satiata, characterized by a sound full of intensity that moves from subtle melodic passages to walls of noise, with screamed vocals and rhythms that blend urgency and emotion.`,
+
+      fr: `Gros Enfant Mort est un groupe de screamo et post-hardcore originaire de Poitiers (France), qui combine une expressivité émotionnelle intense avec des passages sonores durs et abrasifs, ancrés dans la tradition du hardcore post-punk européen.
+Le projet débute en 2019 comme une idée solo développée de manière introspective, avant de s’élargir avec des musiciens collaborateurs pour jouer en live et structurer une proposition de groupe plus complète.
+Musicalement, Gros Enfant Mort s’inscrit dans la lignée du screamo français et du post-hardcore représenté par des groupes comme Daïtro, Amanda Woodward ou Sed Non Satiata, avec un son chargé d’intensité qui évolue de passages mélodiques subtils à des murs de bruit, avec des voix criées et des rythmiques mêlant urgence et émotion.`,
+    },
+    image: '/bands/gros-enfant-mort.jpeg',
+    youtube: 'https://youtu.be/dsppxPfMGpo?si=wTYROirVKA0Rqe4M',
+    instagram: 'https://www.instagram.com/grosenfantmort/',
+  },
+  {
+    id: 'vibora',
+    isAnnounced: true,
+    name: {
+      ca: 'Víbora',
+      es: 'Víbora',
+      en: 'Víbora',
+      fr: 'Víbora',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Egin Ez Dugun Guztia (en castellà: “Todo lo que no hemos hecho”) és el segon LP de Víbora.
+El treball parla de la nostàlgia, de tot el que la banda ha viscut aquests últims anys i de tot allò que s’ha deixat de costat pel projecte. Reflexiona sobre els llocs on els ha portat i sobre el pes que un projecte així adopta en les vides dels seus membres. També tracta la il·lusió de continuar apostant pel DIY i el desencant de créixer i que res no canviï.
+La preproducció es va fer a Gakobeltz Hit Faktoria amb Joseba Baleztena i Miren Narbaiza. Es va gravar amb Borja Pérez als estudis La Nave Hermosa a l’agost de 2026, i posteriorment va ser masteritzat per Victor Garcia.
+Víbora és una banda de post-hardcore formada a Gasteiz a principis del 2018 per membres de l’escena hardcore i punk de la ciutat.`,
+
+      es: `Egin Ez Dugun Guztia (en castellano: “Todo lo que no hemos hecho”) es el segundo LP de Víbora.
+El trabajo habla de la nostalgia, de todo lo que la banda ha vivido estos últimos años y de todo aquello que se ha dejado de lado por el proyecto. Reflexiona sobre los lugares a los que les ha llevado y sobre el peso que un proyecto así adquiere en las vidas de sus miembros. También trata la ilusión de seguir apostando por el DIY y el desencanto de crecer y que nada cambie.
+La preproducción se realizó en Gakobeltz Hit Faktoria con Joseba Baleztena y Miren Narbaiza. Fue grabado con Borja Pérez en los estudios La Nave Hermosa en agosto de 2026, y posteriormente fue masterizado por Victor Garcia.
+Víbora es una banda de post-hardcore formada en Gasteiz a principios de 2018 por miembros de la escena hardcore y punk de la ciudad.`,
+
+      en: `Egin Ez Dugun Guztia (“All That We Haven’t Done”) is Víbora’s second LP.
+The record explores nostalgia, everything the band has experienced over the past few years, and all that has been left aside for the sake of the project. It reflects on the places it has taken them and on the weight such a project carries in the lives of its members. It also addresses the excitement of continuing to embrace DIY and the disillusionment of growing up while nothing seems to change.
+Pre-production took place at Gakobeltz Hit Faktoria with Joseba Baleztena and Miren Narbaiza. It was recorded with Borja Pérez at La Nave Hermosa studios in August 2026 and later mastered by Victor Garcia.
+Víbora is a post-hardcore band formed in Gasteiz in early 2018 by members of the local hardcore and punk scene.`,
+
+      fr: `Egin Ez Dugun Guztia (« Tout ce que nous n’avons pas fait ») est le deuxième LP de Víbora.
+L’album parle de nostalgie, de tout ce que le groupe a vécu ces dernières années et de tout ce qui a été laissé de côté pour le projet. Il réfléchit aux lieux où cela les a menés et au poids qu’un tel projet prend dans la vie de ses membres. Il aborde aussi l’envie de continuer à défendre le DIY et le désenchantement de grandir sans que rien ne change.
+La préproduction a été réalisée à Gakobeltz Hit Faktoria avec Joseba Baleztena et Miren Narbaiza. L’album a été enregistré avec Borja Pérez aux studios La Nave Hermosa en août 2026, puis masterisé par Victor Garcia.
+Víbora est un groupe de post-hardcore formé à Gasteiz au début de 2018 par des membres de la scène hardcore et punk locale.`,
+    },
+    image: '/bands/vibora-band.png',
+    youtube: 'https://youtu.be/QTx6gGcpKnM?si=Apct_2SVZA8rDNy9no',
+    instagram: 'https://www.instagram.com/viboraband/',
+  },
+  {
+    id: 'chalk-hands',
+    isAnnounced: true,
+    name: {
+      ca: 'Chalk Hands',
+      es: 'Chalk Hands',
+      en: 'Chalk Hands',
+      fr: 'Chalk Hands',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Chalk Hands tornen el 27 de març de 2026 amb el seu nou àlbum The Line That Shapes the Coast of Us, publicat a través de Dog Knights Productions.Abans de la sortida del disc, la banda compartirà Breaking Waves, el primer single i un primer tast del món que construeix el nou treball.Ampliant les bases emocionals i sonores establertes pel seu aclamat debut Don’t Think About Death, el quartet de screamo/post-rock de Brighton (Regne Unit) continua explorant les àmplies interseccions entre el caos i la calma, la fúria i la fragilitat sempre amb una honestedat absoluta al centre del seu projecte.
+        Des de la publicació de Don’t Think About Death, Chalk Hands han fet gires extensives pel Regne Unit i Europa incloent-hi gires amb Touché Amoré i Frail Body i han actuat en festivals com ArcTanGent (Regne Unit) i Sonic Rites (Finlàndia).`,
+
+      es: `Chalk Hands regresan el 27 de marzo de 2026 con su nuevo álbum The Line That Shapes the Coast of Us, publicado a través de Dog Knights Productions.Antes del lanzamiento, la banda compartirá Breaking Waves, el primer single y un primer adelanto del universo que construye el nuevo trabajo.Ampliando las bases emocionales y sonoras establecidas por su aclamado debut Don’t Think About Death, el cuarteto de screamo/post-rock de Brighton (Reino Unido) continúa explorando las amplias intersecciones entre el caos y la calma, la furia y la fragilidad siempre con una honestidad absoluta en el centro de su propuesta.
+      Desde la publicación de Don’t Think About Death, Chalk Hands han realizado giras extensas por Reino Unido y Europa incluyendo tours con Touché Amoré y Frail Body y han actuado en festivales como ArcTanGent (Reino Unido) y Sonic Rites (Finlandia).`,
+
+      en: `Chalk Hands return on March 27, 2026 with their new album The Line That Shapes the Coast of Us, released via Dog Knights Productions. Ahead of the release, the band will share Breaking Waves, the first single and a first glimpse into the world built by the new record.Expanding on the emotional and sonic foundations laid by their acclaimed debut Don’t Think About Death, the Brighton (UK) screamo/post-rock quartet continues to explore the wide intersections between chaos and calm, fury and fragility always with absolute honesty at the core of their project.
+      Since releasing Don’t Think About Death, Chalk Hands have toured extensively across the UK and Europe including tours with Touché Amoré and Frail Body and have performed at festivals such as ArcTanGent (UK) and Sonic Rites (Finland).`,
+
+      fr: `Chalk Hands reviennent le 27 mars 2026 avec leur nouvel album The Line That Shapes the Coast of Us, publié via Dog Knights Productions. custom-scrollAvant la sortie, le groupe dévoilera Breaking Waves, premier single et premier aperçu de l’univers du nouvel album. En élargissant les bases émotionnelles et sonores posées par leur premier album acclamé Don’t Think About Death, le quatuor screamo/post-rock de Brighton (Royaume-Uni) continue d’explorer les vastes intersections entre chaos et calme, fureur et fragilité toujours avec une honnêteté absolue au cœur de leur démarche.
+      Depuis la sortie de Don’t Think About Death, Chalk Hands ont tourné intensivement au Royaume-Uni et en Europe notamment aux côtés de Touché Amoré et Frail Body et ont joué dans des festivals comme ArcTanGent (Royaume-Uni) et Sonic Rites (Finlande).`,
+    },
+    image: '/bands/chalk-hands-band.jpeg',
+    youtube: 'https://youtu.be/BJ6hSgLKyAk?si=N6D-ertAyP1oE8F3',
+    instagram: 'https://www.instagram.com/chalkhandsofficial/',
+  },
+  {
+    id: 'dark-side-of-soul',
+    isAnnounced: true,
+    name: {
+      ca: 'Darkside of Soul',
+      es: 'Darkside of Soul',
+      en: 'Darkside of Soul',
+      fr: 'Darkside of Soul',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Aquest disc documenta un fragment minúscul i brillant d’una època que val la pena recordar. Escoltar aquestes cançons ens permet viatjar a un temps en què les coses es feien de manera diferent del que estem acostumats avui dia; amb el cor per davant i la gola a punt d’esclatar.
+Darkside of Soul són la Barcelona de finals dels noranta, i el seu llegat és un capítol, humil i honest, de la història més subterrània i punk d’aquell moment i aquella ciutat.
+Darkside of Soul eren foscos i sorollosos, escoltaven screamo i moltes altres músiques mirant cap a l’underground europeu i nord-americà del moment, barrejaven hardcore cridaner amb emotivitat polititzada, i la seva èpica de barri obrer sonava urgent i desesperada.Ètica DIY inquebrantable, ràbia juvenil, intensitat incansable i moltes ganes de cridar veritats; Darkside of Soul van ser un breu i entranyable esclat a l’escena hardcore punk nacional que, insisteixo, val la pena recordar.
+Text: Ricky Lavado.`,
+
+      es: `Este disco documenta un fragmento minúsculo y brillante de una época que vale la pena recordar.Escuchar estas canciones nos permite viajar a un tiempo en que las cosas se hacían de forma distinta a lo que estamos acostumbrados hoy en día; con el corazón por delante y la garganta a punto de estallar.
+Darkside of Soul son la Barcelona de finales de los noventa, y su legado es un capítulo, humilde y honesto, de la historia más subterránea y punk de ese momento y esa ciudad.
+Darkside of Soul eran oscuros y ruidosos, escuchaban screamo y muchas otras músicas mirando al underground europeo y norteamericano del momento, mezclaban hardcore chillón con emotividad politizada, y su épica de barrio obrero sonaba urgente y desesperada.Ética DIY inquebrantable, rabia juvenil, intensidad incansable y muchas ganas de gritar verdades; Darkside of Soul fueron un breve y entrañable destello en la escena hardcore punk nacional que, insisto, vale la pena recordar.
+Text: Ricky Lavado.`,
+
+      en: `This record documents a tiny yet brilliant fragment of a time worth remembering.Listening to these songs allows us to travel back to a moment when things were done differently from what we are used to today; with the heart leading the way and the throat ready to burst.
+      Darkside of Soul are late-90s Barcelona, and their legacy is a humble and honest chapter of the most underground and punk history of that moment and that city.
+Darkside of Soul were dark and noisy, listening to screamo and many other genres while looking towards the European and North American underground scenes of the time.They mixed sharp hardcore with politicized emotion, and their working-class neighborhood epic sounded urgent and desperate.
+Unbreakable DIY ethics, youthful rage, relentless intensity and a strong desire to shout truths; Darkside of Soul were a brief and endearing spark in the national hardcore punk scene that, I insist, is worth remembering.
+Text: Ricky Lavado.`,
+
+      fr: `Ce disque documente un fragment minuscule et brillant d’une époque qui mérite d’être rappelée.Écouter ces chansons nous permet de voyager à une période où les choses se faisaient différemment de ce à quoi nous sommes habitués aujourd’hui ; avec le cœur en avant et la gorge prête à exploser.
+Darkside of Soul, c’est la Barcelone de la fin des années quatre-vingt-dix, et leur héritage est un chapitre humble et honnête de l’histoire la plus underground et punk de cette époque et de cette ville.
+Darkside of Soul étaient sombres et bruyants, écoutaient du screamo et de nombreuses autres musiques en regardant vers l’underground européen et nord-américain du moment, mélangeaient un hardcore criard avec une émotion politisée, et leur épopée de quartier ouvrier sonnait urgente et désespérée. Éthique DIY inébranlable, rage juvénile, intensité inlassable et un grand désir de crier des vérités ; Darkside of Soul ont été une brève et touchante étincelle dans la scène hardcore punk nationale qui, j’insiste, mérite d’être rappelée.
+Text: Ricky Lavado.`,
+    },
+    image: '/bands/dark-side-of-soul.jpeg',
+    youtube: 'https://youtu.be/uCtGM3ngwTE?si=2-5paQl7vp5Ng3yU',
+    instagram: 'https://www.instagram.com/darksideofsoulbcn/',
+  },
+  {
     id: 'peligro',
     isAnnounced: true,
     name: {
@@ -104,186 +354,7 @@ En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps 
     youtube: 'https://youtu.be/g1sAcpv6J1Q?is=DJjsy3gzZjMJGlaz',
     instagram: '',
   },
-  {
-    id: 'chalk-hands',
-    isAnnounced: false,
-    name: {
-      ca: 'Chalk Hands',
-      es: 'Chalk Hands',
-      en: 'Chalk Hands',
-      fr: 'Chalk Hands',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `Chalk Hands tornen el 27 de març de 2026 amb el seu nou àlbum The Line That Shapes the Coast of Us, publicat a través de Dog Knights Productions.Abans de la sortida del disc, la banda compartirà Breaking Waves, el primer single i un primer tast del món que construeix el nou treball.Ampliant les bases emocionals i sonores establertes pel seu aclamat debut Don’t Think About Death, el quartet de screamo/post-rock de Brighton (Regne Unit) continua explorant les àmplies interseccions entre el caos i la calma, la fúria i la fragilitat sempre amb una honestedat absoluta al centre del seu projecte.
-        Des de la publicació de Don’t Think About Death, Chalk Hands han fet gires extensives pel Regne Unit i Europa incloent-hi gires amb Touché Amoré i Frail Body i han actuat en festivals com ArcTanGent (Regne Unit) i Sonic Rites (Finlàndia).`,
 
-      es: `Chalk Hands regresan el 27 de marzo de 2026 con su nuevo álbum The Line That Shapes the Coast of Us, publicado a través de Dog Knights Productions.Antes del lanzamiento, la banda compartirá Breaking Waves, el primer single y un primer adelanto del universo que construye el nuevo trabajo.Ampliando las bases emocionales y sonoras establecidas por su aclamado debut Don’t Think About Death, el cuarteto de screamo/post-rock de Brighton (Reino Unido) continúa explorando las amplias intersecciones entre el caos y la calma, la furia y la fragilidad siempre con una honestidad absoluta en el centro de su propuesta.
-      Desde la publicación de Don’t Think About Death, Chalk Hands han realizado giras extensas por Reino Unido y Europa incluyendo tours con Touché Amoré y Frail Body y han actuado en festivales como ArcTanGent (Reino Unido) y Sonic Rites (Finlandia).`,
-
-      en: `Chalk Hands return on March 27, 2026 with their new album The Line That Shapes the Coast of Us, released via Dog Knights Productions. Ahead of the release, the band will share Breaking Waves, the first single and a first glimpse into the world built by the new record.Expanding on the emotional and sonic foundations laid by their acclaimed debut Don’t Think About Death, the Brighton (UK) screamo/post-rock quartet continues to explore the wide intersections between chaos and calm, fury and fragility always with absolute honesty at the core of their project.
-      Since releasing Don’t Think About Death, Chalk Hands have toured extensively across the UK and Europe including tours with Touché Amoré and Frail Body and have performed at festivals such as ArcTanGent (UK) and Sonic Rites (Finland).`,
-
-      fr: `Chalk Hands reviennent le 27 mars 2026 avec leur nouvel album The Line That Shapes the Coast of Us, publié via Dog Knights Productions. custom-scrollAvant la sortie, le groupe dévoilera Breaking Waves, premier single et premier aperçu de l’univers du nouvel album. En élargissant les bases émotionnelles et sonores posées par leur premier album acclamé Don’t Think About Death, le quatuor screamo/post-rock de Brighton (Royaume-Uni) continue d’explorer les vastes intersections entre chaos et calme, fureur et fragilité toujours avec une honnêteté absolue au cœur de leur démarche.
-      Depuis la sortie de Don’t Think About Death, Chalk Hands ont tourné intensivement au Royaume-Uni et en Europe notamment aux côtés de Touché Amoré et Frail Body et ont joué dans des festivals comme ArcTanGent (Royaume-Uni) et Sonic Rites (Finlande).`,
-    },
-    image: '/bands/chalk-hands-band.jpeg',
-    youtube: 'https://youtu.be/BJ6hSgLKyAk?si=N6D-ertAyP1oE8F3',
-    instagram: 'https://www.instagram.com/chalkhandsofficial/',
-  },
-  {
-    id: 'tano',
-    isAnnounced: false,
-    name: {
-      ca: 'Tano!',
-      es: 'Tano!',
-      en: 'Tano!',
-      fr: 'Tano!',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `La llavor del power duo català Tano! es va plantar el 2014, arran dels concerts pòstums de la gira de Hurricäde compartint escenari i gira amb els també desapareguts Anchord. La germinació va sorgir al 2015, quan l'Oskar Garcia (Hurricäde) i en Victor Pelusa (Anchord, Mendra) s'ajunten cada vegada de manera més regular al local d'assaig, d'on n'acabarà sortint un encanteri musical del tot original. Cançons esbojarrades, dissonants, rítmiques i dinàmiques, cantades íntegrament en català i en constant recerca de noves sensacions que es reflecteixen en tres entregues discogràfiques i ressonen en incomptables concerts per terres catalanes, la península ibèrica i part del continent europeu; directes on es mantenen les emocions fortes, la visceralitat i lletres amb caire de llegendes amb un missatge al darrere escopides pel micro.`,
-
-      es: `La semilla del power dúo catalán Tano! se plantó en 2014, a raíz de los conciertos póstumos de la gira de Hurricäde compartiendo escenario y gira con los también desaparecidos Anchord. La germinación llegó en 2015, cuando Oskar Garcia (Hurricäde) y Victor Pelusa (Anchord, Mendra) empiezan a juntarse cada vez con más regularidad en el local de ensayo, de donde acabará saliendo un hechizo musical totalmente original. Canciones alocadas, disonantes, rítmicas y dinámicas, cantadas íntegramente en catalán y en constante búsqueda de nuevas sensaciones que se reflejan en tres entregas discográficas y resuenan en innumerables conciertos por tierras catalanas, la península ibérica y parte del continente europeo; directos donde se mantienen las emociones fuertes, la visceralidad y letras con aire de leyendas con un mensaje detrás escupidas al micro.`,
-
-      en: `The seed of the Catalan power duo Tano! was planted in 2014, following the posthumous concerts of the Hurricäde tour, sharing stage and tour with the also now-defunct Anchord. The germination came in 2015, when Oskar Garcia (Hurricäde) and Victor Pelusa (Anchord, Mendra) began meeting more regularly in the rehearsal space, from which a completely original musical spell would emerge. Wild, dissonant, rhythmic and dynamic songs, entirely sung in Catalan and in constant search of new sensations, reflected in three record releases and echoed in countless concerts across Catalonia, the Iberian Peninsula and parts of Europe; live shows where intense emotions, raw energy and lyrics with a legendary tone and a message behind them are spat into the mic.`,
-
-      fr: `La graine du power duo catalan Tano! a été plantée en 2014, à la suite des concerts posthumes de la tournée de Hurricäde, partageant scène et tournée avec les également disparus Anchord. La germination arrive en 2015, lorsque Oskar Garcia (Hurricäde) et Victor Pelusa (Anchord, Mendra) commencent à se retrouver de plus en plus régulièrement en salle de répétition, d’où naîtra un sort musical totalement original. Des chansons déjantées, dissonantes, rythmiques et dynamiques, entièrement chantées en catalan et en constante recherche de nouvelles sensations, reflétées dans trois sorties discographiques et résonnant dans d’innombrables concerts à travers la Catalogne, la péninsule ibérique et une partie de l’Europe ; des lives où se maintiennent des émotions fortes, la visceralité et des paroles au ton de légendes avec un message derrière, crachées dans le micro.`,
-    },
-    image: '/bands/tano-band.jpeg',
-    youtube: 'https://youtu.be/4WUD3Cmf3xY?si=Vf6BXvoF5Rj1K-Vf',
-    instagram: 'https://www.instagram.com/tanoduo/',
-  },
-  {
-    id: 'dark-side-of-soul',
-    isAnnounced: false,
-    name: {
-      ca: 'Dark Side of Soul',
-      es: 'Dark Side of Soul',
-      en: 'Dark Side of Soul',
-      fr: 'Dark Side of Soul',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `Aquest disc documenta un fragment minúscul i brillant d’una època que val la pena recordar. Escoltar aquestes cançons ens permet viatjar a un temps en què les coses es feien de manera diferent del que estem acostumats avui dia; amb el cor per davant i la gola a punt d’esclatar.
-Darkside of Soul són la Barcelona de finals dels noranta, i el seu llegat és un capítol, humil i honest, de la història més subterrània i punk d’aquell moment i aquella ciutat.
-Darkside of Soul eren foscos i sorollosos, escoltaven screamo i moltes altres músiques mirant cap a l’underground europeu i nord-americà del moment, barrejaven hardcore cridaner amb emotivitat polititzada, i la seva èpica de barri obrer sonava urgent i desesperada.Ètica DIY inquebrantable, ràbia juvenil, intensitat incansable i moltes ganes de cridar veritats; Darkside of Soul van ser un breu i entranyable esclat a l’escena hardcore punk nacional que, insisteixo, val la pena recordar.
-Text: Ricky Lavado.`,
-
-      es: `Este disco documenta un fragmento minúsculo y brillante de una época que vale la pena recordar.Escuchar estas canciones nos permite viajar a un tiempo en que las cosas se hacían de forma distinta a lo que estamos acostumbrados hoy en día; con el corazón por delante y la garganta a punto de estallar.
-Darkside of Soul son la Barcelona de finales de los noventa, y su legado es un capítulo, humilde y honesto, de la historia más subterránea y punk de ese momento y esa ciudad.
-Darkside of Soul eran oscuros y ruidosos, escuchaban screamo y muchas otras músicas mirando al underground europeo y norteamericano del momento, mezclaban hardcore chillón con emotividad politizada, y su épica de barrio obrero sonaba urgente y desesperada.Ética DIY inquebrantable, rabia juvenil, intensidad incansable y muchas ganas de gritar verdades; Darkside of Soul fueron un breve y entrañable destello en la escena hardcore punk nacional que, insisto, vale la pena recordar.
-Text: Ricky Lavado.`,
-
-      en: `This record documents a tiny yet brilliant fragment of a time worth remembering.Listening to these songs allows us to travel back to a moment when things were done differently from what we are used to today; with the heart leading the way and the throat ready to burst.
-      Darkside of Soul are late-90s Barcelona, and their legacy is a humble and honest chapter of the most underground and punk history of that moment and that city.
-Darkside of Soul were dark and noisy, listening to screamo and many other genres while looking towards the European and North American underground scenes of the time.They mixed sharp hardcore with politicized emotion, and their working-class neighborhood epic sounded urgent and desperate.
-Unbreakable DIY ethics, youthful rage, relentless intensity and a strong desire to shout truths; Darkside of Soul were a brief and endearing spark in the national hardcore punk scene that, I insist, is worth remembering.
-Text: Ricky Lavado.`,
-
-      fr: `Ce disque documente un fragment minuscule et brillant d’une époque qui mérite d’être rappelée.Écouter ces chansons nous permet de voyager à une période où les choses se faisaient différemment de ce à quoi nous sommes habitués aujourd’hui ; avec le cœur en avant et la gorge prête à exploser.
-Darkside of Soul, c’est la Barcelone de la fin des années quatre-vingt-dix, et leur héritage est un chapitre humble et honnête de l’histoire la plus underground et punk de cette époque et de cette ville.
-Darkside of Soul étaient sombres et bruyants, écoutaient du screamo et de nombreuses autres musiques en regardant vers l’underground européen et nord-américain du moment, mélangeaient un hardcore criard avec une émotion politisée, et leur épopée de quartier ouvrier sonnait urgente et désespérée. Éthique DIY inébranlable, rage juvénile, intensité inlassable et un grand désir de crier des vérités ; Darkside of Soul ont été une brève et touchante étincelle dans la scène hardcore punk nationale qui, j’insiste, mérite d’être rappelée.
-Text: Ricky Lavado.`,
-    },
-    image: '/bands/dark-side-of-soul.jpeg',
-    youtube: 'https://youtu.be/uCtGM3ngwTE?si=2-5paQl7vp5Ng3yU',
-    instagram: 'https://www.instagram.com/darksideofsoulbcn/',
-  },
-  {
-    id: 'gros-enfant-mort',
-    isAnnounced: false,
-    name: {
-      ca: 'Gros enfant mort',
-      es: 'Gros enfant mort',
-      en: 'Gros enfant mort',
-      fr: 'Gros enfant mort',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `Gros Enfant Mort és una banda de screamo i post-hardcore originària de Poitiers (França), que combina una intensa expressivitat emocional amb passatges sonors durs i abrasius, arrelats en la tradició del hardcore post-punk europeu.
-El projecte arrenca el 2019 com una idea solista que l’autor desenvolupà de manera introspectiva, per després ampliar-se amb músics col·laboradors per tocar en directe i estructurar una proposta de banda més completa.
-Musicalment, Gros Enfant Mort s’inscriu en la vena del screamo francès i post-hardcore que succeeix a figures com Daïtro, Amanda Woodward o Sed Non Satiata, caracteritzant-se per un so carregat d’intensitat, que transita des de passatges melòdics subtils fins a murs de soroll, amb vocals cridats i rítmiques que conjuminen urgència i emotivitat.`,
-
-      es: `Gros Enfant Mort es una banda de screamo y post-hardcore originaria de Poitiers (Francia), que combina una intensa expresividad emocional con pasajes sonoros duros y abrasivos, arraigados en la tradición del hardcore post-punk europeo.
-El proyecto comienza en 2019 como una idea en solitario que el autor desarrolló de forma introspectiva, para luego ampliarse con músicos colaboradores para tocar en directo y estructurar una propuesta de banda más completa.
-Musicalmente, Gros Enfant Mort se inscribe en la línea del screamo francés y el post-hardcore que sigue a figuras como Daïtro, Amanda Woodward o Sed Non Satiata, caracterizándose por un sonido cargado de intensidad, que transita desde pasajes melódicos sutiles hasta muros de ruido, con voces gritadas y ritmos que combinan urgencia y emotividad.`,
-
-      en: `Gros Enfant Mort is a screamo and post-hardcore band from Poitiers (France), combining intense emotional expressiveness with harsh and abrasive sonic passages rooted in the European post-punk hardcore tradition.
-The project began in 2019 as a solo idea developed introspectively by its author, later expanding with additional musicians to perform live and shape a more complete band setup.
-Musically, Gros Enfant Mort follows in the vein of French screamo and post-hardcore acts such as Daïtro, Amanda Woodward or Sed Non Satiata, characterized by a sound full of intensity that moves from subtle melodic passages to walls of noise, with screamed vocals and rhythms that blend urgency and emotion.`,
-
-      fr: `Gros Enfant Mort est un groupe de screamo et post-hardcore originaire de Poitiers (France), qui combine une expressivité émotionnelle intense avec des passages sonores durs et abrasifs, ancrés dans la tradition du hardcore post-punk européen.
-Le projet débute en 2019 comme une idée solo développée de manière introspective, avant de s’élargir avec des musiciens collaborateurs pour jouer en live et structurer une proposition de groupe plus complète.
-Musicalement, Gros Enfant Mort s’inscrit dans la lignée du screamo français et du post-hardcore représenté par des groupes comme Daïtro, Amanda Woodward ou Sed Non Satiata, avec un son chargé d’intensité qui évolue de passages mélodiques subtils à des murs de bruit, avec des voix criées et des rythmiques mêlant urgence et émotion.`,
-    },
-    image: '/bands/gros-enfant-mort.jpeg',
-    youtube: 'https://youtu.be/dsppxPfMGpo?si=wTYROirVKA0Rqe4M',
-    instagram: 'https://www.instagram.com/grosenfantmort/',
-  },
-  {
-    id: 'vibora',
-    isAnnounced: false,
-    name: {
-      ca: 'Vibora',
-      es: 'Vibora',
-      en: 'Vibora',
-      fr: 'Vibora',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `Egin Ez Dugun Guztia (en castellà: “Todo lo que no hemos hecho”) és el segon LP de Víbora.
-El treball parla de la nostàlgia, de tot el que la banda ha viscut aquests últims anys i de tot allò que s’ha deixat de costat pel projecte. Reflexiona sobre els llocs on els ha portat i sobre el pes que un projecte així adopta en les vides dels seus membres. També tracta la il·lusió de continuar apostant pel DIY i el desencant de créixer i que res no canviï.
-La preproducció es va fer a Gakobeltz Hit Faktoria amb Joseba Baleztena i Miren Narbaiza. Es va gravar amb Borja Pérez als estudis La Nave Hermosa a l’agost de 2026, i posteriorment va ser masteritzat per Victor Garcia.
-Víbora és una banda de post-hardcore formada a Gasteiz a principis del 2018 per membres de l’escena hardcore i punk de la ciutat.`,
-
-      es: `Egin Ez Dugun Guztia (en castellano: “Todo lo que no hemos hecho”) es el segundo LP de Víbora.
-El trabajo habla de la nostalgia, de todo lo que la banda ha vivido estos últimos años y de todo aquello que se ha dejado de lado por el proyecto. Reflexiona sobre los lugares a los que les ha llevado y sobre el peso que un proyecto así adquiere en las vidas de sus miembros. También trata la ilusión de seguir apostando por el DIY y el desencanto de crecer y que nada cambie.
-La preproducción se realizó en Gakobeltz Hit Faktoria con Joseba Baleztena y Miren Narbaiza. Fue grabado con Borja Pérez en los estudios La Nave Hermosa en agosto de 2026, y posteriormente fue masterizado por Victor Garcia.
-Víbora es una banda de post-hardcore formada en Gasteiz a principios de 2018 por miembros de la escena hardcore y punk de la ciudad.`,
-
-      en: `Egin Ez Dugun Guztia (“All That We Haven’t Done”) is Víbora’s second LP.
-The record explores nostalgia, everything the band has experienced over the past few years, and all that has been left aside for the sake of the project. It reflects on the places it has taken them and on the weight such a project carries in the lives of its members. It also addresses the excitement of continuing to embrace DIY and the disillusionment of growing up while nothing seems to change.
-Pre-production took place at Gakobeltz Hit Faktoria with Joseba Baleztena and Miren Narbaiza. It was recorded with Borja Pérez at La Nave Hermosa studios in August 2026 and later mastered by Victor Garcia.
-Víbora is a post-hardcore band formed in Gasteiz in early 2018 by members of the local hardcore and punk scene.`,
-
-      fr: `Egin Ez Dugun Guztia (« Tout ce que nous n’avons pas fait ») est le deuxième LP de Víbora.
-L’album parle de nostalgie, de tout ce que le groupe a vécu ces dernières années et de tout ce qui a été laissé de côté pour le projet. Il réfléchit aux lieux où cela les a menés et au poids qu’un tel projet prend dans la vie de ses membres. Il aborde aussi l’envie de continuer à défendre le DIY et le désenchantement de grandir sans que rien ne change.
-La préproduction a été réalisée à Gakobeltz Hit Faktoria avec Joseba Baleztena et Miren Narbaiza. L’album a été enregistré avec Borja Pérez aux studios La Nave Hermosa en août 2026, puis masterisé par Victor Garcia.
-Víbora est un groupe de post-hardcore formé à Gasteiz au début de 2018 par des membres de la scène hardcore et punk locale.`,
-    },
-    image: '/bands/vibora-band.png',
-    youtube: 'https://youtu.be/QTx6gGcpKnM?si=Apct_2SVZA8rDNy9no',
-    instagram: 'https://www.instagram.com/viboraband/',
-  },
-  {
-    id: 'E150',
-    isAnnounced: false,
-    name: {
-      ca: 'E150',
-      es: 'E150',
-      en: 'E150',
-      fr: 'E150',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `Fundats el 1995 a la perifèria barcelonina, E150 van perpetrar una activitat de 9 anys, en la qual van materialitzar un munt de gravacions, dues gires pels EUA i infinitat de dates peninsulars i europees. Es van acomiadar el 2004, entre l’esgotament i la dificultat de compaginar el grup amb les responsabilitats de la vida adulta.
-      Però 30 anys no se celebren cada dia i E150 aprofiten aquesta efemèride (i la reedició de la seva discografia) per fer una sèrie de concerts de reunió que, si no passa res, tindrà la seva última parada a l'Actitud Fest de Vidreres.
-      Ocasió única per viure una vetllada de rabiós hardcore com les d'abans!`,
-      es: `Fundados en 1995 en la periferia barcelonesa, E150 desarrollaron una actividad de 9 años en la que materializaron numerosas grabaciones, dos giras por EE. UU. y una infinidad de fechas por la península y Europa. Se despidieron en 2004, entre el agotamiento y la dificultad de compaginar el grupo con las responsabilidades de la vida adulta.
-      Pero 30 años no se celebran cada día y E150 aprovechan esta efeméride (y la reedición de su discografía) para realizar una serie de conciertos de reunión que, si nada lo impide, tendrá su última parada en el Actitud Fest de Vidreres.
-      ¡Una ocasión única para vivir una velada de hardcore rabioso como las de antes!`,
-      en: `Founded in 1995 on the outskirts of Barcelona, E150 were active for 9 years, during which they produced numerous recordings, toured the USA twice, and played countless shows across Spain and Europe. They said goodbye in 2004, worn out and facing the challenge of balancing the band with adult life responsibilities. 
-      But 30 years is not something you celebrate every day, and E150 are taking advantage of this milestone (along with the reissue of their discography) to play a series of reunion shows that, if all goes well, will have its final stop at Actitud Fest in Vidreres. 
-      A unique chance to experience a night of raw hardcore like in the old days!`,
-      fr: `Fondé en 1995 dans la périphérie barcelonaise, E150 a mené une activité de 9 ans durant laquelle le groupe a réalisé de nombreux enregistrements, effectué deux tournées aux États-Unis et joué une infinité de dates en Espagne et en Europe. Ils se sont séparés en 2004, entre l’épuisement et la difficulté de concilier le groupe avec les responsabilités de la vie adulte. 
-      Mais on ne fête pas 30 ans tous les jours, et E150 profitent de cette occasion (ainsi que de la réédition de leur discographie) pour proposer une série de concerts de réunion qui, sauf imprévu, aura sa dernière étape à l’Actitud Fest de Vidreres. 
-      Une occasion unique de vivre une soirée de hardcore furieux comme à l’ancienne !`,
-    },
-    image: '/bands/e150.jpeg',
-    youtube: 'https://youtu.be/PcP2FUSt00E?si=uMaeq0VUovtA2B9m',
-    instagram: 'https://www.instagram.com/e150_punk/',
-  },
   {
     id: 'ititanita',
     isAnnounced: false,
@@ -348,6 +419,7 @@ Après une brève pause due à la pandémie, ils sont revenus en force en 2022, 
     youtube: 'https://youtu.be/e_RA55mqCbI?si=sdr6QvrwJQK_5TVK',
     instagram: 'https://www.instagram.com/hippietrim/',
   },
+
   {
     id: 'william',
     isAnnounced: false,

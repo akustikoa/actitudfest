@@ -3,13 +3,23 @@ export const translations = {
     navbar: {
       home: 'Home',
       lineup: 'Lineup',
-      info: 'Info',
       about: 'About',
       history: 'History',
     },
     hero: {
       date: 'Vidreres 26 / 27 juny 2026',
       link: 'https://entradium.com/ca/events/actitud-fest-vidreres-2026',
+    },
+    presentation: {
+      title: 'Presentació',
+      bookTitleImg: 'Actitud, vida en los minifestivales',
+      bookTitle: 'Presentació del llibre Actitud',
+      bookText:
+        'Lluís Benavides presenta el llibre "Actitud, vida en los minifestivales" el 30 de maig a les 18h a la Llibreria 22 de Girona.',
+      concertTitleImg: 'Laura Crehuet',
+      concertTitle: 'concert presentació actitud 2026',
+      concertText:
+        'lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.',
     },
     infoFestival: {
       howToArrive: 'Com arribar',
@@ -22,9 +32,6 @@ export const translations = {
         "La zona d'acampada esta reservada a les persones amb abonament de 2 dies.",
       nearbyAccommodation: 'Allotjament proper',
       platforms: 'Plataformes',
-    },
-    info: {
-      title: 'Info',
     },
     lineupPreview: {
       subtitle: 'Grups confirmats per aquesta edició 2026',
@@ -50,18 +57,31 @@ export const translations = {
       intro2: 'excepte el 2023 per ',
       rogerOrtega: 'Roger Ortega',
     },
+    footer: {
+      cookieText: 'Aquest lloc web no utilitza cookies ni recull cap dada.',
+    },
   },
   es: {
     navbar: {
       home: 'Inicio',
       lineup: 'Cartel',
-      info: 'Info',
       about: 'Sobre',
       history: 'Historia',
     },
     hero: {
       date: 'Vidreres 26 / 27 junio 2026',
       link: 'https://entradium.com/es/events/actitud-fest-vidreres-2026',
+    },
+    presentation: {
+      title: 'Presentación',
+      bookTitleImg: 'Actitud, vida en los minifestivales',
+      bookTitle: 'Presentación del libro Actitud',
+      bookText:
+        'Lluís Benavides presenta el libro "Actitud, vida en los minifestivales" el 30 de mayo a las 18h en la Llibreria 22 de Girona.',
+      concertTitleImg: 'Laura Crehuet',
+      concertTitle: 'Concierto presentación Actitud 2026',
+      concertText:
+        'lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.',
     },
     infoFestival: {
       howToArrive: 'Cómo llegar',
@@ -74,9 +94,6 @@ export const translations = {
         'La zona de acampada está reservada para las personas con abono de 2 días.',
       nearbyAccommodation: 'Alojamiento cercano',
       platforms: 'Plataformas',
-    },
-    info: {
-      title: 'Info',
     },
     lineupPreview: {
       subtitle: 'Grupos confirmados para esta edición 2026',
@@ -102,18 +119,31 @@ export const translations = {
       intro2: 'excepto el 2023 por ',
       rogerOrtega: 'Roger Ortega',
     },
+    footer: {
+      cookieText: 'Este sitio web no utiliza cookies ni recopila datos.',
+    },
   },
   en: {
     navbar: {
       home: 'Home',
       lineup: 'Lineup',
-      info: 'Info',
       about: 'About',
       history: 'History',
     },
     hero: {
       date: 'Vidreres June 26 / 27 2026',
       link: 'https://entradium.com/en/events/actitud-fest-vidreres-2026',
+    },
+    presentation: {
+      title: 'Presentation',
+      bookTitleImg: 'Actitud, vida en los minifestivales',
+      bookTitle: 'Book presentation Actitud',
+      bookText:
+        'Lluís Benavides presents the book "Actitud, vida en los minifestivales" on May 30th at 6 PM at Llibreria 22 in Girona.',
+      concertTitleImg: 'Laura Crehuet',
+      concertTitle: 'Actitud 2026 presentation concert',
+      concertText:
+        'lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.',
     },
     infoFestival: {
       howToArrive: 'How to get here',
@@ -125,9 +155,6 @@ export const translations = {
       campingText: 'The camping area is reserved for people with a 2-day pass.',
       nearbyAccommodation: 'Stay nearby',
       platforms: 'Platforms',
-    },
-    info: {
-      title: 'Info',
     },
     lineupPreview: {
       subtitle: 'Groups confirmed for this edition 2026',
@@ -153,18 +180,32 @@ export const translations = {
       intro2: 'except for 2023 by ',
       rogerOrtega: 'Roger Ortega',
     },
+    footer: {
+      cookieText:
+        'This website does not use cookies and does not collect any data.',
+    },
   },
   fr: {
     navbar: {
       home: 'Accueil',
       lineup: 'Affiche',
-      info: 'Info',
       about: 'À propos',
       history: 'Histoire',
     },
     hero: {
       date: 'Vidreres 26 / 27 juin 2026',
       link: 'https://entradium.com/fr/events/actitud-fest-vidreres-2026',
+    },
+    presentation: {
+      title: 'Présentation',
+      bookTitleImg: 'Actitud, vida en los minifestivales',
+      bookTitle: 'Présentation du livre Actitud',
+      bookText:
+        'Lluís Benavides présente le livre "Actitud, vida en los minifestivales" le 30 mai à 18h à la Llibreria 22 de Gérone.',
+      concertTitleImg: 'Laura Crehuet',
+      concertTitle: 'Concert présentation Actitud 2026',
+      concertText:
+        'lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.',
     },
     infoFestival: {
       howToArrive: 'Comment y accéder',
@@ -178,9 +219,7 @@ export const translations = {
       nearbyAccommodation: 'Hébergement à proximité',
       platforms: 'Plateformes',
     },
-    info: {
-      title: 'Info',
-    },
+
     lineupPreview: {
       subtitle: 'Groupes confirmés pour cette edition 2026',
       fullLineup: 'Affiche complète',
@@ -204,6 +243,10 @@ export const translations = {
       alexAlegre: 'Alex Alegre,',
       intro2: 'sauf 2023 par ',
       rogerOrtega: 'Roger Ortega',
+    },
+    footer: {
+      cookieText:
+        "Ce site web n'utilise pas de cookies et ne collecte aucune donnée.",
     },
   },
 };

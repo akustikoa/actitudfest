@@ -1,3 +1,4 @@
+import { useLanguage } from '../context/LanguageContext';
 import ajuntamentVidreres from '../assets/images/ajuntament-vidreres.png';
 import diputacioGirona from '../assets/images/Diputacio.png';
 import sorollLogo from '../assets/images/soroll.png';
@@ -111,6 +112,7 @@ const socialLinks = [
 ];
 
 function Footer() {
+  const { t } = useLanguage();
   return (
     <footer className='border-t border-white/10 bg-black px-6 py-8 text-white sm:px-10 lg:px-16'>
       <div className='mx-auto w-full max-w-[1200px]'>
@@ -231,10 +233,7 @@ function Footer() {
 
           <div className='flex flex-row justify-between pt-3'>
             <p className='w-2/3 flex flex-col text-[11px] text-white/42 lg:text-[12px]'>
-              <span>
-                This website does not use any cookie and does not collect any
-                data.
-              </span>
+              <span>{t('footer.cookieText')}</span>
               <span>&copy; 2026 Actitud Fest</span>
             </p>
 

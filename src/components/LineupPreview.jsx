@@ -9,9 +9,9 @@ function LineupPreview() {
   const announcedArtists = artists.filter((artist) => artist.isAnnounced);
 
   const featuredArtist = announcedArtists[0];
-  const otherAnnouncedArtists = [...announcedArtists].reverse().slice(0);
+  const otherAnnouncedArtists = [...announcedArtists].reverse().slice(2);
 
-  const DESKTOP_TILE_COUNT = 9;
+  const DESKTOP_TILE_COUNT = 10;
 
   const desktopArtistTiles = otherAnnouncedArtists.slice(0, DESKTOP_TILE_COUNT);
   const missingTiles = Math.max(
@@ -85,8 +85,8 @@ function LineupPreview() {
               />
             </div>
 
-            <div className='flex h-full flex-col px-6 py-7 sm:px-8 sm:py-8 lg:px-8 lg:py-7'>
-              <h3 className='mt-4 text-3xl font-black uppercase tracking-[-0.05em] sm:text-[2rem]'>
+            <div className='flex h-full flex-col px-6 py-7 sm:px-8 sm:py-8 lg:px-8 lg:py-0'>
+              <h3 className='mt-1 text-3xl font-black uppercase tracking-[-0.05em] sm:text-[2rem]'>
                 {featuredArtist.name[language]}
               </h3>
 
