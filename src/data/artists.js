@@ -1,5 +1,124 @@
 export const artists = [
   {
+    id: 'theenjoydivision',
+    isAnnounced: true,
+    name: {
+      ca: 'The enjoy division',
+      es: 'The enjoy division',
+      en: 'The enjoy division',
+      fr: 'The enjoy division',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `La Cristina i la Laura formen The Enjoy Division, un projecte nascut d’una amistat de molts anys i d’un vincle molt profund amb la música.
+Fans dels festivals i de tot el que es mou dins l’escena underground.
+Per celebrar els 15 anys d’Actitud, s’han reunit especialment per compartir aquesta passió amb tothom.`,
+
+      es: `Cristina y Laura forman The Enjoy Division, un proyecto nacido de una amistad de muchos años y de un vínculo muy profundo con la música.
+Fans de los festivales y de todo lo que se mueve dentro de la escena underground.
+Para celebrar los 15 años de Actitud, se han reunido especialmente para compartir esta pasión con todo el mundo.`,
+
+      en: `Cristina and Laura form The Enjoy Division, a project born from a long-standing friendship and a very deep connection with music.
+Fans of festivals and everything that moves within the underground scene.
+To celebrate Actitud’s 15th anniversary, they have come together especially to share this passion with everyone.`,
+
+      fr: `Cristina et Laura forment The Enjoy Division, un projet né d’une amitié de longue date et d’un lien très profond avec la musique.
+Fans des festivals et de tout ce qui gravite autour de la scène underground.
+Pour célébrer les 15 ans d’Actitud, elles se sont réunies spécialement pour partager cette passion avec tout le monde.`,
+    },
+    image: '/bands/theenjoydivision.png',
+    youtube: '',
+    instagram: '',
+  },
+  {
+    id: 'william',
+    isAnnounced: true,
+    name: {
+      ca: 'Will.I.Am??? ',
+      es: 'Will.I.Am??? ',
+      en: 'Will.I.Am??? ',
+      fr: 'Will.I.Am??? ',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Per primera i (potser última) vegada, apareix Will.I.Am??? Després de molts anys i danys, d'ostracisme musical arriba amb una sessió feta de manera desagradable, pregravada i poc previsible...editada amb Spotify i anuncis. Zero vergonya... Caos? Bastant. Barreja d’estils? Sense gaire criteri. Funciona? Doncs a estones sí, a estones no… Ideal si el que busques és soroll de fons i alguna criaturada involuntària.`,
+
+      es: `Por primera y (quizá última) vez, aparece Will.I.Am??? Después de muchos años y daños, de ostracismo musical, llega con una sesión hecha de forma desagradable, pregrabada y poco previsible... editada con Spotify y anuncios. Cero vergüenza... ¿Caos? Bastante. ¿Mezcla de estilos? Sin demasiado criterio. ¿Funciona? Pues a ratos sí, a ratos no… Ideal si lo que buscas es ruido de fondo y alguna salida involuntariamente infantil.`,
+
+      en: `For the first and (perhaps last) time, Will.I.Am??? appears. After many years and plenty of damage, of musical ostracism, he arrives with a set put together in a rather unpleasant way, pre-recorded and hardly predictable... edited with Spotify and ads. Zero shame... Chaos? Quite a lot. A mix of styles? Without much criteria. Does it work? Well, sometimes yes, sometimes no… Ideal if what you are looking for is background noise and the occasional unintentionally childish moment.`,
+
+      fr: `Pour la première et (peut-être dernière) fois, voici Will.I.Am??? Après de longues années et quelques dégâts, d’ostracisme musical, il revient avec un set conçu de manière désagréable, préenregistré et peu prévisible... monté avec Spotify et des publicités. Zéro honte... Du chaos ? Pas mal. Un mélange de styles ? Sans beaucoup de critère. Est-ce que ça fonctionne ? Par moments oui, par moments non… Idéal si tu cherches du bruit de fond et quelques enfantillages involontaires.`,
+    },
+    image: '/bands/william.png',
+    youtube: '',
+    instagram: '',
+  },
+  {
+    id: 'ititanita',
+    isAnnounced: true,
+    name: {
+      ca: 'It it anita',
+      es: 'It it anita',
+      en: 'It it anita',
+      fr: 'It it anita',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `It It Anita és una banda de noise rock procedent de Lieja (Bèlgica) formada el 2014, coneguda per un so visceral i sense filtres que combina l’agressivitat del punk amb la intensitat del noise rock contemporani.
+      Amb guitarres tallants, ritmes tensos i una energia desbordant, el grup ha construït una reputació sòlida dins l’escena alternativa europea, especialment gràcies a uns directes físics i imprevisibles.
+Des dels seus inicis, la banda ha apostat per una música directa i catàrtica, influenciada per l’herència del noise rock nord-americà i el post-hardcore, amb referències que sovint evoquen grups com The Jesus Lizard, METZ o At The Drive-In.El seu estil combina riffs abrasadors, estructures dinàmiques i una intensitat constant que oscil·la entre el caos controlat i l’explosió sonora.
+Actualment presenta el seu nou treball HI HI HA HA (Vicious Circle 2026).`,
+
+      es: `It It Anita es una banda de noise rock procedente de Lieja (Bélgica) formada en 2014, conocida por un sonido visceral y sin filtros que combina la agresividad del punk con la intensidad del noise rock contemporáneo.
+Con guitarras afiladas, ritmos tensos y una energía desbordante, el grupo ha construido una sólida reputación dentro de la escena alternativa europea, especialmente gracias a unos directos físicos e imprevisibles.
+Desde sus inicios, la banda ha apostado por una música directa y catártica, influenciada por la herencia del noise rock norteamericano y el post-hardcore, con referencias que a menudo evocan a grupos como The Jesus Lizard, METZ o At The Drive-In.Su estilo combina riffs abrasivos, estructuras dinámicas y una intensidad constante que oscila entre el caos controlado y la explosión sonora.
+Actualmente presentan su nuevo trabajo HI HI HA HA (Vicious Circle 2026).`,
+
+      en: `It It Anita is a noise rock band from Liège (Belgium), formed in 2014, known for a raw and uncompromising sound that blends the aggression of punk with the intensity of contemporary noise rock.With sharp guitars, tense rhythms and explosive energy, the band has built a solid reputation within the European alternative scene, especially thanks to their physical and unpredictable live performances.
+Since their beginnings, the band has embraced a direct and cathartic approach, influenced by the legacy of American noise rock and post-hardcore, with references often evoking bands like The Jesus Lizard, METZ or At The Drive-In.Their style combines abrasive riffs, dynamic structures and a constant intensity that moves between controlled chaos and sonic explosion.
+They are currently presenting their new record HI HI HA HA (Vicious Circle 2026).`,
+
+      fr: `It It Anita est un groupe de noise rock originaire de Liège (Belgique), formé en 2014, connu pour un son viscéral et sans filtre qui combine l’agressivité du punk avec l’intensité du noise rock contemporain.Avec des guitares tranchantes, des rythmes tendus et une énergie débordante, le groupe a construit une solide réputation au sein de la scène alternative européenne, notamment grâce à des concerts physiques et imprévisibles.
+Depuis ses débuts, le groupe mise sur une musique directe et cathartique, influencée par l’héritage du noise rock américain et du post-hardcore, avec des références évoquant souvent des groupes comme The Jesus Lizard, METZ ou At The Drive-In.Leur style combine des riffs abrasifs, des structures dynamiques et une intensité constante oscillant entre chaos maîtrisé et explosion sonore.
+Ils présentent actuellement leur nouvel album HI HI HA HA (Vicious Circle 2026).`,
+    },
+    image: '/bands/ititanita.jpeg',
+    youtube: 'https://youtu.be/RTLPq2gtNs8?si=eqynZDLtshsnnq1P',
+    instagram: 'https://www.instagram.com/ititanita/',
+  },
+  {
+    id: 'hippie-tirm',
+    isAnnounced: true,
+    name: {
+      ca: 'Hippie trim',
+      es: 'Hippie trim',
+      en: 'Hippie trim',
+      fr: 'Hippie trim',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Hippie Trim es van donar a conèixer amb el seu primer senzill “Supersonic”, que va generar molt d’interès dins l’escena i va impulsar un ascens ràpid, amb el seu primer concert esgotat setmanes abans.
+El grup va compartir escenari amb la banda nord-americana Drug Church durant la seva gira per Alemanya i el 2019 va cridar l’atenció amb el seu disc de debut “Cult”. Aquest àlbum mostrava una combinació única de duresa i melodia, amb riffs dinàmics i una veu alhora crua i etèria, convertint-se en el seu segell distintiu i captivant tant públic com crítica.
+Després d’una pausa breu per la pandèmia, van tornar amb força el 2022, rebent elogis de mitjans internacionals. Han tocat amb grups destacats com Turnstile, Fleshwater o Fiddlehead, ampliant el seu estil musical. El seu segon disc, “What Consumes Me”, va marcar una nova etapa en la seva evolució.`,
+
+      es: `Hippie Trim se dieron a conocer con su primer sencillo “Supersonic”, que generó mucho interés dentro de la escena e impulsó un ascenso rápido, con su primer concierto agotado semanas antes.
+El grupo compartió escenario con la banda estadounidense Drug Church durante su gira por Alemania y en 2019 llamó la atención con su álbum debut “Cult”. Este disco mostraba una combinación única de dureza y melodía, con riffs dinámicos y una voz a la vez cruda y etérea, convirtiéndose en su sello distintivo y cautivando tanto al público como a la crítica.
+Tras una breve pausa por la pandemia, regresaron con fuerza en 2022, recibiendo elogios de medios internacionales. Han tocado con bandas destacadas como Turnstile, Fleshwater o Fiddlehead, ampliando su estilo musical. Su segundo álbum, “What Consumes Me”, marcó una nueva etapa en su evolución.`,
+
+      en: `Hippie Trim gained recognition with their debut single “Supersonic”, which generated significant buzz within the scene and sparked a rapid rise, with their first show selling out weeks in advance.
+The band shared the stage with American group Drug Church during their tour in Germany, and in 2019 they drew attention with their debut album “Cult”. The record showcased a unique blend of heaviness and melody, featuring dynamic riffs and a voice that was both raw and ethereal, becoming their signature sound and captivating both audiences and critics.
+After a brief pause during the pandemic, they returned strong in 2022, receiving praise from international media. They have played alongside notable acts such as Turnstile, Fleshwater, and Fiddlehead, expanding their musical style. Their second album, “What Consumes Me”, marked a new phase in their evolution.`,
+
+      fr: `Hippie Trim se sont fait connaître avec leur premier single “Supersonic”, qui a suscité beaucoup d’intérêt au sein de la scène et a lancé une ascension rapide, avec un premier concert complet plusieurs semaines à l’avance.
+Le groupe a partagé la scène avec le groupe américain Drug Church lors de sa tournée en Allemagne et, en 2019, a attiré l’attention avec son premier album “Cult”. Cet album présentait une combinaison unique de dureté et de mélodie, avec des riffs dynamiques et une voix à la fois brute et éthérée, devenant leur signature et séduisant à la fois le public et la critique.
+Après une brève pause due à la pandémie, ils sont revenus en force en 2022, recevant des éloges de la presse internationale. Ils ont joué avec des groupes majeurs tels que Turnstile, Fleshwater ou Fiddlehead, élargissant leur style musical. Leur deuxième album, “What Consumes Me”, a marqué une nouvelle étape dans leur évolution.`,
+    },
+    image: '/bands/hippie-trim.png',
+    youtube: 'https://youtu.be/e_RA55mqCbI?si=sdr6QvrwJQK_5TVK',
+    instagram: 'https://www.instagram.com/hippietrim/',
+  },
+
+  {
     id: 'E150',
     isAnnounced: true,
     name: {
@@ -352,126 +471,6 @@ En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps 
     },
     image: '/bands/atakdeuforia.png',
     youtube: 'https://youtu.be/g1sAcpv6J1Q?is=DJjsy3gzZjMJGlaz',
-    instagram: '',
-  },
-
-  {
-    id: 'ititanita',
-    isAnnounced: false,
-    name: {
-      ca: 'It it anita',
-      es: 'It it anita',
-      en: 'It it anita',
-      fr: 'It it anita',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `It It Anita és una banda de noise rock procedent de Lieja (Bèlgica) formada el 2014, coneguda per un so visceral i sense filtres que combina l’agressivitat del punk amb la intensitat del noise rock contemporani.
-      Amb guitarres tallants, ritmes tensos i una energia desbordant, el grup ha construït una reputació sòlida dins l’escena alternativa europea, especialment gràcies a uns directes físics i imprevisibles.
-Des dels seus inicis, la banda ha apostat per una música directa i catàrtica, influenciada per l’herència del noise rock nord-americà i el post-hardcore, amb referències que sovint evoquen grups com The Jesus Lizard, METZ o At The Drive-In.El seu estil combina riffs abrasadors, estructures dinàmiques i una intensitat constant que oscil·la entre el caos controlat i l’explosió sonora.
-Actualment presenta el seu nou treball HI HI HA HA (Vicious Circle 2026).`,
-
-      es: `It It Anita es una banda de noise rock procedente de Lieja (Bélgica) formada en 2014, conocida por un sonido visceral y sin filtros que combina la agresividad del punk con la intensidad del noise rock contemporáneo.
-Con guitarras afiladas, ritmos tensos y una energía desbordante, el grupo ha construido una sólida reputación dentro de la escena alternativa europea, especialmente gracias a unos directos físicos e imprevisibles.
-Desde sus inicios, la banda ha apostado por una música directa y catártica, influenciada por la herencia del noise rock norteamericano y el post-hardcore, con referencias que a menudo evocan a grupos como The Jesus Lizard, METZ o At The Drive-In.Su estilo combina riffs abrasivos, estructuras dinámicas y una intensidad constante que oscila entre el caos controlado y la explosión sonora.
-Actualmente presentan su nuevo trabajo HI HI HA HA (Vicious Circle 2026).`,
-
-      en: `It It Anita is a noise rock band from Liège (Belgium), formed in 2014, known for a raw and uncompromising sound that blends the aggression of punk with the intensity of contemporary noise rock.With sharp guitars, tense rhythms and explosive energy, the band has built a solid reputation within the European alternative scene, especially thanks to their physical and unpredictable live performances.
-Since their beginnings, the band has embraced a direct and cathartic approach, influenced by the legacy of American noise rock and post-hardcore, with references often evoking bands like The Jesus Lizard, METZ or At The Drive-In.Their style combines abrasive riffs, dynamic structures and a constant intensity that moves between controlled chaos and sonic explosion.
-They are currently presenting their new record HI HI HA HA (Vicious Circle 2026).`,
-
-      fr: `It It Anita est un groupe de noise rock originaire de Liège (Belgique), formé en 2014, connu pour un son viscéral et sans filtre qui combine l’agressivité du punk avec l’intensité du noise rock contemporain.Avec des guitares tranchantes, des rythmes tendus et une énergie débordante, le groupe a construit une solide réputation au sein de la scène alternative européenne, notamment grâce à des concerts physiques et imprévisibles.
-Depuis ses débuts, le groupe mise sur une musique directe et cathartique, influencée par l’héritage du noise rock américain et du post-hardcore, avec des références évoquant souvent des groupes comme The Jesus Lizard, METZ ou At The Drive-In.Leur style combine des riffs abrasifs, des structures dynamiques et une intensité constante oscillant entre chaos maîtrisé et explosion sonore.
-Ils présentent actuellement leur nouvel album HI HI HA HA (Vicious Circle 2026).`,
-    },
-    image: '/bands/ititanita.jpeg',
-    youtube: 'https://youtu.be/RTLPq2gtNs8?si=eqynZDLtshsnnq1P',
-    instagram: 'https://www.instagram.com/ititanita/',
-  },
-  {
-    id: 'hippie-tirm',
-    isAnnounced: false,
-    name: {
-      ca: 'Hippie trim',
-      es: 'Hippie trim',
-      en: 'Hippie trim',
-      fr: 'Hippie trim',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `Hippie Trim es van donar a conèixer amb el seu primer senzill “Supersonic”, que va generar molt d’interès dins l’escena i va impulsar un ascens ràpid, amb el seu primer concert esgotat setmanes abans.
-El grup va compartir escenari amb la banda nord-americana Drug Church durant la seva gira per Alemanya i el 2019 va cridar l’atenció amb el seu disc de debut “Cult”. Aquest àlbum mostrava una combinació única de duresa i melodia, amb riffs dinàmics i una veu alhora crua i etèria, convertint-se en el seu segell distintiu i captivant tant públic com crítica.
-Després d’una pausa breu per la pandèmia, van tornar amb força el 2022, rebent elogis de mitjans internacionals. Han tocat amb grups destacats com Turnstile, Fleshwater o Fiddlehead, ampliant el seu estil musical. El seu segon disc, “What Consumes Me”, va marcar una nova etapa en la seva evolució.`,
-
-      es: `Hippie Trim se dieron a conocer con su primer sencillo “Supersonic”, que generó mucho interés dentro de la escena e impulsó un ascenso rápido, con su primer concierto agotado semanas antes.
-El grupo compartió escenario con la banda estadounidense Drug Church durante su gira por Alemania y en 2019 llamó la atención con su álbum debut “Cult”. Este disco mostraba una combinación única de dureza y melodía, con riffs dinámicos y una voz a la vez cruda y etérea, convirtiéndose en su sello distintivo y cautivando tanto al público como a la crítica.
-Tras una breve pausa por la pandemia, regresaron con fuerza en 2022, recibiendo elogios de medios internacionales. Han tocado con bandas destacadas como Turnstile, Fleshwater o Fiddlehead, ampliando su estilo musical. Su segundo álbum, “What Consumes Me”, marcó una nueva etapa en su evolución.`,
-
-      en: `Hippie Trim gained recognition with their debut single “Supersonic”, which generated significant buzz within the scene and sparked a rapid rise, with their first show selling out weeks in advance.
-The band shared the stage with American group Drug Church during their tour in Germany, and in 2019 they drew attention with their debut album “Cult”. The record showcased a unique blend of heaviness and melody, featuring dynamic riffs and a voice that was both raw and ethereal, becoming their signature sound and captivating both audiences and critics.
-After a brief pause during the pandemic, they returned strong in 2022, receiving praise from international media. They have played alongside notable acts such as Turnstile, Fleshwater, and Fiddlehead, expanding their musical style. Their second album, “What Consumes Me”, marked a new phase in their evolution.`,
-
-      fr: `Hippie Trim se sont fait connaître avec leur premier single “Supersonic”, qui a suscité beaucoup d’intérêt au sein de la scène et a lancé une ascension rapide, avec un premier concert complet plusieurs semaines à l’avance.
-Le groupe a partagé la scène avec le groupe américain Drug Church lors de sa tournée en Allemagne et, en 2019, a attiré l’attention avec son premier album “Cult”. Cet album présentait une combinaison unique de dureté et de mélodie, avec des riffs dynamiques et une voix à la fois brute et éthérée, devenant leur signature et séduisant à la fois le public et la critique.
-Après une brève pause due à la pandémie, ils sont revenus en force en 2022, recevant des éloges de la presse internationale. Ils ont joué avec des groupes majeurs tels que Turnstile, Fleshwater ou Fiddlehead, élargissant leur style musical. Leur deuxième album, “What Consumes Me”, a marqué une nouvelle étape dans leur évolution.`,
-    },
-    image: '/bands/hippie-trim.png',
-    youtube: 'https://youtu.be/e_RA55mqCbI?si=sdr6QvrwJQK_5TVK',
-    instagram: 'https://www.instagram.com/hippietrim/',
-  },
-
-  {
-    id: 'william',
-    isAnnounced: false,
-    name: {
-      ca: 'Will.I.Am??? ',
-      es: 'Will.I.Am??? ',
-      en: 'Will.I.Am??? ',
-      fr: 'Will.I.Am??? ',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `Per primera i (potser última) vegada, apareix Will.I.Am??? Després de molts anys i danys, d'ostracisme musical arriba amb una sessió feta de manera desagradable, pregravada i poc previsible...editada amb Spotify i anuncis. Zero vergonya... Caos? Bastant. Barreja d’estils? Sense gaire criteri. Funciona? Doncs a estones sí, a estones no… Ideal si el que busques és soroll de fons i alguna criaturada involuntària.`,
-
-      es: `Por primera y (quizá última) vez, aparece Will.I.Am??? Después de muchos años y daños, de ostracismo musical, llega con una sesión hecha de forma desagradable, pregrabada y poco previsible... editada con Spotify y anuncios. Cero vergüenza... ¿Caos? Bastante. ¿Mezcla de estilos? Sin demasiado criterio. ¿Funciona? Pues a ratos sí, a ratos no… Ideal si lo que buscas es ruido de fondo y alguna salida involuntariamente infantil.`,
-
-      en: `For the first and (perhaps last) time, Will.I.Am??? appears. After many years and plenty of damage, of musical ostracism, he arrives with a set put together in a rather unpleasant way, pre-recorded and hardly predictable... edited with Spotify and ads. Zero shame... Chaos? Quite a lot. A mix of styles? Without much criteria. Does it work? Well, sometimes yes, sometimes no… Ideal if what you are looking for is background noise and the occasional unintentionally childish moment.`,
-
-      fr: `Pour la première et (peut-être dernière) fois, voici Will.I.Am??? Après de longues années et quelques dégâts, d’ostracisme musical, il revient avec un set conçu de manière désagréable, préenregistré et peu prévisible... monté avec Spotify et des publicités. Zéro honte... Du chaos ? Pas mal. Un mélange de styles ? Sans beaucoup de critère. Est-ce que ça fonctionne ? Par moments oui, par moments non… Idéal si tu cherches du bruit de fond et quelques enfantillages involontaires.`,
-    },
-    image: '/bands/william.png',
-    youtube: '',
-    instagram: '',
-  },
-  {
-    id: 'theenjoydivision',
-    isAnnounced: false,
-    name: {
-      ca: 'The enjoy division',
-      es: 'The enjoy division',
-      en: 'The enjoy division',
-      fr: 'The enjoy division',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `La Cristina i la Laura formen The Enjoy Division, un projecte nascut d’una amistat de molts anys i d’un vincle molt profund amb la música.
-Fans dels festivals i de tot el que es mou dins l’escena underground.
-Per celebrar els 15 anys d’Actitud, s’han reunit especialment per compartir aquesta passió amb tothom.`,
-
-      es: `Cristina y Laura forman The Enjoy Division, un proyecto nacido de una amistad de muchos años y de un vínculo muy profundo con la música.
-Fans de los festivales y de todo lo que se mueve dentro de la escena underground.
-Para celebrar los 15 años de Actitud, se han reunido especialmente para compartir esta pasión con todo el mundo.`,
-
-      en: `Cristina and Laura form The Enjoy Division, a project born from a long-standing friendship and a very deep connection with music.
-Fans of festivals and everything that moves within the underground scene.
-To celebrate Actitud’s 15th anniversary, they have come together especially to share this passion with everyone.`,
-
-      fr: `Cristina et Laura forment The Enjoy Division, un projet né d’une amitié de longue date et d’un lien très profond avec la musique.
-Fans des festivals et de tout ce qui gravite autour de la scène underground.
-Pour célébrer les 15 ans d’Actitud, elles se sont réunies spécialement pour partager cette passion avec tout le monde.`,
-    },
-    image: '/bands/theenjoydivision.png',
-    youtube: '',
     instagram: '',
   },
 ];

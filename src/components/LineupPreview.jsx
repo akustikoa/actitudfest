@@ -9,7 +9,7 @@ function LineupPreview() {
   const announcedArtists = artists.filter((artist) => artist.isAnnounced);
 
   const featuredArtist = announcedArtists[0];
-  const otherAnnouncedArtists = [...announcedArtists].reverse().slice(2);
+  const otherAnnouncedArtists = [...announcedArtists].reverse().slice(6);
 
   const DESKTOP_TILE_COUNT = 10;
 

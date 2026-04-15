@@ -17,9 +17,9 @@ export const translations = {
       bookText:
         'Lluís Benavides presenta el llibre "Actitud, vida en los minifestivales" el 30 de maig a les 18h a la Llibreria 22 de Girona.',
       concertTitleImg: 'Laura Crehuet',
-      concertTitle: 'concert presentació actitud 2026',
+      concertTitle: 'Festa de presentació',
       concertText:
-        'lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.',
+        'Festa de presentació amb Laura Crehuet el 13 de juny a les 18h a "la Selecta" de Vidreres.',
     },
     infoFestival: {
       howToArrive: 'Com arribar',
@@ -79,9 +79,9 @@ export const translations = {
       bookText:
         'Lluís Benavides presenta el libro "Actitud, vida en los minifestivales" el 30 de mayo a las 18h en la Llibreria 22 de Girona.',
       concertTitleImg: 'Laura Crehuet',
-      concertTitle: 'Concierto presentación Actitud 2026',
+      concertTitle: 'fiesta de presentación',
       concertText:
-        'lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.',
+        'Fiesta de presentación con Laura Crehuet el 13 de junio a las 18h en "La Selecta" de Vidreres.',
     },
     infoFestival: {
       howToArrive: 'Cómo llegar',
@@ -141,9 +141,9 @@ export const translations = {
       bookText:
         'Lluís Benavides presents the book "Actitud, vida en los minifestivales" on May 30th at 6 PM at Llibreria 22 in Girona.',
       concertTitleImg: 'Laura Crehuet',
-      concertTitle: 'Actitud 2026 presentation concert',
+      concertTitle: 'launch party',
       concertText:
-        'lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.',
+        'Presentation event with Laura Crehuet on June 13 at 6pm at "La Selecta" in Vidreres.',
     },
     infoFestival: {
       howToArrive: 'How to get here',
@@ -203,9 +203,9 @@ export const translations = {
       bookText:
         'Lluís Benavides présente le livre "Actitud, vida en los minifestivales" le 30 mai à 18h à la Llibreria 22 de Gérone.',
       concertTitleImg: 'Laura Crehuet',
-      concertTitle: 'Concert présentation Actitud 2026',
+      concertTitle: 'soirée de présentation',
       concertText:
-        'lorem ipsum dolor sit amet. lorem ipsum dolor sit amet. lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.lorem ipsum dolor sit amet.',
+        'Fête de présentation avec Laura Crehuet le 13 juin à 18h à "La Selecta" de Vidreres.',
     },
     infoFestival: {
       howToArrive: 'Comment y accéder',
