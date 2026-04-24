@@ -1,59 +1,5 @@
 export const artists = [
   {
-    id: 'theenjoydivision',
-    isAnnounced: true,
-    name: {
-      ca: 'The enjoy division',
-      es: 'The enjoy division',
-      en: 'The enjoy division',
-      fr: 'The enjoy division',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `La Cristina i la Laura formen The Enjoy Division, un projecte nascut d’una amistat de molts anys i d’un vincle molt profund amb la música.
-Fans dels festivals i de tot el que es mou dins l’escena underground.
-Per celebrar els 15 anys d’Actitud, s’han reunit especialment per compartir aquesta passió amb tothom.`,
-
-      es: `Cristina y Laura forman The Enjoy Division, un proyecto nacido de una amistad de muchos años y de un vínculo muy profundo con la música.
-Fans de los festivales y de todo lo que se mueve dentro de la escena underground.
-Para celebrar los 15 años de Actitud, se han reunido especialmente para compartir esta pasión con todo el mundo.`,
-
-      en: `Cristina and Laura form The Enjoy Division, a project born from a long-standing friendship and a very deep connection with music.
-Fans of festivals and everything that moves within the underground scene.
-To celebrate Actitud’s 15th anniversary, they have come together especially to share this passion with everyone.`,
-
-      fr: `Cristina et Laura forment The Enjoy Division, un projet né d’une amitié de longue date et d’un lien très profond avec la musique.
-Fans des festivals et de tout ce qui gravite autour de la scène underground.
-Pour célébrer les 15 ans d’Actitud, elles se sont réunies spécialement pour partager cette passion avec tout le monde.`,
-    },
-    image: '/bands/theenjoydivision.png',
-    youtube: '',
-    instagram: '',
-  },
-  {
-    id: 'william',
-    isAnnounced: true,
-    name: {
-      ca: 'Will.I.Am??? ',
-      es: 'Will.I.Am??? ',
-      en: 'Will.I.Am??? ',
-      fr: 'Will.I.Am??? ',
-    },
-    tag: 'Just Announced',
-    description: {
-      ca: `Per primera i (potser última) vegada, apareix Will.I.Am??? Després de molts anys i danys, d'ostracisme musical arriba amb una sessió feta de manera desagradable, pregravada i poc previsible...editada amb Spotify i anuncis. Zero vergonya... Caos? Bastant. Barreja d’estils? Sense gaire criteri. Funciona? Doncs a estones sí, a estones no… Ideal si el que busques és soroll de fons i alguna criaturada involuntària.`,
-
-      es: `Por primera y (quizá última) vez, aparece Will.I.Am??? Después de muchos años y daños, de ostracismo musical, llega con una sesión hecha de forma desagradable, pregrabada y poco previsible... editada con Spotify y anuncios. Cero vergüenza... ¿Caos? Bastante. ¿Mezcla de estilos? Sin demasiado criterio. ¿Funciona? Pues a ratos sí, a ratos no… Ideal si lo que buscas es ruido de fondo y alguna salida involuntariamente infantil.`,
-
-      en: `For the first and (perhaps last) time, Will.I.Am??? appears. After many years and plenty of damage, of musical ostracism, he arrives with a set put together in a rather unpleasant way, pre-recorded and hardly predictable... edited with Spotify and ads. Zero shame... Chaos? Quite a lot. A mix of styles? Without much criteria. Does it work? Well, sometimes yes, sometimes no… Ideal if what you are looking for is background noise and the occasional unintentionally childish moment.`,
-
-      fr: `Pour la première et (peut-être dernière) fois, voici Will.I.Am??? Après de longues années et quelques dégâts, d’ostracisme musical, il revient avec un set conçu de manière désagréable, préenregistré et peu prévisible... monté avec Spotify et des publicités. Zéro honte... Du chaos ? Pas mal. Un mélange de styles ? Sans beaucoup de critère. Est-ce que ça fonctionne ? Par moments oui, par moments non… Idéal si tu cherches du bruit de fond et quelques enfantillages involontaires.`,
-    },
-    image: '/bands/william.png',
-    youtube: '',
-    instagram: '',
-  },
-  {
     id: 'ititanita',
     isAnnounced: true,
     name: {
@@ -471,6 +417,60 @@ En 2022, ils publient "NÖIA" avec Saltamarges et, comme sur scène, sans temps 
     },
     image: '/bands/atakdeuforia.png',
     youtube: 'https://youtu.be/g1sAcpv6J1Q?is=DJjsy3gzZjMJGlaz',
+    instagram: '',
+  },
+  {
+    id: 'theenjoydivision',
+    isAnnounced: true,
+    name: {
+      ca: 'The enjoy division',
+      es: 'The enjoy division',
+      en: 'The enjoy division',
+      fr: 'The enjoy division',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `La Cristina i la Laura formen The Enjoy Division, un projecte nascut d’una amistat de molts anys i d’un vincle molt profund amb la música.
+Fans dels festivals i de tot el que es mou dins l’escena underground.
+Per celebrar els 15 anys d’Actitud, s’han reunit especialment per compartir aquesta passió amb tothom.`,
+
+      es: `Cristina y Laura forman The Enjoy Division, un proyecto nacido de una amistad de muchos años y de un vínculo muy profundo con la música.
+Fans de los festivales y de todo lo que se mueve dentro de la escena underground.
+Para celebrar los 15 años de Actitud, se han reunido especialmente para compartir esta pasión con todo el mundo.`,
+
+      en: `Cristina and Laura form The Enjoy Division, a project born from a long-standing friendship and a very deep connection with music.
+Fans of festivals and everything that moves within the underground scene.
+To celebrate Actitud’s 15th anniversary, they have come together especially to share this passion with everyone.`,
+
+      fr: `Cristina et Laura forment The Enjoy Division, un projet né d’une amitié de longue date et d’un lien très profond avec la musique.
+Fans des festivals et de tout ce qui gravite autour de la scène underground.
+Pour célébrer les 15 ans d’Actitud, elles se sont réunies spécialement pour partager cette passion avec tout le monde.`,
+    },
+    image: '/bands/theenjoydivision.png',
+    youtube: '',
+    instagram: '',
+  },
+  {
+    id: 'william',
+    isAnnounced: true,
+    name: {
+      ca: 'Will.I.Am??? ',
+      es: 'Will.I.Am??? ',
+      en: 'Will.I.Am??? ',
+      fr: 'Will.I.Am??? ',
+    },
+    tag: 'Just Announced',
+    description: {
+      ca: `Per primera i (potser última) vegada, apareix Will.I.Am??? Després de molts anys i danys, d'ostracisme musical arriba amb una sessió feta de manera desagradable, pregravada i poc previsible...editada amb Spotify i anuncis. Zero vergonya... Caos? Bastant. Barreja d’estils? Sense gaire criteri. Funciona? Doncs a estones sí, a estones no… Ideal si el que busques és soroll de fons i alguna criaturada involuntària.`,
+
+      es: `Por primera y (quizá última) vez, aparece Will.I.Am??? Después de muchos años y daños, de ostracismo musical, llega con una sesión hecha de forma desagradable, pregrabada y poco previsible... editada con Spotify y anuncios. Cero vergüenza... ¿Caos? Bastante. ¿Mezcla de estilos? Sin demasiado criterio. ¿Funciona? Pues a ratos sí, a ratos no… Ideal si lo que buscas es ruido de fondo y alguna salida involuntariamente infantil.`,
+
+      en: `For the first and (perhaps last) time, Will.I.Am??? appears. After many years and plenty of damage, of musical ostracism, he arrives with a set put together in a rather unpleasant way, pre-recorded and hardly predictable... edited with Spotify and ads. Zero shame... Chaos? Quite a lot. A mix of styles? Without much criteria. Does it work? Well, sometimes yes, sometimes no… Ideal if what you are looking for is background noise and the occasional unintentionally childish moment.`,
+
+      fr: `Pour la première et (peut-être dernière) fois, voici Will.I.Am??? Après de longues années et quelques dégâts, d’ostracisme musical, il revient avec un set conçu de manière désagréable, préenregistré et peu prévisible... monté avec Spotify et des publicités. Zéro honte... Du chaos ? Pas mal. Un mélange de styles ? Sans beaucoup de critère. Est-ce que ça fonctionne ? Par moments oui, par moments non… Idéal si tu cherches du bruit de fond et quelques enfantillages involontaires.`,
+    },
+    image: '/bands/william.png',
+    youtube: '',
     instagram: '',
   },
 ];
