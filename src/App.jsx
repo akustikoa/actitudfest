@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import About from './pages/About';
 import History from './pages/History';
@@ -17,6 +17,7 @@ function App() {
           <Route path='/lineup' element={<Lineup />} />
           <Route path='/about' element={<About />} />
           <Route path='/history' element={<History />} />
+          <Route path='*' element={<Navigate to='/' replace />} />
         </Routes>
       </main>
     </div>
